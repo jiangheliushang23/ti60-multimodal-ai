@@ -26,6 +26,7 @@
 | 顶层 RTL | [tinyml_soc_top.v](fusion/ti60_multimodal/src/tinyml_soc_top.v) |
 | 固件入口 | [main.cc](fusion/demo_multimodal/software/standalone/tinyml_pdti8/src/main.cc) |
 | HDMI、内存、寄存器说明 | [STAGE2.md](fusion/ti60_multimodal/STAGE2.md) |
+| 赛题指南、摄像头手册、开发板说明与原理图 | [资料索引](docs/references/README.md) |
 | 第三方来源与依赖 | [THIRD_PARTY.md](docs/THIRD_PARTY.md) |
 
 本仓库提交源码、IP 配置/必需初始化数据及部分测试夹具，不提交 Efinity、工具安装包、大型综合布局布线产物、完整历史运行快照、聊天导出或本机服务配置。历史文档中的未随仓库上传的证据链接，只能在维护者原工作区访问。原始工作区与恢复资料保留。

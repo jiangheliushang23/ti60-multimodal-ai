@@ -1,0 +1,41 @@
+{
+  "added_on": "2026-10-04",
+  "documents": [
+    {
+      "path": "camera/SC431HAI_Datasheet_V1.1.pdf",
+      "title": "SC431HAI 数据手册",
+      "original_filename": "摄像头SC431HAI_数据手册_V1.1.pdf",
+      "source": "User-provided local reference document",
+      "purpose": "摄像头接口、电气参数、寄存器及模式能力；V1.1。",
+      "bytes": 1693340,
+      "sha256": "e3187cec241fc1fc53983ba31d27c28e2bda4341e3c89fdf811ca8ed1fd5f8ae"
+    },
+    {
+      "path": "board/Ti60F225I3_V4_Design_260920.pdf",
+      "title": "Ti60 V4 开发板软硬件设计说明",
+      "original_filename": "TI60F225I3-V4 DEMO板软硬件设计说明-260920.pdf",
+      "source": "User-provided local reference document",
+      "purpose": "开发板接口、时钟、电源及厂商示例说明；文件名版本 260920。",
+      "bytes": 9756637,
+      "sha256": "426a577cc3a544546f2bf1ad60a1f233541b7d6361764794e48b11ada0c2e4f2"
+    },
+    {
+      "path": "competition/Efinix_FPGA_Competition_Guide.pdf",
+      "title": "易灵思 FPGA 创新设计赛道选题指南",
+      "original_filename": "易灵思FPGA 创新设计赛道选题指南 (1).pdf",
+      "source": "User-provided local reference document",
+      "purpose": "赛题三「多模态 AI 智能终端」任务与验收依据。",
+      "bytes": 379546,
+      "sha256": "68ff71ea0586791522debe3e6e409acdb7ea02d22b2818084e38fc6b5e247aad"
+    },
+    {
+      "path": "board/Ti60F225A_V4_Schematic.pdf",
+      "title": "Ti60 V4 原理图",
+      "original_filename": "Ti60F225A_V4_SCH.pdf",
+      "source": "User-provided local reference document",
+      "purpose": "封装球、连接器、电源、电平和线路核对。",
+      "bytes": 559128,
+      "sha256": "855cd587be22d49686e82036fc57cf02290644c2af8996b0c3b2620e36fd830f"
+    }
+  ]
+}
