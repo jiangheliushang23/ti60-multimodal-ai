@@ -1,6 +1,6 @@
 ## 当前优先级：2026-10-04 GitHub 团队协作
 
-用户明确暂不处理温湿度日志问题，当前任务为创建私有仓库 `ti60-multimodal-ai`、整理源码与团队待办。SHT 异常保留为暂缓项，不再将其排查列为当前首要工作。仓库说明入口为根目录 `README.md` 与 `docs/`；GitHub 插件创建请求返回 403（Resource not accessible by integration），远端尚未创建，等待正常 GitHub 登录后继续。本次只整理文件，不重新构建、加载或暂停开发板。
+用户明确暂不处理温湿度日志问题，当前任务为创建私有仓库 `ti60-multimodal-ai`、整理源码与团队待办。SHT 异常保留为暂缓项，不再将其排查列为当前首要工作。私有仓库已创建并上传：https://github.com/jiangheliushang23/ti60-multimodal-ai 。本地根目录已初始化 Git，main 跟踪 origin/main；源码、必要依赖、协作文档与六项 Issues 已建立。仓库说明入口为根目录 `README.md` 与 `docs/`。GitHub 插件缺少创建/访问此仓库的权限，本次通过用户完成设备授权后的 GitHub CLI 创建并上传。本次只整理文件，不重新构建、加载或暂停开发板。
 
 # Ti60 多模态融合工程：同屏与红外分步调度
 
