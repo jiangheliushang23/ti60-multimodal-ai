@@ -27,11 +27,11 @@ python -B fusion/tests/run_firmware_tests.py
 python -B fusion/tests/run_rtl.py
 python -B fusion/tests/run_video_tests.py
 python -B fusion/tests/run_camera_reuse_tests.py
-& .usion\scriptsuild_hardware.ps1 -Flow interface
+& ./fusion/scripts/build_hardware.ps1 -Flow interface
 python -B fusion/scripts/refresh_constraints.py
-& .usion\scriptsuild_hardware.ps1 -Flow map
-& .usion\scriptsuild_hardware.ps1 -Flow pnr
-& .usion\scriptsuild_hardware.ps1 -Flow pgm
+& ./fusion/scripts/build_hardware.ps1 -Flow map
+& ./fusion/scripts/build_hardware.ps1 -Flow pnr
+& ./fusion/scripts/build_hardware.ps1 -Flow pgm
 python -B fusion/scripts/verify_build.py
 ```
 

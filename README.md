@@ -18,6 +18,7 @@
 
 | 内容 | 入口 |
 |---|---|
+| 开发代理与项目协作约定 | [AGENTS.md](AGENTS.md) |
 | 当前状态、冻结版本、验证边界 | [项目状态](docs/STATUS.md) |
 | 阶段任务与验收条件 | [路线图](docs/ROADMAP.md) |
 | 环境与构建说明 | [构建指南](docs/BUILD.md) |
