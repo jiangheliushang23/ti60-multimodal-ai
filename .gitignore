@@ -36,6 +36,7 @@
 /camera/sc431hai_hdmi/outflow/*
 !/camera/sc431hai_hdmi/outflow/ti60f225_oob.pinout.csv
 /task2_ai/*
+!/task2_ai/yolo_person_detection/
 !/task2_ai/hdmi_20261002/
 !/task2_ai/soc_hdmi/
 /task2_ai/hdmi_20261002/*

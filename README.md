@@ -26,6 +26,7 @@
 | 硬件工程 | [Ti60_Multimodal.xml](fusion/ti60_multimodal/Ti60_Multimodal.xml) |
 | 顶层 RTL | [tinyml_soc_top.v](fusion/ti60_multimodal/src/tinyml_soc_top.v) |
 | 固件入口 | [main.cc](fusion/demo_multimodal/software/standalone/tinyml_pdti8/src/main.cc) |
+| YOLO Pico 行人检测候选算法（尚未接入实板） | [算法说明](task2_ai/yolo_person_detection/README.md) |
 | HDMI、内存、寄存器说明 | [STAGE2.md](fusion/ti60_multimodal/STAGE2.md) |
 | 赛题指南、摄像头手册、开发板说明与原理图 | [资料索引](docs/references/README.md) |
 | 第三方来源与依赖 | [THIRD_PARTY.md](docs/THIRD_PARTY.md) |
