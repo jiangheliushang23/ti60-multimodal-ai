@@ -2,6 +2,10 @@
 
 基于 Ti60F225I3 V4 的多模态 AI 智能终端，对应易灵思 FPGA 创新设计赛道「赛题三」。本仓库用于团队源码协作与任务管理。
 
+## 软件协作进展（2026-10-08）
+
+用户负责 [Windows 桌面监控](host/desktop/README.md)，两位队友分别负责人体识别、Web/以太网。桌面首版含明确标记的模拟演示、UART 历史回放及 TCP 草案接收；[通信接口](docs/HOST_PROTOCOL.md) 尚待团队确认，未与实板联调。下面的硬件观测仍为 2026-10-04 历史结果。
+
 ## 当前状态（2026-10-04）
 
 - SC431HAI 摄像头、GY-MCU90640 红外、SHT30 已接入；HDMI 左侧实景、右侧热图、底部温湿度，用户已确认显示正常。
@@ -22,6 +26,8 @@
 | 当前状态、冻结版本、验证边界 | [项目状态](docs/STATUS.md) |
 | 阶段任务与验收条件 | [路线图](docs/ROADMAP.md) |
 | 环境与构建说明 | [构建指南](docs/BUILD.md) |
+| Windows 桌面上位机 | [运行与验收](host/desktop/README.md) |
+| 桌面通信接口草案 | [HOST_PROTOCOL.md](docs/HOST_PROTOCOL.md) |
 | 分工、分支与 PR 约定 | [协作指南](docs/TEAM_WORKFLOW.md) |
 | 硬件工程 | [Ti60_Multimodal.xml](fusion/ti60_multimodal/Ti60_Multimodal.xml) |
 | 顶层 RTL | [tinyml_soc_top.v](fusion/ti60_multimodal/src/tinyml_soc_top.v) |

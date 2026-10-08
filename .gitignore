@@ -7,6 +7,7 @@
 !/docs/
 !/.github/
 !/fusion/
+!/host/
 !/sensors/
 !/camera/
 !/task2_ai/
@@ -87,3 +88,7 @@
 # Editor backups
 *~
 *.orig
+
+# Desktop monitor dependencies and generated previews / exports
+**/.venv/
+/host/desktop/output/

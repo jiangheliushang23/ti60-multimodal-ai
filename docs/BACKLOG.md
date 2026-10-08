@@ -9,4 +9,6 @@
 - [#5 [P2][赛题] 选择并验收至少两项任务 3 扩展](https://github.com/jiangheliushang23/ti60-multimodal-ai/issues/5)
 - [#6 [暂缓][SHT] 保留温湿度日志异常调查](https://github.com/jiangheliushang23/ti60-multimodal-ai/issues/6)
 
+- [#7 [P1][上位机] Windows 桌面监控与真实数据联调](https://github.com/jiangheliushang23/ti60-multimodal-ai/issues/7)
+
 [全部 Issues](https://github.com/jiangheliushang23/ti60-multimodal-ai/issues) · [添加协作者](https://github.com/jiangheliushang23/ti60-multimodal-ai/settings/access)
