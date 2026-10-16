@@ -662,7 +662,10 @@ wire video_sof,packed_valid,packed_complete,packed_bad,camera_end;
 wire [15:0] video_seq;wire [16:0] camera_end_data;
 wire [127:0] packed_data;wire [255:0] capture_stats;wire [31:0] setup_status;
 wire [287:0] diagnostic_words;
+wire auto_sel=apb_paddr[15:8]==8'h51;wire [31:0] auto_prdata;wire auto_error;
 fusion_camera_subsys u_camera_subsys(.clk(io_memoryClk),.cam_clk(i_mipi_rx_pclk),.reset(camera_reset),
+ .cpu_clk(i_peripheralClk),.auto_psel(apb_psel&&auto_sel),.auto_penable(apb_penable),.auto_pwrite(apb_pwrite),
+ .auto_paddr(apb_paddr[7:0]),.auto_pwdata(apb_pwdata),.auto_prdata(auto_prdata),.auto_error(auto_error),
  .capture_stats(capture_stats),.setup_status(setup_status),.diagnostic_words(diagnostic_words),
  .sof(video_sof),.frame_seq(video_seq),.packed_valid(packed_valid),.packed_data(packed_data),
  .packed_complete(packed_complete),.packed_bad(packed_bad),.end_valid(camera_end),.end_data(camera_end_data),
@@ -783,10 +786,10 @@ always @*begin
 end
 // APB mux: camera window (0xF8105000) wins, otherwise the sensor window.
 wire [31:0] sensor_prdata;wire sensor_ready,sensor_error;
-assign apb_prdata=camera_sel?camera_prdata:sensor_prdata;
-assign apb_pready=camera_sel?1'b1:sensor_ready;
+assign apb_prdata=camera_sel?camera_prdata:(auto_sel?auto_prdata:sensor_prdata);
+assign apb_pready=(camera_sel||auto_sel)?1'b1:sensor_ready;
 assign apb_pslverror=camera_sel?(apb_psel&&apb_penable&&(apb_pwrite||apb_paddr[1:0]!=0||
- !(apb_paddr[7:2]<25))):sensor_error;
+ !(apb_paddr[7:2]<25))):(auto_sel?auto_error:sensor_error);
 tinyml_top#(
   .AXI_DW             (AXI_TINYML_DATA_WIDTH)
 ) u_tinyml_top(
@@ -917,7 +920,7 @@ fusion_sensor_front u_sensor_front(
  .ir_scl_OUT(ir_scl_OUT),.ir_scl_OE(ir_scl_OE),.ir_sda_OUT(ir_sda_OUT),.ir_sda_OE(ir_sda_OE),
  .cpu_clk(i_peripheralClk),.cpu_reset(io_peripheralReset),
  .pixel_clk(hdmi_tx_slow_clk),.pll_locked(hdmi_tx_locked),
- .paddr(apb_paddr),.psel(apb_psel&&!camera_sel),.penable(apb_penable),.pwrite(apb_pwrite),
+ .paddr(apb_paddr),.psel(apb_psel&&!camera_sel&&!auto_sel),.penable(apb_penable),.pwrite(apb_pwrite),
  .pwdata(apb_pwdata),.prdata(sensor_prdata),.pready(sensor_ready),.pslverror(sensor_error),
  .frame_request(frame_request),.video_take(video_take),.pixel_index(pixel_index),.video_rgb(video_rgb),.video_valid(video_valid),
  .tmds_clk_o(tmds_clk_o),.tmds_data0_o(tmds_data0_o),.tmds_data1_o(tmds_data1_o),.tmds_data2_o(tmds_data2_o),

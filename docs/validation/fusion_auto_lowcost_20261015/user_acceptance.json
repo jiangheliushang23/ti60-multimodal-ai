@@ -1,0 +1,13 @@
+{
+  "recorded_at": "2026-10-15T21:13:06.225687+08:00",
+  "source": "explicit user reply in this chat",
+  "question": "第二次完整重载后HDMI三项及画质是否正常",
+  "answer": "三项及画质都正常",
+  "camera": true,
+  "thermal": true,
+  "environment": true,
+  "camera_brightness_and_color": true,
+  "snapshot": "C:\\Users\\20558\\Documents\\embedded\\analysis\\fusion_auto_lowcost_20261015\\stages\\fusion_20261015_153258",
+  "bitstream_sha256": "c40afb2b4d015d56e2d0f0689612d7319fe119b043df7f998c82cab4be029fdd",
+  "firmware_sha256": "73a2c0106062c7e6661b001b97a62e2151e3364e004484ea4ba0440f2460b5e9"
+}

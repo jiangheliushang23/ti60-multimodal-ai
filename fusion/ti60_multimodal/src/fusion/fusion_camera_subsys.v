@@ -3,6 +3,10 @@
 // Owns the camera-side clock domain (cam_clk) and the four-lane J4 pins.
 module fusion_camera_subsys(
  input wire clk,cam_clk,reset,
+ input wire cpu_clk,auto_psel,auto_penable,auto_pwrite,
+ input wire [7:0] auto_paddr,input wire [31:0] auto_pwdata,
+ output wire [31:0] auto_prdata,output wire auto_error,
+
  // Capture statistics, already in cam_clk domain (frozen snapshot in parent).
  output wire [255:0] capture_stats,
  // AXI-less diagnostic words in clk domain (need parent snapshot).
@@ -59,6 +63,8 @@ module fusion_camera_subsys(
  input  wire cam_d3_FIFO_EMPTY);
 
 fusion_camera u_camera(.clk(clk),.cam_clk(cam_clk),.reset(reset),
+  .cpu_clk(cpu_clk),.auto_psel(auto_psel),.auto_penable(auto_penable),.auto_pwrite(auto_pwrite),
+ .auto_paddr(auto_paddr),.auto_pwdata(auto_pwdata),.auto_prdata(auto_prdata),.auto_error(auto_error),
  .sof(sof),.frame_seq(frame_seq),.packed_valid(packed_valid),.packed_data(packed_data),
  .packed_complete(packed_complete),.packed_bad(packed_bad),.end_valid(end_valid),.end_data(end_data),
  .capture_stats(capture_stats),.setup_status(setup_status),.diagnostic_words(diagnostic_words),

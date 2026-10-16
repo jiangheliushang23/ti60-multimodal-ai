@@ -9,10 +9,17 @@ module sc431hai_setup #(
     output reg [2:0] error_code,
     output reg [7:0] command_index,
     output reg [287:0] diagnostic_words,
-    output reg diagnostic_valid
+    output reg diagnostic_valid,
+    input wire rt_start, rt_read,
+    input wire [15:0] rt_address,
+    input wire [7:0] rt_data,
+    output wire rt_busy,
+    output reg rt_done,
+    output reg [2:0] rt_result,
+    output reg [7:0] rt_read_data
 );
     `include "sc_sequence.vh"
-    localparam BOOT=0, FETCH=1, WAIT_BUS=2, GAP=3, DELAY=4, HALT=5;
+    localparam BOOT=0, FETCH=1, WAIT_BUS=2, GAP=3, DELAY=4, HALT=5, RT_WAIT=6;
     reg [2:0] state;
     reg [31:0] cycles;
     reg [15:0] elapsed_ms;
@@ -25,9 +32,15 @@ module sc431hai_setup #(
     wire busy, bus_done;
     wire [2:0] bus_result;
     wire [7:0] data_read;
+    reg runtime_read;
+    reg [15:0] runtime_address;
+    reg [7:0] runtime_data;
+    wire runtime_access=state==RT_WAIT;
+    assign rt_busy=state!=HALT || busy || error_code!=0;
     i2c_reg16 #(.TICK_CYCLES(I2C_TICK),.TIMEOUT_TICKS(TIMEOUT_TICKS)) bus (
         .clk(clk),.reset(reset),.scl_in(scl_in),.sda_in(sda_in),
-        .start(bus_start),.read_op(op==1 || diagnostic_read),.reg_addr(address),.write_data(expected),
+        .start(bus_start),.read_op(runtime_access?runtime_read:(op==1 || diagnostic_read)),
+        .reg_addr(runtime_access?runtime_address:address),.write_data(runtime_access?runtime_data:expected),
         .scl_low(scl_low),.sda_low(sda_low),.busy(busy),.done(bus_done),
         .result(bus_result),.read_data(data_read)
     );
@@ -41,8 +54,10 @@ module sc431hai_setup #(
             cam_enable<=0; id_ok<=0; config_ok<=0; stream_set<=0;
             finished<=0; error_code<=0; command_index<=0;
             diagnostic_words<=0; diagnostic_valid<=0;
+            rt_done<=0;rt_result<=0;rt_read_data<=0;
+            runtime_read<=0;runtime_address<=0;runtime_data<=0;
         end else begin
-            bus_start<=0;
+            bus_start<=0;rt_done<=0;
             case(state)
                 BOOT: begin
                     if(cycles==CLK_PER_MS-1) begin
@@ -84,7 +99,13 @@ module sc431hai_setup #(
                         end else elapsed_ms<=elapsed_ms+16'd1;
                     end else cycles<=cycles+32'd1;
                 end
-                HALT: bus_start<=0;
+                HALT: if(rt_start && error_code==0 && diagnostic_valid && !busy) begin
+                    runtime_read<=rt_read;runtime_address<=rt_address;runtime_data<=rt_data;
+                    bus_start<=1;state<=RT_WAIT;
+                end
+                RT_WAIT: if(bus_done) begin
+                    rt_result<=bus_result;rt_read_data<=data_read;rt_done<=1;state<=HALT;
+                end
                 default: fail(3'd4);
             endcase
         end

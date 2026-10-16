@@ -1,10 +1,10 @@
-<efx:project xmlns:efx="http://www.efinixinc.com/enf_proj" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Ti60_Multimodal" description="" last_change="1751875948" sw_version="2026.1.132.4.5" last_run_state="pass" last_run_flow="bitstream" config_result_in_sync="true" design_ood="sync" place_ood="sync" route_ood="sync" xsi:schemaLocation="http://www.efinixinc.com/enf_proj enf_proj.xsd">
+<efx:project xmlns:efx="http://www.efinixinc.com/enf_proj" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Ti60_Multimodal" description="" sw_version="2026.1.132.4.5" xsi:schemaLocation="http://www.efinixinc.com/enf_proj enf_proj.xsd">
     <efx:device_info>
         <efx:family name="Titanium" />
         <efx:device name="Ti60F225" />
         <efx:timing_model name="I3" />
     </efx:device_info>
-    <efx:design_info def_veri_version="sv_09" def_vhdl_version="vhdl_2008" unified_flow="false">
+    <efx:design_info def_veri_version="sv_09" def_vhdl_version="vhdl_2008" unified_flow="false" partition_interface_allowed_off_perimeter="true">
         <efx:top_module name="tinyml_soc_top" />
         <efx:design_file name="debug_top.v" version="default" library="default" />
         <efx:design_file name="src/tinyml_soc_top.v" version="default" library="default" />
@@ -28,19 +28,60 @@
         <efx:design_file name="ip/hw_accel_dma_in_fifo/hw_accel_dma_in_fifo.v" version="default" library="default" />
         <efx:design_file name="src/source.f" version="na" library="default" />
         <efx:design_file name="src/tinyml/defines.v" version="default" library="default" />
-        <efx:design_file name="src/hdmi/dvi_encoder.v" version="default" library="default" /><efx:design_file name="src/hdmi/encode.v" version="default" library="default" /><efx:design_file name="src/hdmi/sht30_font.v" version="default" library="default" /><efx:design_file name="src/sensors/sht30_reader.v" version="default" library="default" /><efx:design_file name="src/sensors/sht30_bus.v" version="default" library="default" /><efx:design_file name="src/sensors/sht30_values.v" version="default" library="default" /><efx:design_file name="src/sensors/mlx90640_bus.v" version="default" library="default" /><efx:design_file name="src/sensors/thermal_page.v" version="default" library="default" /><efx:design_file name="src/fusion/fusion_apb.v" version="default" library="default" /><efx:design_file name="src/fusion/fusion_sht_cdc.v" version="default" library="default" /><efx:design_file name="src/fusion/fusion_sensor_hdmi.v" version="default" library="default" /><efx:design_file name="src/fusion/fusion_camera_subsys.v" version="default" library="default" /><efx:design_file name="src/fusion/fusion_video_path.v" version="default" library="default" /><efx:design_file name="src/fusion/fusion_sensor_front.v" version="default" library="default" /><efx:design_file name="src/camera/debayer/debayer_top_2to1.v" version="default" library="default" /><efx:design_file name="src/camera/debayer/line_buffer.v" version="default" library="default" /><efx:design_file name="src/camera/debayer/raw_to_rgb.v" version="default" library="default" /><efx:design_file name="src/camera/debayer/rgb_gain_v1.v" version="default" library="default" /><efx:design_file name="src/camera/debayer/true_dual_port_ram.v" version="default" library="default" /><efx:design_file name="src/camera/sc431hai/sc431hai_setup.v" version="default" library="default" /><efx:design_file name="src/camera/sc431hai/i2c_reg16.v" version="default" library="default" /><efx:design_file name="src/camera/sc431hai/sc_sequence.vh" version="default" library="default" /><efx:design_file name="src/camera/gamma_conrrection/gamma_correction.v" version="default" library="default" /><efx:design_file name="src/camera/frame_buffer_V4/DC_FIFO.v" version="default" library="default" /><efx:design_file name="src/fusion/camera_line_bridge.v" version="default" library="default" /><efx:design_file name="src/fusion/camera_rgb_pack.v" version="default" library="default" /><efx:design_file name="src/fusion/fusion_camera.v" version="default" library="default" /><efx:design_file name="src/fusion/fusion_page.v" version="default" library="default" /><efx:design_file name="src/fusion/snapshot_cdc.v" version="default" library="default" /><efx:design_file name="src/fusion/video_ddr.v" version="default" library="default" /><efx:design_file name="src/camera/debayer/camera_line_ram.v" version="default" library="default" /><efx:top_vhdl_arch name="" />
+        <efx:design_file name="src/hdmi/dvi_encoder.v" version="default" library="default" />
+        <efx:design_file name="src/hdmi/encode.v" version="default" library="default" />
+        <efx:design_file name="src/hdmi/sht30_font.v" version="default" library="default" />
+        <efx:design_file name="src/sensors/sht30_reader.v" version="default" library="default" />
+        <efx:design_file name="src/sensors/sht30_bus.v" version="default" library="default" />
+        <efx:design_file name="src/sensors/sht30_values.v" version="default" library="default" />
+        <efx:design_file name="src/sensors/mlx90640_bus.v" version="default" library="default" />
+        <efx:design_file name="src/sensors/thermal_page.v" version="default" library="default" />
+        <efx:design_file name="src/fusion/fusion_apb.v" version="default" library="default" />
+        <efx:design_file name="src/fusion/fusion_sht_cdc.v" version="default" library="default" />
+        <efx:design_file name="src/fusion/fusion_sensor_hdmi.v" version="default" library="default" />
+        <efx:design_file name="src/fusion/fusion_camera_subsys.v" version="default" library="default" />
+        <efx:design_file name="src/fusion/fusion_video_path.v" version="default" library="default" />
+        <efx:design_file name="src/fusion/fusion_sensor_front.v" version="default" library="default" />
+        <efx:design_file name="src/camera/debayer/debayer_top_2to1.v" version="default" library="default" />
+        <efx:design_file name="src/camera/debayer/line_buffer.v" version="default" library="default" />
+        <efx:design_file name="src/camera/debayer/raw_to_rgb.v" version="default" library="default" />
+        <efx:design_file name="src/camera/debayer/rgb_gain_v1.v" version="default" library="default" />
+        <efx:design_file name="src/camera/debayer/true_dual_port_ram.v" version="default" library="default" />
+        <efx:design_file name="src/camera/sc431hai/sc431hai_setup.v" version="default" library="default" />
+        <efx:design_file name="src/camera/sc431hai/i2c_reg16.v" version="default" library="default" />
+        <efx:design_file name="src/camera/sc431hai/sc_sequence.vh" version="default" library="default" />
+        <efx:design_file name="src/camera/gamma_conrrection/gamma_correction.v" version="default" library="default" />
+        <efx:design_file name="src/camera/frame_buffer_V4/DC_FIFO.v" version="default" library="default" />
+        <efx:design_file name="src/fusion/camera_auto_stats.v" version="default" library="default" />
+        <efx:design_file name="src/fusion/camera_auto_apb.v" version="default" library="default" />
+        <efx:design_file name="src/fusion/camera_line_bridge.v" version="default" library="default" />
+        <efx:design_file name="src/fusion/camera_rgb_pack.v" version="default" library="default" />
+        <efx:design_file name="src/fusion/fusion_camera.v" version="default" library="default" />
+        <efx:design_file name="src/fusion/fusion_page.v" version="default" library="default" />
+        <efx:design_file name="src/fusion/snapshot_cdc.v" version="default" library="default" />
+        <efx:design_file name="src/fusion/video_ddr.v" version="default" library="default" />
+        <efx:design_file name="src/camera/debayer/camera_line_ram.v" version="default" library="default" />
+        <efx:top_vhdl_arch name="" />
+        <efx:msg_config name="" />
+        <efx:partition_definitions name="" />
+        <efx:partition_interface_assignments name="" />
     </efx:design_info>
+    <efx:interface_info>
+        <efx:default_peri_file name="Ti60_Multimodal.peri.xml" />
+        <efx:peri_file name="Ti60_Multimodal.peri.xml" />
+    </efx:interface_info>
     <efx:constraint_info>
         <efx:sdc_file name="sdc/ddr3.sdc" />
         <efx:inter_file name="" />
     </efx:constraint_info>
     <efx:sim_info />
     <efx:misc_info />
+    <efx:ooc_info />
     <efx:ip_info>
         <efx:ip instance_name="sapphire_soc" path="ip/sapphire_soc/settings.json" ooc="false">
             <efx:ip_src_file name="sapphire_soc.v" />
         </efx:ip>
-    <efx:ip instance_name="csi_rx_controller" path="ip/csi_rx_controller/settings.json" ooc="false">
+        <efx:ip instance_name="csi_rx_controller" path="ip/csi_rx_controller/settings.json" ooc="false">
             <efx:ip_src_file name="csi_rx_controller.sv" />
         </efx:ip>
     </efx:ip_info>
@@ -84,7 +125,10 @@
         <efx:param name="peri-syn-inference" value="0" value_type="e_option" />
         <efx:param name="ram-decomp-mode" value="0" value_type="e_option" />
         <efx:param name="max_threads" value="-1" value_type="e_integer" />
-    <efx:param name="include" value="ip/sapphire_soc" value_type="e_string" /><efx:param name="include" value="ip/csi_rx_controller" value_type="e_string" /><efx:param name="include" value="src/camera/sc431hai" value_type="e_string" /></efx:synthesis>
+        <efx:param name="include" value="ip/sapphire_soc" value_type="e_string" />
+        <efx:param name="include" value="ip/csi_rx_controller" value_type="e_string" />
+        <efx:param name="include" value="src/camera/sc431hai" value_type="e_string" />
+    </efx:synthesis>
     <efx:place_and_route tool_name="efx_pnr">
         <efx:param name="work_dir" value="work_pnr" value_type="e_string" />
         <efx:param name="verbose" value="off" value_type="e_bool" />

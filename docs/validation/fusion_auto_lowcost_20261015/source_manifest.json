@@ -1,0 +1,2535 @@
+{
+  "description": "Frozen build inputs at published paths; text compared with CRLF normalized to LF.",
+  "inputs": {
+    "fusion/ti60_multimodal/src/define.v": {
+      "sha256": "f73c6d736837dfe8e5111b0c5de66e19840eb12c7e64aa9f965f3c7079d8a08a",
+      "original_sha256": "44b26796b472e89f778e9a0677b09f90f1d9c19f1ecb2fbd8a9277d8d2886dff",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/source.f": {
+      "sha256": "e78b65740b3db3ab231c20d67c537340a831ad38d235ccf47028cf898491dacb",
+      "original_sha256": "e78b65740b3db3ab231c20d67c537340a831ad38d235ccf47028cf898491dacb",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/tinyml_soc_top.v": {
+      "sha256": "3cbcfb8a68b75257bc87223c3cb93a1dd73bfbde76530834f3f461a6406991fa",
+      "original_sha256": "86d2f5af1e756c25a0fa76dab010d1c5efa628d02c80d07d97f0ef780771c5f2",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/axi/axi_full_to_half_duplex.v": {
+      "sha256": "a43794ba12a01484d794cf9575e1819a0a844d60dd538f789d6cd900957f00af",
+      "original_sha256": "a43794ba12a01484d794cf9575e1819a0a844d60dd538f789d6cd900957f00af",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/camera/csi_rx_controller.sv": {
+      "sha256": "f8c05419cd6e92d88c62a49bf56e8ff4842cb1fad83e3fd10e61ad5e1d56f37d",
+      "original_sha256": "685d96fd52a604434a1da0bb404131cd4413bf76ed8ee738ac596b32ce373e5a",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/common/common_apb3.v": {
+      "sha256": "629795bda7aae1a54feee3b02b37ad9eff111016c7b8847f2534aa2f9fb5d509",
+      "original_sha256": "629795bda7aae1a54feee3b02b37ad9eff111016c7b8847f2534aa2f9fb5d509",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/common/common_efx_fifo_wrapper.v": {
+      "sha256": "0df1aee5646d601103e5a40d8ca49b74c0044fd8b15328f3c5c67cf0ffa44823",
+      "original_sha256": "3774307c34b786070102e54ba2f704379930cd79e4844baa067383e1f8771215",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/common/common_reset.v": {
+      "sha256": "d87f9f6d02e5afa3031ca37dfe653cef0f524195474052083eb5b9c8ae3925d0",
+      "original_sha256": "d87f9f6d02e5afa3031ca37dfe653cef0f524195474052083eb5b9c8ae3925d0",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/common/common_reset_ctrl.v": {
+      "sha256": "336c4d759b6822220e88f39121bd1446a97309acc6bf3b304a83690fe0bdbf49",
+      "original_sha256": "336c4d759b6822220e88f39121bd1446a97309acc6bf3b304a83690fe0bdbf49",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/common/common_shift_reg.v": {
+      "sha256": "fc49efb4b06d6628b2c0723995d1dc472fdb7a42997b915ead5e74b1a37601d4",
+      "original_sha256": "fc49efb4b06d6628b2c0723995d1dc472fdb7a42997b915ead5e74b1a37601d4",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/common/common_simple_dual_port_ram.v": {
+      "sha256": "55b7e6f51f6fd9f436cf88cb39c8bd011cf07912c7b7557509cfddf86044b770",
+      "original_sha256": "55b7e6f51f6fd9f436cf88cb39c8bd011cf07912c7b7557509cfddf86044b770",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/common/common_true_dual_port_ram.v": {
+      "sha256": "ec4cf65899bca7817d0fd2d44c64b623b9a7c1108758fc2135c4f0cfff8644c4",
+      "original_sha256": "ec4cf65899bca7817d0fd2d44c64b623b9a7c1108758fc2135c4f0cfff8644c4",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/common/Ddr_Read.v": {
+      "sha256": "cc18f888248f52ef1e489e18a8de814b6f5647a7211fa9b602a1032e5fd00d21",
+      "original_sha256": "c5b5fc28ed8cd974f5d116a0cb70f1c64963996092a459583df671e85a8bc16e",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/common/Ddr_Write.v": {
+      "sha256": "6bf03a01bb1934eb901bda3e616a9cc38b5518fda87f93178fe5ba69dbf7e1ed",
+      "original_sha256": "b4f6e9776d027899f2f4912e215a7153c6913bee4c02ce70409aab3ede8f712f",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/common/simple_dual_port_ram.v": {
+      "sha256": "ecb40539c1a25bcf4917c6d492767d90886316f286b4f26ecb63f008c721ca2a",
+      "original_sha256": "ecb40539c1a25bcf4917c6d492767d90886316f286b4f26ecb63f008c721ca2a",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/ddr3_controller/ddr3_parameter.vh": {
+      "sha256": "2c4c19966ecb897a477dcd7374dacc543c8cf54c9b128faf1a69685cb34f1d75",
+      "original_sha256": "2c4c19966ecb897a477dcd7374dacc543c8cf54c9b128faf1a69685cb34f1d75",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/ddr3_controller/ddr3_top.v": {
+      "sha256": "960112316383d8a1c10ebea46366df3b6b167aebfe3c9153044fd028fb990dc3",
+      "original_sha256": "71b53e8a0861705fa7e2d8b38e684e0f0a9235db64a63f29046b2371963617e6",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/ddr3_controller/lb2_axi_clk.v": {
+      "sha256": "b85367eb0232ac333fd769997d586966efab1922530590711c6e38a006c3db32",
+      "original_sha256": "f23d157e14f6b3ec8a34f53de5220a203a9cda5e05697e00a5ac2446a31bb513",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/fusion/camera_auto_apb.v": {
+      "sha256": "7cbb46541cb5c87f57fd270734fcf05e364f474793d6691137742f6354c14a77",
+      "original_sha256": "7cbb46541cb5c87f57fd270734fcf05e364f474793d6691137742f6354c14a77",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/fusion/camera_auto_stats.v": {
+      "sha256": "cf12b4be1324254a59c1c8a7de065067364e2c93cf0917f3a991cd7e7b6f8143",
+      "original_sha256": "cf12b4be1324254a59c1c8a7de065067364e2c93cf0917f3a991cd7e7b6f8143",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/fusion/camera_line_bridge.v": {
+      "sha256": "6c17a0e62f360073cd15d3cd5e3b785f3c955979d8204563847b47935aa53fe5",
+      "original_sha256": "a19ea286992c63e6c75494a3a537fd01aec0bfa90f509b467b01f40c8d2563b8",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/fusion/camera_rgb_pack.v": {
+      "sha256": "aaced6f201c7411defdf667e8b8295d47cdb37789376caa0fafafd177bbe7154",
+      "original_sha256": "aaced6f201c7411defdf667e8b8295d47cdb37789376caa0fafafd177bbe7154",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/fusion/fusion_apb.v": {
+      "sha256": "b09f485ddae7eda491f1b9cf70f6ffa528d661e5f9fc4d453e0fcd22ec6bad26",
+      "original_sha256": "b09f485ddae7eda491f1b9cf70f6ffa528d661e5f9fc4d453e0fcd22ec6bad26",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/fusion/fusion_camera.v": {
+      "sha256": "dca921e2c52109de8234571c6317335abd33ff78c54072cea7dcaf2159f5c6c9",
+      "original_sha256": "42bf98345ecfcb27f55eadac403c8d1f56f1ed7a7c1d8b73ba87826949a21c8d",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/fusion/fusion_camera_subsys.v": {
+      "sha256": "fd623c4aee438edc110dae2554b7fdf70b89aef2a67a04a4024027c38d60be23",
+      "original_sha256": "b937ffae399a5099e83991886a23e4d422bced54061f26077202dc1e3588d1d6",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/fusion/fusion_page.v": {
+      "sha256": "10e6d04cc44c9fe236f7b1705d844068587c6283ba86c53511000fd524860f3f",
+      "original_sha256": "c89a1837d5a3acafbcc0c83fd0f8a5187f07e7f4c38b93b6ec5f441adccecb7c",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/fusion/fusion_sensor_front.v": {
+      "sha256": "fdf242298eeb6f9adf0f83495088d7104a7eaad530946eae06a175468c9e621f",
+      "original_sha256": "fdf242298eeb6f9adf0f83495088d7104a7eaad530946eae06a175468c9e621f",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/fusion/fusion_sensor_hdmi.v": {
+      "sha256": "bcce58387c89a0020f4ca5ad280aa505bcbab7adb31b66024357cb25e4095bab",
+      "original_sha256": "16a694260e2d3405cc60d9c4ae47c7c9aa1845f600bc074afd220a1fe45ec14b",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/fusion/fusion_sht_cdc.v": {
+      "sha256": "5c2496eaefbbb236a53e8fe7d685d7f2be5bf719e24ad9d118a67c79a5688be0",
+      "original_sha256": "5c2496eaefbbb236a53e8fe7d685d7f2be5bf719e24ad9d118a67c79a5688be0",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/fusion/fusion_video_path.v": {
+      "sha256": "27afa45f18318af6b11d9151182649ecb9ce63ab249b358fbb68e926c6993065",
+      "original_sha256": "27afa45f18318af6b11d9151182649ecb9ce63ab249b358fbb68e926c6993065",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/fusion/snapshot_cdc.v": {
+      "sha256": "1fc4b43616ad04839973d35153bceeebce33b9a5185cdc8445f4ac60a1162e1b",
+      "original_sha256": "4f8de516c6ff5b22a216223f1ff335da7fa6451b00324680cdaffdc9204202fb",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/fusion/video_ddr.v": {
+      "sha256": "97d326f18b92b97f1e7569aa30bf553739b9bc32389784b321295e2e97347a7d",
+      "original_sha256": "97d326f18b92b97f1e7569aa30bf553739b9bc32389784b321295e2e97347a7d",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/hdmi/dvi_encoder.v": {
+      "sha256": "cd74a42ee6e24742b07f4c6515e24f11b7092283a274b7ce4c71d54504694a1e",
+      "original_sha256": "fd82889ac3b607a68c960170893d1afd78dcc7bcc194695e6b0fb3f2ab7822d3",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/hdmi/encode.v": {
+      "sha256": "8c7b4ee274e83f7264ad1eff7d88701fc9aba4d576e5bc6c4210050d27dd2b81",
+      "original_sha256": "1ce86cfe0d112c5de3c022366e4e8a060f27dfc3b303e6429cb93f386fbedc6a",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/hdmi/sht30_font.v": {
+      "sha256": "0d1571616b64af3db90f8f4ef6df23d3b2ae7104b6fb410bf8212241e81a372b",
+      "original_sha256": "01141ae46aba1d82bbb75bb5565e8e517db63868af6d841ea602bdab683d512e",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/hw_accel/hw_accel.v": {
+      "sha256": "9ff92fd28b8479724af5eb73d425cb10b998b8c56fb2c0714095a2f5bdf3c25b",
+      "original_sha256": "9ff92fd28b8479724af5eb73d425cb10b998b8c56fb2c0714095a2f5bdf3c25b",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/hw_accel/hw_accel_axi4.v": {
+      "sha256": "bc5281ec149a35af276a55a303cf782098b4821912be77a131c55865ed7564b3",
+      "original_sha256": "bc5281ec149a35af276a55a303cf782098b4821912be77a131c55865ed7564b3",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/hw_accel/hw_accel_nearest_neighbor_downscale.v": {
+      "sha256": "702b57e0aa64f81b8439d9910fb3f348d763b0943f3728090074fafd44bcf7d3",
+      "original_sha256": "702b57e0aa64f81b8439d9910fb3f348d763b0943f3728090074fafd44bcf7d3",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/hw_accel/hw_accel_pack_rgb_gray.v": {
+      "sha256": "d175225b85b01c0a08a28c5fd52f594a4a386ed5ab5c4187b3f32d8706b72073",
+      "original_sha256": "d175225b85b01c0a08a28c5fd52f594a4a386ed5ab5c4187b3f32d8706b72073",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/hw_accel/hw_accel_rgb2gray.v": {
+      "sha256": "e27d326eb4fb8c4a029676147753789a0840c8ca7f5a3c39cd3b8df33df6a15d",
+      "original_sha256": "e27d326eb4fb8c4a029676147753789a0840c8ca7f5a3c39cd3b8df33df6a15d",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/hw_accel/hw_accel_wrapper.v": {
+      "sha256": "9d9f68021b469ee3966cb08861cd3f2ff9c2c9d4f368f1f6e841b80786d279a1",
+      "original_sha256": "9d9f68021b469ee3966cb08861cd3f2ff9c2c9d4f368f1f6e841b80786d279a1",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/sensors/mlx90640_bus.v": {
+      "sha256": "80d9faef6aba9ec2271d4e5aef474306765656f5c367336581bdf80f7b3447d5",
+      "original_sha256": "8fb3d2e2d9d3fbcaa7f8c74613669a2b75ad5347afc2c385e74498a28121e258",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/sensors/sht30_bus.v": {
+      "sha256": "4133cff65ff1e8d86c93a47f70bbebf99eaf69637a3d8debc73e5f9a6d21265b",
+      "original_sha256": "126d1923738ad4597d6d5d2e38a65d34ca2da817f28c87d15d1694e2cdfec1e4",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/sensors/sht30_reader.v": {
+      "sha256": "d627de995ee21250211bafd116c4cffa185d7bda8acf56667b85446470983110",
+      "original_sha256": "8cc34a8674f8c74daeee39df6741dc064474aade18187e39dbd2be3d9668db57",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/sensors/sht30_values.v": {
+      "sha256": "b055cdffc4640248b6d96c2bb7aff87f1cf13c4fa962cf4b4139243fd46fa0b0",
+      "original_sha256": "b055cdffc4640248b6d96c2bb7aff87f1cf13c4fa962cf4b4139243fd46fa0b0",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/sensors/thermal_page.v": {
+      "sha256": "78ddfc6ca45e3ab2efd794c79f78b5d4c4586db900873fc31dd6b15ef991d36a",
+      "original_sha256": "e61133737b0f26acf02d2396b4053dc6f412911fc2b2cd761a2eedb0f2fc008d",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/tinyml/defines.v": {
+      "sha256": "9567f7f2bd659666ab7f0381c7cce71b9875b122889de496cf55f4b7500ae94e",
+      "original_sha256": "e66ab2bfa102e45e84ff78bd4a56b85a502c94068bc0b0899d6ac2203e4cc7a5",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/tinyml/tinyml_accelerator.v": {
+      "sha256": "fd9119386c5fdca03a010a04c9d38eb8bfc7fa73daf3559441530bdef5016ba1",
+      "original_sha256": "fd9119386c5fdca03a010a04c9d38eb8bfc7fa73daf3559441530bdef5016ba1",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/tinyml/tinyml_top.v": {
+      "sha256": "c1fac3d2349f05d3452a229ba1a22cd8042d8614e914bea9717f40cc5279bcd7",
+      "original_sha256": "c1fac3d2349f05d3452a229ba1a22cd8042d8614e914bea9717f40cc5279bcd7",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/axi/axi_interconnect_beta/arbiter.v": {
+      "sha256": "c9675a28cf7f640e8c94c82ca2982b8a95b1c7dc3cf5074f7aff24da0dfa96dd",
+      "original_sha256": "c9675a28cf7f640e8c94c82ca2982b8a95b1c7dc3cf5074f7aff24da0dfa96dd",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/axi/axi_interconnect_beta/axi_interconnect_beta.sv": {
+      "sha256": "f0dd43346ff0f937621f56450abafc4e79e0bf893b4be041993b3c7a8d81bd88",
+      "original_sha256": "f0dd43346ff0f937621f56450abafc4e79e0bf893b4be041993b3c7a8d81bd88",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/axi/axi_interconnect_beta/axi_rdata_sfifo.v": {
+      "sha256": "10297d6d63b520ae7d354bf37233d456c89c4ee40b01508fa4f4a5b0e81044d2",
+      "original_sha256": "10297d6d63b520ae7d354bf37233d456c89c4ee40b01508fa4f4a5b0e81044d2",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/axi/axi_interconnect_beta/axi_wdata_sfifo.v": {
+      "sha256": "06c30895efe2d3b4a65f32e9d8b6a6466f74bec50f6d6aae570ca9945794a61d",
+      "original_sha256": "4f811bcd05e68c1572a22f7072586f254d2d2e0d308d67c0f9818893f073f91c",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/axi/axi_interconnect_beta/crossbar.v": {
+      "sha256": "05f2812f2b0177f0b13bc8323867523bccb670d63c17eb51b6974898b1ff53d4",
+      "original_sha256": "63101c98a335ee5d5771f815f4fcab8cef2b7da76b3eebec4b5e6e7045afa1f5",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/axi/axi_interconnect_beta/fixed_priority_arbiter.v": {
+      "sha256": "67d29383ddcf48612af659acc5388c1d939bc50deb2270d067c66f2993009a1e",
+      "original_sha256": "67d29383ddcf48612af659acc5388c1d939bc50deb2270d067c66f2993009a1e",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/axi/axi_interconnect_beta/lb_to_axi.v": {
+      "sha256": "1355d186ad153573e2319b53760f90ba001cf5cda5fb3118d91ab2387a8e9a9a",
+      "original_sha256": "1355d186ad153573e2319b53760f90ba001cf5cda5fb3118d91ab2387a8e9a9a",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/axi/axi_interconnect_beta/master_coupler.v": {
+      "sha256": "912b04fe64a891f1b77ab9d90fe0f57051854181562c440a2c2d752e724f8814",
+      "original_sha256": "912b04fe64a891f1b77ab9d90fe0f57051854181562c440a2c2d752e724f8814",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/axi/axi_interconnect_beta/round_robin_priority_arbiter.v": {
+      "sha256": "d001311049250eb9037167e61b6029f4463e2c2b4bcba4fc220c525b5e2fb416",
+      "original_sha256": "d001311049250eb9037167e61b6029f4463e2c2b4bcba4fc220c525b5e2fb416",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/axi/axi_interconnect_beta/slave_coupler.v": {
+      "sha256": "391be140f77546d3347b99098f8a6db2a6c4e63f3faf0c4361f787dc5f6a1b6d",
+      "original_sha256": "391be140f77546d3347b99098f8a6db2a6c4e63f3faf0c4361f787dc5f6a1b6d",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/axi/axi_interconnect_beta/slave_coupler_wrapper.v": {
+      "sha256": "0c130f2627534e46d6f33c10464a0955c7bb8c085b26bd9ce65a086c3ec3e90a",
+      "original_sha256": "0c130f2627534e46d6f33c10464a0955c7bb8c085b26bd9ce65a086c3ec3e90a",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/camera/debayer/camera_line_ram.v": {
+      "sha256": "43d9550eec5adc1b37b6a91339e75af63003105d43061fa8e9ea62709f3c8318",
+      "original_sha256": "78a4a0e76584f9e0411f204c75e8114aecb24f82eceaecb7c0afcee42c1ee7a7",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/camera/debayer/debayer_top_2to1.v": {
+      "sha256": "6d9676aeae486a6865d478f50a2f940d79c32a1cb03434860f44b5fe1b89bb6b",
+      "original_sha256": "ac365a0957fb5fd27930c22c5500bac2ecbbf18b1c337c499d2232ae7b43191b",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/camera/debayer/line_buffer.v": {
+      "sha256": "6cec0d77790cd3d23989f729613a40831c49d6c2a0e71be0e4fb7f6d19f39f06",
+      "original_sha256": "952a42ccb4ca245f548f10aacdd9a74dac69ac269ff86b2e7d20818e59c202b6",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/camera/debayer/raw_to_rgb.v": {
+      "sha256": "6dad7e281a1ca188aa2a61c7ec1e49072d0b5d35278e30fbe6669ee6db374cc8",
+      "original_sha256": "6dad7e281a1ca188aa2a61c7ec1e49072d0b5d35278e30fbe6669ee6db374cc8",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/camera/debayer/rgb_gain_v1.v": {
+      "sha256": "1b9e94c60537e7c95ac7362346fa0f23e844f4acfaae6094bdcaf2bdcffd5d31",
+      "original_sha256": "49e991342a697534b2001528e21b5dce4502cfd93de5b5d1b2146a88b0ff392b",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/camera/debayer/true_dual_port_ram.v": {
+      "sha256": "b0e1be82204d5526f5c718d7483b755d6b257cff253bdeddc6bc52480fdb4e3a",
+      "original_sha256": "b0e1be82204d5526f5c718d7483b755d6b257cff253bdeddc6bc52480fdb4e3a",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/camera/frame_buffer_V4/DC_FIFO.v": {
+      "sha256": "25aeead473ec5433ff819eda015dab1d1760256ddf20f307df81716e0b6133de",
+      "original_sha256": "c0a2d92dbdc963600ab0cf75d2018cb22c163efa3ba2961a1ba138de78e120b7",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/camera/gamma_conrrection/gamma_correction.v": {
+      "sha256": "95785cf31c64f61e27d82378e4108905af15724e79d9fd18b5b31aaea47e5e47",
+      "original_sha256": "8a6466522e22a9dcc2cd47b5c6212d701aae38ac7bf4c9518c7f9187c766aa22",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/camera/gamma_conrrection/linear_to_display_2p2.mem": {
+      "sha256": "e82a420c195264bbb1fa17ab29a89de5d91d351aa4fbb34bdf01ade8d33dbac3",
+      "original_sha256": "b596fd5d031670e641085280016783b1892bd9a51978951df06069e8f8d474f8",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/camera/sc431hai/i2c_reg16.v": {
+      "sha256": "148a9f965ce04b90cce0ebf028d143eca218406babbd745d6e303e8aaf6bebdd",
+      "original_sha256": "ab40eeffd3b07201e4aaef7351c6e39bc7422d7f3b9977c2ae26e049c8ce0570",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/camera/sc431hai/sc431hai_setup.v": {
+      "sha256": "33a08cdf73764ce05a645201051c5e3e8dc08e7d4429c9c70b2a8fbcc6232279",
+      "original_sha256": "3dbdb8ac442671be035f715ca6ac30895a34698ea5cf71b8e34087a6915d3762",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/camera/sc431hai/sc_sequence.vh": {
+      "sha256": "7d260940a4545bf7b0144bca0891ff97007d2e2e2237c665ad197cb722f0a982",
+      "original_sha256": "7ebb273261893d545c8ed57d47aaaf585a50a3e9bc1777c4d073ca53c5bf5699",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/common/efx_fifo_v2.3/efx_fifo_wrapper.v": {
+      "sha256": "040558d9dafd6d7f4c6610b8cd8040cdedc3f95b58a6f31f32dbd7429182eb98",
+      "original_sha256": "63e824ebc3c4293ab5808519a7e9322f12f6700231d1fca30be0367420e61c19",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/ddr3_controller/axi4_bus_ctl/axi4_bus_ctl.v": {
+      "sha256": "8be1a8db5e621149f6b06ac707e4f1057ac1a422329b42436afe0eb674800a00",
+      "original_sha256": "adc4180c51d6bc4b8932bae4b079573a8b442d3ddee614c8ec387b769264f76e",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/ddr3_controller/axi4_bus_ctl/axi_upsizer.v": {
+      "sha256": "03c25e7276781d9c22f4cbd7b25b76b6317ed7083874a7c94b052a0abd1188e0",
+      "original_sha256": "03c25e7276781d9c22f4cbd7b25b76b6317ed7083874a7c94b052a0abd1188e0",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/ddr3_controller/common/simple_dual_port_ram.v": {
+      "sha256": "9ee4205343e099240a3d5012398ffc6c0ba24a3da8fae79e4a1aa93ea5211c99",
+      "original_sha256": "97a5f8c3194bdb00d4be9bd402d85b4a9915e0156558d8f7970a114ccd273e1e",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/ddr3_controller/local_bus_ctl/local_bus_ctl.v": {
+      "sha256": "5b579b346c78efc2ee08fbd336a624b6e85f54c0f4e528ebbef483f8f137d82c",
+      "original_sha256": "e7a70405fe69373e06c21a974e9f6bd985b08cdebaa776d0f36c28515ab66c81",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/ddr3_controller/memory_bus_ctl/memory_bus_ctl.v": {
+      "sha256": "516733a287110fd0e7912b6a69beb7e2461bb7adcdb8a3513937dc930d7c8864",
+      "original_sha256": "9fbcf768f4fbd5d6a21333ecdf9bea55b302a2b124a1da641fb79080bc9b6934",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/ddr3_controller/phy_ctl/ddr_calibration_ini.v": {
+      "sha256": "0f5e9dbb6dcf0b13977bc20046d7d84750007c420f465f57378f46ace5392562",
+      "original_sha256": "0a2fcde0852873ff80e8cdd3feeeec110400066ea51e12d25d49b671fc53f818",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/ddr3_controller/phy_ctl/ddr_mpr_rdlvl.v": {
+      "sha256": "e2ab0585e84f8600f68d3a9a84bbb68ec057c281566b010210c77674a0dc9b18",
+      "original_sha256": "1211b140c260fdeef037dafbb47be3124335e72203391eb3c71e45086636de69",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/ddr3_controller/phy_ctl/ddr_phy_if.v": {
+      "sha256": "0b1c0bfbbed9c7bd019d10f7b26fa9dd1bc38e9efa008b64eaf125ffdcabefd7",
+      "original_sha256": "75a658b6eac8b26bdfb55ea93d3f034f7f5d975c49f04264d46b34f2c87986d4",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/ddr3_controller/phy_ctl/ddr_phy_rdlvl_dqs.v": {
+      "sha256": "a95aed074c7565ed8da00a586a1c65758f4eedc38f71ea1ed683a9b14ad22cb7",
+      "original_sha256": "d40b71414c8991c7756621ee3fde9b200997388a3042112595e747d55a0d0c9b",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/ddr3_controller/phy_ctl/ddr_phy_wrcal.v": {
+      "sha256": "56da33cd93c5b52845814c09bcb6f1b31edeb736998646516f61113c6b9c1b52",
+      "original_sha256": "0f513546ac20beebc5403aa12ef4e5d264aa431bef9fe56c8fb04c8ac98b6656",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/ddr3_controller/phy_ctl/ddr_phy_wrlvl.v": {
+      "sha256": "a44837cde618755c09deec9c9c76c0abb505542a561bfb8fa1476b2aeee5f5a7",
+      "original_sha256": "c5998adb6fa297263d2d9a2c90b0efe0bf020f7a132f17264f6704bb6b4213ef",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/ddr3_controller/phy_ctl/phy_ctl.v": {
+      "sha256": "1c7e7dab264887e0826468e17899c3e37c67e2c2c24ec050a69864e6b1ad0ebf",
+      "original_sha256": "0a701d36110253e114f2e93f366efbd38a4c19de9d49a7a0aa646501d7d0c6a2",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/src/ddr3_controller/common/efx_fifo_v2.3/efx_fifo_wrapper.v": {
+      "sha256": "b5fa5ef01d86610c245918309f9f5753eb3bda678b55a995abbb64d2e2782a63",
+      "original_sha256": "1415901a8f83cefaaf8cd7c86a23fcfed85ff8335ce390a8d4ba2d54e5cf32d4",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/ip/csi_rx_controller/csi_rx_controller.sv": {
+      "sha256": "869a52af0867c3fa0841c5db44f7d0226ca6196ecaf87c2049dc4e415c7e7ae3",
+      "original_sha256": "7d05efd004fe6bcf922cd55008d378876684c08904adcd87fbd4811bea93bcd9",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/ip/csi_rx_controller/csi_rx_controller_define.svh": {
+      "sha256": "1f0b96e9620081f30df89780b4c8ac3f782784be8e9bed1d88c5466ba165117f",
+      "original_sha256": "3ed47611feb9e41d9b4fae8224f309aa92db3ca8e902fb6a717c92d40cfca784",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/ip/csi_rx_controller/csi_rx_controller_define.vh": {
+      "sha256": "6439265a0cec82cdcaa2cd2a8ff452248dd3dd29a6f70cf466489224be24e50c",
+      "original_sha256": "149c14940be1b2bb5f21f7475358e57481bf8bbb4d35929de1f01e9b8b304fc1",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/ip/csi_rx_controller/csi_rx_controller_tmpl.sv": {
+      "sha256": "08414f15b8067f9b6e94dfb299087bd6e88c634be97c48203d69f29d512b13c3",
+      "original_sha256": "2106f9fa7c034c46a77cbb42e8cda43c63e7a168d72c577057e2a441c2a1837e",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/ip/csi_rx_controller/csi_rx_controller_tmpl.v": {
+      "sha256": "4902c4b2cd64c9dc59780d79c7017f157deb172a586571c27486585aea89d97e",
+      "original_sha256": "3f04b23a6e20705198b0b3949e68e0cf0e2472f5cd87b4fe3d7a95b6682e1482",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/ip/csi_rx_controller/csi_rx_controller_tmpl.vhd": {
+      "sha256": "e6c7ded29aeac1ad92bec135c64b2355ba399d3c802a3ea75d08ffb45176e091",
+      "original_sha256": "4b6ae170a90ee7fae6a13dfa29a42cf137cf3d164192d6482aaf4c37755b612d",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/ip/csi_rx_controller/settings.json": {
+      "sha256": "547ae8738f30b73b55624c6b1e7d76c4a32abc6fe0da5d65f7772ab0cad1c57b",
+      "original_sha256": "39c82eefecabc4fcb9a8eb7ceb22e4c0a972e1a96b153d9584d0046fe688b6e2",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/ip/dma/dma.v": {
+      "sha256": "2e42c52ae319648580c25fd060f68258f51c06162974f0871ee5436b2eef02f9",
+      "original_sha256": "2e42c52ae319648580c25fd060f68258f51c06162974f0871ee5436b2eef02f9",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/ip/dma/settings.json": {
+      "sha256": "4aec4f1f54b7eb02b9de3095c5f38f736661c3156d2b032efeba9e9d78f365ac",
+      "original_sha256": "4aec4f1f54b7eb02b9de3095c5f38f736661c3156d2b032efeba9e9d78f365ac",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/ip/hw_accel_dma_in_fifo/hw_accel_dma_in_fifo.v": {
+      "sha256": "6c0f298577c0d51d090d686110269ac6d01b88e97c81f764ff171fbcbb5d0b2c",
+      "original_sha256": "6c0f298577c0d51d090d686110269ac6d01b88e97c81f764ff171fbcbb5d0b2c",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/ip/hw_accel_dma_in_fifo/settings.json": {
+      "sha256": "7404d8707e80f8a945cf984a6fda1722dce12fea5989664cc4870f9f8ed0ae78",
+      "original_sha256": "7404d8707e80f8a945cf984a6fda1722dce12fea5989664cc4870f9f8ed0ae78",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/ip/hw_accel_dma_out_fifo/hw_accel_dma_out_fifo.v": {
+      "sha256": "58646cd0c1d62c453675c12bca6b7cc0d0f1d9fb16e0710bdd991f593f84e149",
+      "original_sha256": "58646cd0c1d62c453675c12bca6b7cc0d0f1d9fb16e0710bdd991f593f84e149",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/ip/hw_accel_dma_out_fifo/settings.json": {
+      "sha256": "fde234ccd7b89bb7b0e85eaf7e0b3a34f01d6febe46766d445ccac4a24c604ef",
+      "original_sha256": "fde234ccd7b89bb7b0e85eaf7e0b3a34f01d6febe46766d445ccac4a24c604ef",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/ip/sapphire_soc/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol0.bin": {
+      "sha256": "ccb798c235648abcb737f367124e43bee548462a77e5b56130966bbab1c309cf",
+      "original_sha256": "ccb798c235648abcb737f367124e43bee548462a77e5b56130966bbab1c309cf",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/ip/sapphire_soc/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol1.bin": {
+      "sha256": "27b918b1b0a96e2364d95144b2a02b9308ec8e42d1e9f536c9cec426c64f5752",
+      "original_sha256": "27b918b1b0a96e2364d95144b2a02b9308ec8e42d1e9f536c9cec426c64f5752",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/ip/sapphire_soc/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol2.bin": {
+      "sha256": "9a97796e49bb8614cf04336194766a79f5a0fdc800f8338d0d0a95d00da87f9c",
+      "original_sha256": "9a97796e49bb8614cf04336194766a79f5a0fdc800f8338d0d0a95d00da87f9c",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/ip/sapphire_soc/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol3.bin": {
+      "sha256": "fae1132a00c5ef4e50af277408272e2634b7d7d36ef132bc7817cee3160039a6",
+      "original_sha256": "fae1132a00c5ef4e50af277408272e2634b7d7d36ef132bc7817cee3160039a6",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/ip/sapphire_soc/sapphire_soc.v": {
+      "sha256": "df7ff4a0c7ce0f9ae28e82b0976eb66221424148b9ba25d88dd37bb94a88a3a7",
+      "original_sha256": "87c00873d2efc6b5bbb5336c1a1046eb0a21cf89c9d971f6c7cf703e0d2e6733",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/ip/sapphire_soc/sapphire_soc_define.vh": {
+      "sha256": "7fe0203b21a70de3b7f9d4a85eddeff76e87717a2286c504d772f1c4eed22fc7",
+      "original_sha256": "dd147cd69a8263e84c6c42c0caf38bcfd3cb689843136cdd1a1f28358013d7d2",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/ip/sapphire_soc/sapphire_soc_tmpl.v": {
+      "sha256": "189679c8da35eee1f0b225bf480f8f33a1c43cdb101a753c0fc2638d6908bcd9",
+      "original_sha256": "6a7f0320eed33c9f0d5b6bf3907c23eeeec5873c74dec3c7efd98cafd88259c1",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/ip/sapphire_soc/sapphire_soc_tmpl.vhd": {
+      "sha256": "4a2d2a13f3bfa9bac2f6fff72cfc7d2d3c2a3a8ea8aa696cb8067f4bd0375f6f",
+      "original_sha256": "fc342ec85f4e7547bf03051b9fe17e2be1e6fcbf259b218cdd21a56408a3e03f",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/ip/sapphire_soc/settings.json": {
+      "sha256": "6164a4d405087d762053382ef189b9e2f0f93954a7136db41ece72ac754464d6",
+      "original_sha256": "bbcc980146b06a0ded12af1b3aa37c51303f8583e26af72440317f23370e8d92",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/ip/sapphire_soc/source/soc_config": {
+      "sha256": "ab9b84df56817526eca9821b26a8bdb60145570ddefa6189b5e01a285903b43d",
+      "original_sha256": "1aaf8969d0c4cd88e945ab203276e12f13d262e6fc0db3f3b640201d2077f310",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/ip/sapphire_soc/source/hardware/netlist/EfxSapphireSoc.v": {
+      "sha256": "9a0d5dd04dff5d8ab22b30e3ff93df93a54d59156ac9f07119140e3eaa3b98ec",
+      "original_sha256": "c62032c6bef723f7119783bb75c65df391b40b7216f27e9469f15f95da8f481b",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/ip/sapphire_soc/source/hardware/netlist/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol0.bin": {
+      "sha256": "ccb798c235648abcb737f367124e43bee548462a77e5b56130966bbab1c309cf",
+      "original_sha256": "ccb798c235648abcb737f367124e43bee548462a77e5b56130966bbab1c309cf",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/ip/sapphire_soc/source/hardware/netlist/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol1.bin": {
+      "sha256": "27b918b1b0a96e2364d95144b2a02b9308ec8e42d1e9f536c9cec426c64f5752",
+      "original_sha256": "27b918b1b0a96e2364d95144b2a02b9308ec8e42d1e9f536c9cec426c64f5752",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/ip/sapphire_soc/source/hardware/netlist/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol2.bin": {
+      "sha256": "9a97796e49bb8614cf04336194766a79f5a0fdc800f8338d0d0a95d00da87f9c",
+      "original_sha256": "9a97796e49bb8614cf04336194766a79f5a0fdc800f8338d0d0a95d00da87f9c",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/ip/sapphire_soc/source/hardware/netlist/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol3.bin": {
+      "sha256": "fae1132a00c5ef4e50af277408272e2634b7d7d36ef132bc7817cee3160039a6",
+      "original_sha256": "fae1132a00c5ef4e50af277408272e2634b7d7d36ef132bc7817cee3160039a6",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/ip/sapphire_soc/source/hardware/netlist/EfxSapphireSoc_io_cd.rpt": {
+      "sha256": "a2684aa4070682e7ec93f4559dcfbb0ec345d3b710e10adb6f52704b47165e4f",
+      "original_sha256": "1514e832b4e5cd359b652ac0a336fce5138dce3f8a94833867d4967418b09ad6",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/ip/sapphire_soc/source/hardware/netlist/source_aldec/EfxSapphireSoc.v": {
+      "sha256": "c9f89bbfb6117b12fffb0177f525f23e526f2c845d647153243b9b50ec257462",
+      "original_sha256": "0251c1bfe4820fafed352759ea80bfcb8fba30912e39425468dca3f0301c80f7",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/ip/sapphire_soc/source/hardware/netlist/source_efinity/EfxSapphireSoc.v": {
+      "sha256": "9a0d5dd04dff5d8ab22b30e3ff93df93a54d59156ac9f07119140e3eaa3b98ec",
+      "original_sha256": "c62032c6bef723f7119783bb75c65df391b40b7216f27e9469f15f95da8f481b",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/ip/sapphire_soc/source/hardware/netlist/source_modelsim/EfxSapphireSoc.v": {
+      "sha256": "3e6d0c8e30f6a71416760bd39eb7100408f5be1fce51e406d41d6c26d563339d",
+      "original_sha256": "e5de5a2c85fe4b983003240520bbee29496055af0f7957c75519e084312ab613",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/ip/sapphire_soc/source/hardware/netlist/source_ncsim/EfxSapphireSoc.v": {
+      "sha256": "e5b80b3ee1a81008f19c8ed5446244c861e2c1af6d17d956eb6463a17261e8b2",
+      "original_sha256": "dbf87c3350af59c0daa14ef1e9eb09d4111a9e1cb7acd4552ca82133847d2914",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/ip/sapphire_soc/source/hardware/netlist/source_synopsys/EfxSapphireSoc.v": {
+      "sha256": "a6697560f449490a880ce7965f26ef9683cce2630bd6e5100ade8c52f51531ee",
+      "original_sha256": "5eea1ee82291119e59da34d41c93ba9b73c8558075a50f942eb8aa0538deceb4",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/sdc/ddr3.sdc": {
+      "sha256": "3eff0c17365749749d6a6cd6066d08e71adba358387d59df47d16fe16a6ea813",
+      "original_sha256": "6633ba92b73634840f570b402f2bf93a71ee373120500174215dec16c63c1d5c",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/Ti60_Multimodal.xml": {
+      "sha256": "b42578a58ce1384f87e03077aef19966085c413b3a25e0ede7285a9201903db9",
+      "original_sha256": "94c7b0de8313406141def6e10f5af5f345ea381f163c276f3675b72bcdafa491",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/Ti60_Multimodal.peri.xml": {
+      "sha256": "1fb8e436d658b702abed03b3e551114cb79b057a45d639ae3ad46be0a2057ae4",
+      "original_sha256": "f6bc91ffc8536fa28de87ef0bf2c0ec7e75e2daea667dec632faea03d667f2d1",
+      "normalization": "lf"
+    },
+    "fusion/ti60_multimodal/debug_top.v": {
+      "sha256": "3433d17742ed599434f10de727db6e7acea360690e1a365b66511362f9cba757",
+      "original_sha256": "9e46c35b561b07a675302be235d98bd3c23bbc7ef89506025c633b0a2cf51c3a",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/bootloaderConfig.h": {
+      "sha256": "0e83b868ac40f5145ebac7b7d78256d8a2e3e03e3d56a885a05f9af04c1b7b2e",
+      "original_sha256": "546b4b8b37dc0b4aa3f519d3f2d9eac5cbec5f230650e60952cef5884e26dd49",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/coremark.h": {
+      "sha256": "29f7eb0f0bdf6002f6c7dccfa4f8f9f32c0b8f6709f6538c2b73221938a9c8f1",
+      "original_sha256": "0b1527f63bc27afa0ed5b8fad6b287b3142ce8cc2346248e625d18cc8a1d65e6",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/core_portme.h": {
+      "sha256": "82d8535b6ec42aec37b7b5bf18b622a73069ead675fe6ca45205211b5a1b772b",
+      "original_sha256": "8d48e21295677fde6b034d5c019c641b071eb57b07feb9ec6f3521083e98eb0b",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/DDRCali_i2c.h": {
+      "sha256": "b71359e038419aea7364065b0cad30c97b311d903f2def8d7b2e3ce2135bc8e9",
+      "original_sha256": "9ed4118a09b35b3b65b7b5e2fd8eb1a019864804d6e16a172e97dd03976480a1",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/freertosHalConfig.h": {
+      "sha256": "16dc4828b2dd9bf5ed9378c8c2de389b8449091986430a6b108e5fd17c1e282c",
+      "original_sha256": "dec9ccdbe7b5a3f2ab4420c98615569fd6d0a9443c8100c8325487f0d20e86f0",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/i2cDemo.h": {
+      "sha256": "a7469a5a1204ad46e84728984362d5dec994c9ac6917744637c1bdac84c46ec6",
+      "original_sha256": "5d5bdd4443ac80555fc9a3f786df0eeaa77583a1850eb59af4fa6c9a615364a6",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/i2cMcp4725.h": {
+      "sha256": "fd7dae6445335369fc63a606506ea5947af7cbb642b70851a9db333b12e0a8e9",
+      "original_sha256": "369d7eab624558d84557748184eaf4a138674abd33cb448b22f7f6ea32e3cc43",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/nestedInterruptDemo.h": {
+      "sha256": "4ca2864613ac45476bd3dfe28fcd77f6ba3f67e4f4dd7706a013aec68fc3ede1",
+      "original_sha256": "da92c11ab3d15bdea5d1a80dbc0396db9f114e329f29b9f8e98b9126a28f346b",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/print.h": {
+      "sha256": "8daa67cb740cbb56c7aab9b5a508c16c869f4c851703b7239d59a15ff95bfbb5",
+      "original_sha256": "6b3ff87ef547e2a8ae69c4d407ffcb62302b191150ec0de124c0f96a84d266e8",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/print_full.h": {
+      "sha256": "883a3b2540ae2272749c676d4335b5c6160444c1560d793d5787e44e9cf7cb39",
+      "original_sha256": "1e846f2ec079904e4a3135475113ecf0421160e824151a03ad960a34f76839ec",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/sdHostDemo.h": {
+      "sha256": "1ad130a8a4d24e15436be1287d0893d0f73e7d38b93e4ab287d6bb955d8c6d91",
+      "original_sha256": "3a84286888b437d2bce854d79d9adb5e7a4e2e267f9e6b75274d1b83e030dc98",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/semihosting.h": {
+      "sha256": "95524c5ada5c0968106f7482321ff233ca22bc2e110645346c8de1a481b75b8c",
+      "original_sha256": "4a596c7a6cb84e3dd8db77981278626252dfc9f6a882e3c396452d4f46e8c970",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/smpDemo.h": {
+      "sha256": "c06ca28fd6078aba0f161fb1dfe5cac5a539875a0407f9bfeed493fabfd9d564",
+      "original_sha256": "079090b7cf459307719593bba62cb3914f60999db8f29142fa8f90ecdff98a7d",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/spiDemo.h": {
+      "sha256": "c148cb3d5a1047580ce5dad36fe5ddee2405049a260466c48c5ee48038b3dbc2",
+      "original_sha256": "bfd67c1c4af786de2e093741c7ed0977f16db4af7768244f94e1524c0aa2bf4b",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/tseDemo.h": {
+      "sha256": "9737ad5233067a55fa1c60e3f97f9f191e349b02c0c0b955305014b16a8421c7",
+      "original_sha256": "19e9f3ce7f616d3105a980d4d64f5fe5b26215e97947533474b3faf13944fb0f",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/userTimerDemo.h": {
+      "sha256": "e4dfa2b3ab0c973f28ec52cc70d4951e79db34bc298987a116e4eaa478c6e601",
+      "original_sha256": "b3558a771dc70fa241f3d25a11161c3eec0fbf653cbdf929786d60d52f4efea1",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/include/bsp.h": {
+      "sha256": "d490b5b20fb42d98e2e949db38d67f98e100ef2a6b7204204ddf37aa42787c3f",
+      "original_sha256": "8e427e9ec90cd68f4a968f430691c949365e76ccead96361131930134393d06b",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/include/compatibility.h": {
+      "sha256": "df42922bd60a56bc6de9cbc67d3001d651f0560bcd39d818708d6831608f7415",
+      "original_sha256": "51227bcfc49b1511b9802cefef07b0c9589b8c7e6206d8d84e410e4bf2a70eec",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/include/freertosHalConfig.h": {
+      "sha256": "21c5267510e43336c38f85fe3a00bcd6cd906eb5eb8591dc2962fdc8627ed582",
+      "original_sha256": "1a193b788b55e906041b9298f2f0fee1e7b77739351d0e0675eccecbe01b6315",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/include/LICENSE.MD": {
+      "sha256": "1a946ec249ebc4059f426d1545f0e847efd28e3a7fbae37f313e6bd7c74c49cd",
+      "original_sha256": "fcad259554a1118f297273bc2ae8805b07b066d297e1c3b9a6ac82d815add8dd",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/include/print.h": {
+      "sha256": "e5cfb19fb1d089074a5c92fd204d5f8b57dca3ec4ab7f9e282261f3f06274ab2",
+      "original_sha256": "ecfae60245c1f3b4e11d5c9e093a3daeeb8f89e1ae4eb69c17ae6d7f36223852",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/include/print_full.h": {
+      "sha256": "7950df0fa7bf446b7e67a0d25b1c49911cc36cef97c6aebf603342d8bf6e50ff",
+      "original_sha256": "64083154100c17f33b7a2f421388ec02c4072ec0f3509cf9e9097260534195ca",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/include/semihosting.h": {
+      "sha256": "40f94c43c1ea75317132fbd99f74a83c49ad31516d45b7f345c940fdfefcd1b6",
+      "original_sha256": "854082d59b5396ffc8b8154e5568a3920ef957faa327895401f998ed69927226",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/include/soc.dts": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/include/soc.h": {
+      "sha256": "e8a4c169b1dade27ccbebd1dc36c406854eef4afd33ae42c09ecb6f66c2bfca6",
+      "original_sha256": "650185170e5f200d5672fd9bca1252d8420e452b8b453288d7f48b3619afae66",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/include/soc.mk": {
+      "sha256": "bee0373681d85b2f1ab0e0c8e5fb80e4e99f3235164ffb803729da5ac2a531e3",
+      "original_sha256": "3641490e4d7b2a0eecb0f0c9661bd1a38831e8527f5f96d1a017510d5d0d2cf0",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/linker/bootloader.ld": {
+      "sha256": "432b002f900ffba75708cf58b8633143c159aa27dfa557dcc6ec865b6925010e",
+      "original_sha256": "7780b7c17aeea0d3d3dd392ff831d89660ca812afb2cfd2f99120b4543c2a721",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/linker/default.ld": {
+      "sha256": "4e904d1594b8ab1a708e8d4def468e5f301f896d64d7870b967781f6b4d66997",
+      "original_sha256": "f7dfae3a3b2d26db12add814a559a8ecb7690e3433607e909ed60b3c23654f9e",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/linker/default_i.ld": {
+      "sha256": "654904cc3ea40908ba8cc163ebc8e00923c06a7252bbc0bf2a8a326dd894da14",
+      "original_sha256": "8ea07215d05576e2bb632df0afe4acd9de8a7fcd6bbfac99109c348e64ec51ef",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/linker/freertos.ld": {
+      "sha256": "53c46e04176720eb75668e3f551e53cac070cafd7b8c347b22f2011a43df4e78",
+      "original_sha256": "c11e3892c8a23b37f060fccad7b007a6bab193413214096f339efa700acdd19b",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/linker/freertos_i.ld": {
+      "sha256": "654904cc3ea40908ba8cc163ebc8e00923c06a7252bbc0bf2a8a326dd894da14",
+      "original_sha256": "8ea07215d05576e2bb632df0afe4acd9de8a7fcd6bbfac99109c348e64ec51ef",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/openocd/debug.cfg": {
+      "sha256": "fd7c9444dfa018eb50fac0bb7a14963a37f52e7af5c63983d54c9b821617c7a6",
+      "original_sha256": "49c64651d9af1f07ca268c5d9e551d48dfc4b144ccf1cd3d0dc63d1c7931a817",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/openocd/debug_softTap.cfg": {
+      "sha256": "912ac98ef757d56f31ec0c58db27c9fc37906b333e63483cff9f697c5a92abe3",
+      "original_sha256": "93105e980585982bb13b2c474c50fae656b226b9eb8c8ad27eef036b29bb2503",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/openocd/debug_ti.cfg": {
+      "sha256": "acbab0c01185f4cf34e6036c9ecf6f0347e6853e3a7b8cf64c542ef8b3489ee2",
+      "original_sha256": "069e15435e3a476c706dd46ef4ad6b949851ee5708a66baaf6107c6d76e5de81",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/openocd/external.cfg": {
+      "sha256": "f22f617fedc2cf5ba52d032de1d80c7ba30e70588b9447c6c90d94a8d4b0349d",
+      "original_sha256": "8b87fd2339c71c81e44ac578784d7cf58f42dea7f839ff51ba362a40bbbeb800",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/openocd/flash.cfg": {
+      "sha256": "7606947398e8a8c2f320ec3df2c6c073968b47caa495892e069217a26320eef9",
+      "original_sha256": "c7ee3cdd983e873a735b1fa8a11509cb72d85f533fe220247f9883c785535d6a",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/openocd/flash_softTap.cfg": {
+      "sha256": "3ca104e76cb00a226f21f20594103eb9d0a31d967880532b10e1906c21de397e",
+      "original_sha256": "31b50c767c6f3ec5ba3f904a52965be451bc94ce56f89f535aabc8e92dcd5d7b",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/openocd/flash_ti.cfg": {
+      "sha256": "302a93f2a9de5abc620a8a76becbd9ea7b85e37ef9a8fbf9b90da4824a435751",
+      "original_sha256": "309002bb43d181752b3a2a7259c93fb9a969dded42f3d33750aabb0d73f734cb",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/openocd/ftdi.cfg": {
+      "sha256": "e894daec67d27388e3e98b531778a92f53ca3e3eaf4501d89fa101b516dd96ae",
+      "original_sha256": "aa5bf6856ea946c3d3bff654a557e24b441d8405c675c62e379fe80dd6cb83a1",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/openocd/ftdi_ti.cfg": {
+      "sha256": "f710521a7d95183ab96b30a229895263f384ff8878a024293e31047c57b8d9c9",
+      "original_sha256": "28776cf3deef49cb04be48512c27f7ab2cbe83852792ea49f68350cfb6840a25",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/openocd/gdb-target.dtd": {
+      "sha256": "ff78232fc38ff2909856f06e6f22716c570a9a030a083dd426ce2ccc9098112e",
+      "original_sha256": "2cda851f6e82856f2fa449d3ed0590f082063654857d441211f0dbcbbf604941",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/openocd/sapphire_soc_32bit-cpu.xml": {
+      "sha256": "7ebdc33980560497e40ed428c882097cdead4eb081f566b47348948a71851789",
+      "original_sha256": "fb8b4c36f3241893f26313c3b5c455add451307241e9ccdca9b109ccb19cd040",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/openocd/sapphire_soc_32bit-csr.xml": {
+      "sha256": "490f827587770c14a773fc71b023e28659994a1a5ea9d86dfb7fdb667db58445",
+      "original_sha256": "65bfa4d05c977b4a692cf7ac44a0bc698697a2e2be60f9bda39c850e2a84def7",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/openocd/sapphire_soc_32bit-fpu.xml": {
+      "sha256": "57bc8e6e4a4c24e1ab7efb1154344eb1cd9baabefce3c30fe72e655323f34c83",
+      "original_sha256": "1b8d513e1444575ac3445c4f889479fb1b604129062c3ebf513916d8a919fa1d",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/openocd/sapphire_soc_32bit-reg.xml": {
+      "sha256": "a276e8a4a0a8adab28ce8c6f5f2067c12df7b7aee9ba7d2676c18eaeb8609bb5",
+      "original_sha256": "8e30b6fee3adc69dd87077fe515f5af5e6063017cd70e7231ae13a068efde1bf",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/openocd/sapphire_soc_xsvd.json": {
+      "sha256": "7fd3fe85954e8686d6aa563bedf675390f12769c9217773d58c108ebc5b4cf46",
+      "original_sha256": "223df9fcdd406dfe589aa71bdc2b8470f42cbc3eb6452a8c289d51b2eb05dc0b",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/openocd/xinclude.dtd": {
+      "sha256": "8f84553d2f2cdc21f5dcf25d162f49571537e15455d7e8e042a96f49989a82a4",
+      "original_sha256": "d8bc4520d08d88baa61993987301dd9ae2000d253f7cec030b7411d49080f32b",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/fatfs/00history.txt": {
+      "sha256": "bc4193bfd0a64f8f2d9da7051260328e3c52c44bc991b93e9c9f85f9da53c122",
+      "original_sha256": "655e29c1c7063c3a203546b6a12ce9ad2dd8d9c2e917b157204a19fd404d4fa5",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/fatfs/00readme.txt": {
+      "sha256": "a7f72443af04710747e0c5b394698e336d6675ac0ddbd1fc7b59477bbb746271",
+      "original_sha256": "3fca752ba045c00269388250c64f7b9bffe9fae4272b6750de39a672b67a0af5",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/fatfs/diskio.c": {
+      "sha256": "1938111678ad2691ce1c83f00070434a21391b811c2d486728e9f64efe8697b3",
+      "original_sha256": "01646eddadd6765d2e8d13cb2533bdd2d4ced3b3de0f6c270743dc56fe3fef12",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/fatfs/diskio.h": {
+      "sha256": "8432531966c75a336820bda0d40fecb6c9ef69b7a498b5eddad4569776fefbf6",
+      "original_sha256": "e25c214428212dae055a7860747b8467556c905ed1114b3b1b7062ab18b7e812",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/fatfs/ff.c": {
+      "sha256": "2b122937847e2b3328cc4de540ec0772c9ceb5f7699584e1eba120ae6e3baf04",
+      "original_sha256": "7b8b514c06b0817c1059e1d4b5fc80ebbf3a85876126fe1ef3e9dbf7dec50b95",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/fatfs/ff.h": {
+      "sha256": "46fe6d3d14dc225a92f2919e585682efd0d2174cedb4639161655a28c6d03f20",
+      "original_sha256": "936880d14670b2351874537cbf2d99dc715a6c81196b1b286200d8e6c08c2e9c",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/fatfs/ffconf.h": {
+      "sha256": "58665151b82030954a2451fe05f02907c844904f56268a2ea2a609c5bedca9eb",
+      "original_sha256": "2d036c2baa1449e90c2ea96a716c4ecf9b0ab80804bcc5a252c1c9f6b8005b79",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/fatfs/ffsystem.c": {
+      "sha256": "239fa1ac565572733786c7d681eebf480d61516917661bf57fb33f5c46d1a01f",
+      "original_sha256": "4ef367d61c6060d2bedeac57985ec293cf29d33faa98d15fbd78c5d63260eac7",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/fatfs/ffunicode.c": {
+      "sha256": "6cd4dc4a664386ebd108e56d367582c35f005fc20381486366b5d77ac58119bd",
+      "original_sha256": "3f1632c1f1e64b0b683b0d7e51341b9870728f398604869dd8211f1819509a8e",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/fatfs/xprintf.c": {
+      "sha256": "ab677ff3642f349fbe18f695ed01b55d521b9061b6df9994a8ced9913b06da7b",
+      "original_sha256": "266ee72364af9737d400112b382e610d083b9f3d9b3df6580b8ea69f3c888000",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/fatfs/xprintf.h": {
+      "sha256": "bc0b0db293b24c2e6c32c1c1bbd7f6aedb0e18ab01f485340ae0e251872937a8",
+      "original_sha256": "a03e7b7c1dcf1e86be213df7d9827d4a9aade4d5e624719fc9ff7ee5c85753cd",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/lwiperf.c": {
+      "sha256": "4dfba3f60cc93c53e1c516e74e5a4ade3035a24aca9e5f21799318fb8903dc70",
+      "original_sha256": "8314d73b49e6cce05624cf907fda477f581317d41a74e0abb0bab3cb4f86d527",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/lwiperf.h": {
+      "sha256": "ac35572131e102c96feffba4bf2788b841f0d162cde1af3d9b7914e11540b9b9",
+      "original_sha256": "11f53b93c6e1c499038e6ee93fbcd81f5af032828c68eab3858e22d3e72c6fa1",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/api/api_lib.c": {
+      "sha256": "4c6efee4d38e798d8a7abe2f289b4652a680cfd4d9b36d239fc77a21ce2a4879",
+      "original_sha256": "0e30daa03cd577dcea6ea0fe736d27f98d1d80429c6d420097770b0832393c07",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/api/api_msg.c": {
+      "sha256": "63f2e04147adbf28967b519a646f7d30e12a88d9c7904514d0fcaca95e1e0f10",
+      "original_sha256": "6b46bfc3635c32f8a341621996b354c0b419d1424875ca1becaf9050d4507f4a",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/api/err.c": {
+      "sha256": "5dd20e93a89f5cf4492e6cc3de49a5b6de6a9b15136963cef2a08a5e411a1f15",
+      "original_sha256": "570cbe5044ed46c537e5281cee2accb249b6b3c6421bf74135848cdbc33bab0b",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/api/if_api.c": {
+      "sha256": "eb6c944f66d0daf48306b308c5dff528b167f1284edbfbd87930c48d2deeba7b",
+      "original_sha256": "727b957ec596bbcab8e531172775c8945e204e0736a022f468b80d94df17f6ea",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/api/netbuf.c": {
+      "sha256": "c5285906a4b52280b127ae1b2a4950e597cad7443668bbfe009c7bb37221df4e",
+      "original_sha256": "1a2961fe045db2c71257c93e5490acb99624f3ffb20eeb19e5f21cf3cb173c5f",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/api/netdb.c": {
+      "sha256": "8e405c032b6b13ab503088092bf244af18440f9c6dd1661e48c72abee9b385a0",
+      "original_sha256": "7292ce48f37d5ae8ddf1528ea39ee3b32877d6679bb9167480bde94ac0518947",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/api/netifapi.c": {
+      "sha256": "d8426d620c4556c1f8cfc68aba0e91c8e7bbe214a13fb877f364041f9bf8ec34",
+      "original_sha256": "efd2d2556c978adb6364a5aa6628d7d35843d4969ee730fa86bc25d07926e57a",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/api/sockets.c": {
+      "sha256": "aad75d9c958090b2d4cd042b8056b50150f9d4a293c390b6e1c4d393d001f298",
+      "original_sha256": "e751d825ef4c54da7919bd01034dce047b7fab502e675d3f3a52b8abf75a92bd",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/api/tcpip.c": {
+      "sha256": "5e4a55d9ef23b3d058f5b7bdbc35647393327c70f83a601ec20c88e848691969",
+      "original_sha256": "7165e72ec4730cac3cfd15b7e6f7f941e281cad419bdbd3101f04ded58fd8000",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/core/altcp.c": {
+      "sha256": "cc4caabba8d1370b86ce23e56b09cadace1962d2d74b52677170f39472d99245",
+      "original_sha256": "4ddac11795c3dd4bfc77ff7b7c04a60f477a971d3ccf7ebe4595e53f46de5116",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/core/altcp_alloc.c": {
+      "sha256": "15f04233b2763523447af0a96f272e091492381f3cedb66ebd9083305fd350b1",
+      "original_sha256": "558756e2ca0fab59188d3925f6cd38edffa7bf147efca67880ead87788dae246",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/core/altcp_tcp.c": {
+      "sha256": "f47b01154cf7523887a5d43c53d966687704a36d57b01f09f003112eccb2dc0a",
+      "original_sha256": "191c62a0a4e8b93cb64f82dc2cdefe1224b29a970db6c8eeb280fbe6ab5ac010",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/core/def.c": {
+      "sha256": "a262c8e884b5b03238cbbad0e09c9406b47795855c5a14b834c0b254e53e8358",
+      "original_sha256": "069af9fb2b7c8ba8e8881c778bae727c400141b59d71ff8d82bc69fa768f2996",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/core/dns.c": {
+      "sha256": "ca908ac6e902c27b4a1c3a069d3015cc01a43de7a6c1538c9c5f137dc5ff15e2",
+      "original_sha256": "46ad07233793245e085e2635f9c117436c85bf48c2877d3a92e42a09848977ce",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/core/inet_chksum.c": {
+      "sha256": "5dc6ec80183ee66e03517d6ff2a531634f60f48f8e4b56baa1ee7519884d9617",
+      "original_sha256": "0702d6ef8674134b8a82c8e3d0dcfbdacf881ea9ff3b26eba93e7f78a0e314cb",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/core/init.c": {
+      "sha256": "ea9584f520270262def2aa66da41674bff9e0c81f75aebd0fb7b036660356d96",
+      "original_sha256": "e7b3da4e6afa38726fa55d2b117d898a82ac85f63e759a0884c5aba1b50420e4",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/core/ip.c": {
+      "sha256": "82d0fc6b45c6d1af88bdece3229fc9821274263c261369de4f81b8d6c80751e7",
+      "original_sha256": "aadd79d9ba3b13decdac92d43e7fdfe17415e5527f09a8276114b77eb037ce48",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/core/mem.c": {
+      "sha256": "b15257ccf032eca75ab4bc885cd26181120efcc9503912e5505c025f40af20b4",
+      "original_sha256": "7fa4332f64784e2217838f9cdb6bb40af80a37b5dd63402c48f31de47c1f0664",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/core/memp.c": {
+      "sha256": "91ca3a00487d61849324ae571ac9ede550a879365c557aba38667ace122b6c00",
+      "original_sha256": "9c21b3273224919e65a98eacdc7b74ca88c69d5e7b3d54717655bde824ee2dc6",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/core/netif.c": {
+      "sha256": "eac495d8a644b79b4b0c29a892a8494ab55971b975dbbe088cd5e70052747825",
+      "original_sha256": "df5336b5d96140f93b33ea2690952e728f26c4cc998e94e4c7a4f1e7c0c54ed8",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/core/pbuf.c": {
+      "sha256": "a709b86f1f77e1b40b04f941fba4b32f0d44a1c36b68840351ba9dcf54d2f30f",
+      "original_sha256": "2b34e09549b333338ba5f37bbaa65a289d9164309c57ac5f0b88556aa540dfec",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/core/raw.c": {
+      "sha256": "0010abf2460283092870e543ea3a94fdf4278f35c81c8eb6abfd5d541bb6c911",
+      "original_sha256": "9c0dde9c12cb6615446a2d9dde42747f62a2d0606d24009d45180f9fe58a4b8e",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/core/stats.c": {
+      "sha256": "2db9e608943cabf97883d001e824f43c1b45b4c0a9f2bd0859cb303a8790ffb4",
+      "original_sha256": "b025b88d093fea800847135f62a48939963114bda0ad9ff1dc5b673cbc354e8f",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/core/sys.c": {
+      "sha256": "db8e9cc75747d9fc0352fd9e9adc493d8c4292e79942160ceec370003bce587f",
+      "original_sha256": "5384e311e0459c7b694ee938550ec92965da9c180e359854a223db3b4e3d2fd3",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/core/tcp.c": {
+      "sha256": "15b703f42a38d570ea3caf0f3f1c46459e3be099bea10c8509fd1f0c24e14670",
+      "original_sha256": "2878415d45c9ab47f1980d7044c405c789704e31562966bbd74dfe60bf106e82",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/core/tcp_in.c": {
+      "sha256": "98c3130c75c122ed0502b77b7ff20698d3df37fa587dbb5b427ab3ebf0e269d4",
+      "original_sha256": "712517c490c9cf8b333f08d4659af730f19b273967acdb65ad4535b773d8d8dc",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/core/tcp_out.c": {
+      "sha256": "2dca1bb8025c588427fb18e47ea0115c6764cd80627371bda1ee0b8a54f5e58a",
+      "original_sha256": "b9913a721bc8b49331182e43a1eb619dd0ed1ad43f4232f1829a9ac458d1df15",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/core/timeouts.c": {
+      "sha256": "a905bd50f60f3991c65ede71b7e49a42b056b0c1e4c8582b861467c511621a92",
+      "original_sha256": "26cc3ab42bf312ea247dcc8ba8362ff8e7568509a8e5a425c181a5d7d2ab1f82",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/core/udp.c": {
+      "sha256": "ef91122f3f8f9156077fb761d6935969c4649c37cd7bbfe8cda01236939da308",
+      "original_sha256": "f8240ea0e5553d5649c4b20df331b2fe72cd5d2ec547d40c6b0d22ff66b9d542",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/netif/bridgeif.c": {
+      "sha256": "863a91f68fad44e603ead49d9398b1ffe3137588324c762fcb332c0e47ba85c9",
+      "original_sha256": "df902581fa50324d2fad7d52849e0f7ceae8ddc7ce2d44197b0a86fc823fc1b1",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/netif/bridgeif_fdb.c": {
+      "sha256": "81b31722c2f9c89d4404d65f526700769a419be100ec4925c0e0d45a3b0a2273",
+      "original_sha256": "5bcc19c82c502f80e05b06061c77fadb2ea772bc2617d14c0d4f5868b127c2dd",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/netif/ethernet.c": {
+      "sha256": "89ca8a0f91d68cee4993f86834016dc63f96ee8464eca8ea39003379c3df4bd0",
+      "original_sha256": "a395e765806125f58731329b0b5da475d31517a976757338ff4db72376427744",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/netif/FILES": {
+      "sha256": "10564ef1c25f4ca37518cc705b3cb27b206cfea82db6a9601ad416aeffe560dd",
+      "original_sha256": "1d9274e9c067021648b8c847dcfda0f561b87e04dabffd067d68e35c271a5c3b",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/netif/lowpan6.c": {
+      "sha256": "2c9a094e978272d35a284921ecf099cea0df31bc2945640184f38c06c4c24ac6",
+      "original_sha256": "4383936c8871874349fe60e404ce95923ed8e57b78f3e11f2e8b16d67d372dfc",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/netif/lowpan6_ble.c": {
+      "sha256": "1a3d6facfc27a7c3acf2330310b72bba4cd32e7620e1f44b8ddff096448b4152",
+      "original_sha256": "513c1f4781f6334f62de799de33433aa6e67e6c89a2ff4e9aca08a7b9a0b6d8e",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/netif/lowpan6_common.c": {
+      "sha256": "3cfec34edd04223c2c6a8dd31a47507df68581898c032d76c417dc6f80b93fe9",
+      "original_sha256": "c2f35c389246fef5f02bb8aed4ac8b93404e952fd91eeaec19dda321743928b0",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/netif/slipif.xcx": {
+      "sha256": "fbfcd26a9ea8a15d8621bd56f39ca0e85f04a070ad70887fd94d48d92bdcd69c",
+      "original_sha256": "25a0254125a1f3901160440f55036edd66212ed99db3ed3588ee1b2c1b650e90",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/netif/zepif.c": {
+      "sha256": "1ee211522e5c4c4bd0b10a2cf747b4ec892d61751064e1f380e720d3be11349e",
+      "original_sha256": "7dd7a63ebdbbfe2d78ed24fd1f372827804d56bbbe0e6e7fc8b49e3ccf5f50c2",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/core/ipv4/autoip.c": {
+      "sha256": "e0a6a0987e3d85930782a9fb75de28ce519cd300055c50cb55fa426950e4303e",
+      "original_sha256": "55159ba9c93e24ca45f850da96206a53a0b5b0a28fa6337c73cdffbf87070487",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/core/ipv4/dhcp.c": {
+      "sha256": "b462273a49c3bd7ddbef525f7b2c956b9cf992a369e05e6030f9038fac3e7dd4",
+      "original_sha256": "2e35531b2c65d25a1e54fff59b3d53d99cfd9d819ef6a28823782ebb0f6a11d6",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/core/ipv4/etharp.c": {
+      "sha256": "3a659354f6f25843fa39d3615ba8baeb2aa59c72f43e5b20994a123087b5f814",
+      "original_sha256": "f50da890ecdb9a390b7115d214e6f1fbac1f8e1bdc45fab11e56a25958448862",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/core/ipv4/icmp.c": {
+      "sha256": "e17d8d417dbcdb4f6a7b5fcc13ff0b314da5fc39a8264aed494ad472693859b6",
+      "original_sha256": "186d22a0845a1bf7a638fee89f7af4dc31538382c103528d44a69a5bff4081e7",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/core/ipv4/igmp.c": {
+      "sha256": "7e541cb6884e4cd1605e7edc8652596b7edbafb5430487720fe4eae2ee3bc1a4",
+      "original_sha256": "618bab91a3261f2c43ec2d59a7d7a1b68404ff010c22a0deef3bbf787a95fc82",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/core/ipv4/ip4.c": {
+      "sha256": "a52e779aecdc6f26fe872623bc937d625711fb74a36fa2c1058853182e5a92c0",
+      "original_sha256": "477882972867249875d6d245b7900a2f14f005a55669b4a735b16cd4d8001a85",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/core/ipv4/ip4_addr.c": {
+      "sha256": "7d5bf334f2ae038a6adc2eb7a0c2e15bc7218dd741e747f8325d92b54248663e",
+      "original_sha256": "5c5de9f71e77f12c048ecb7d90f7d30e3852ff92368f5fd69aa8fbd44a78d75d",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/core/ipv4/ip4_frag.c": {
+      "sha256": "dd03b42a7d02f00a1c9fafa8c83548a8b2aab19dfaa136451120ad10d964b68b",
+      "original_sha256": "e39ea165e15fec78c4c6f30e0856ec62344c26996077c934ef90d3e9d86d606f",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/core/ipv6/dhcp6.c": {
+      "sha256": "a5828dad2f5478aa6e516bb2f591314d0a93c75496cdc7392310dece53ba02ce",
+      "original_sha256": "4e17bcb3c3fe5e03c666940abd437b5a2e124c8d3ec327c172cd4f7b5c8e6e00",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/core/ipv6/ethip6.c": {
+      "sha256": "548b460688f824015b5b30401cf907828f1dc088a8442d8ee43e4049c1e1401d",
+      "original_sha256": "ea73b39759b87ab77e4cfc523129eca172c78f6e59bfe0eb5767a9a911fbbe05",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/core/ipv6/icmp6.c": {
+      "sha256": "9e86f116ba0adae387aa192afcf210c0992e7023e44014179ea2736795bf5163",
+      "original_sha256": "5b4fa2177931f11fab3e9b1f77803da37d0ac030fc0ce70640d1ab6c4049ce2d",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/core/ipv6/inet6.c": {
+      "sha256": "3f7676e46413586fc3d07438b51c0dcd46bb3ba24644892362cf47f84fc15390",
+      "original_sha256": "3e16b2cdc011389e661f704a00e66da94580ecebe7fb63294e2853149c7708e1",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/core/ipv6/ip6.c": {
+      "sha256": "0ecc05ffe4bd03f8a987c985032ec168bb4bc5ba9996de2e5c947db569872a98",
+      "original_sha256": "76abfc9c76dbac39a826bc2484aceab01e647372a420e62c3b83e7d9a11c6c40",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/core/ipv6/ip6_addr.c": {
+      "sha256": "fb4be0a5b3b048bc4b9ad1b4a18ff18f56c80c0337bd4a88fcca5f029872f46c",
+      "original_sha256": "3918b3b2a342d591d1b1f33f158fd2998ceb2fc49af75f0fe355629b0a21ca2c",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/core/ipv6/ip6_frag.c": {
+      "sha256": "44dacf2617128ab40e0c008a890d5d3c0fec7375f5a32c23884f863982b7e666",
+      "original_sha256": "d80555ca1910536071387e8ee4a47edfa3a116c2bf5eaea230926431dc6a75a9",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/core/ipv6/mld6.c": {
+      "sha256": "ec1553e5dbb3b48e521e81840cbb7ff5af574388ac1ab06e9924ea5a714a7b20",
+      "original_sha256": "41e8a6cb82715d4eb367188c64b08a14d4a31fd7545dc84d505d0c709127daa4",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/core/ipv6/nd6.c": {
+      "sha256": "09b8641e6a5307d2a326d9a6ba35a6c4d919adaa350d499fd5fe36c58df0b068",
+      "original_sha256": "aa89a2b0d8c592272d052488f80c2da49519753f33d3feb4049298e6d3c4962e",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/altcp.h": {
+      "sha256": "6086d952391823fb22cbda72734383adceeb3717d0eb328056cd02d3c3bd784d",
+      "original_sha256": "35481c8fb78ed1482ec458cfc0f04adcaf40e5d36f9fe0159e87eedb2dd9ae8b",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/altcp_tcp.h": {
+      "sha256": "6f9dc7980ddae21919af20ace2a55bb6031f8e50bd025c45abc14082c099aabd",
+      "original_sha256": "047ae7082ad150f58165924d90c40676e114e45de17841659dec02b4809e7563",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/altcp_tls.h": {
+      "sha256": "78a12d5453b71ed0373c360d32db2f73f66841a5632daf42964634f56cd7f903",
+      "original_sha256": "6a4a9c409ff5e610e3d96f561064fc39ae3f4e9251282ef56de1dbf6bff1e9c0",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/api.h": {
+      "sha256": "d99a79864aad8bb9315552a29afd2f4ca54fc9fc6806cedfa5e80ad0a5c223f6",
+      "original_sha256": "4832f996d7f94d8a43960bb524281192f7f405418ae651ea4b8969db4446566e",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/arch.h": {
+      "sha256": "3f5725d3dc7748951361e299c93fee0018405af21acda9a4eba19e1578778753",
+      "original_sha256": "1cdf46e5dac1faae7314b7b2183986a7e01589754de90c0089040c19854d0a9f",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/autoip.h": {
+      "sha256": "92960cb246d41791ac2e9fee69055b406b9dae0c011614ab001ddf49466190db",
+      "original_sha256": "ffc490f58ff6e616e871d5e8add506fa11d9d6d8c6326ee0db06f0fb95aa54ed",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/debug.h": {
+      "sha256": "23a140dd9efdf8ddb8fa3e97697f09670d8d23ea2f1b58f1b45ca639e0f6f515",
+      "original_sha256": "5042a4251f2c72de488a93250b33a6db74533f4c3a28a64109c0786c1b472a90",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/def.h": {
+      "sha256": "45174abaf6f7af5417185dee90954f1954c80278c2bb240b513d25cebf064826",
+      "original_sha256": "dbab6ccc1a741061532003b6437bc104eaf15183fafe69388db8fde71bf23854",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/dhcp.h": {
+      "sha256": "8547d966c575afa9e9d723ec820fd6eaee7ab0327e08586e0b362e52136b0754",
+      "original_sha256": "032bce5ffffe0f3ac89e0410a9fca40e2d4501fa5e483ab426169e51955eb05f",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/dhcp6.h": {
+      "sha256": "dbac3f610e3e76547691af73a667bd5fd6564a7fbfa5ac382ef77604938d4afa",
+      "original_sha256": "c167f1a899e0e5b02d34620683bac8dce62801afcc7466a72ec954fa3808753c",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/dns.h": {
+      "sha256": "962c462c90afd41ed010b961f539c11b2baba3e8a6bfe584f331a5e4d43c1b05",
+      "original_sha256": "573977308b19b9f47690e7f5c3e1e879eb14b7e2e79093bb556409a078932083",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/err.h": {
+      "sha256": "af26b573fc5c6a31877fdcde35e15382ac0c8b01f35af3f5a4429f9cf5dd323d",
+      "original_sha256": "c35e7cfe52ecc4e84a423c78f6cbf930e94713abcc5d03ad89bfce429472ff16",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/errno.h": {
+      "sha256": "79dc6e03887ccf301e01a5129d1a732e21fb05308a8e38f04ada44e0928c075a",
+      "original_sha256": "da2cbcf57126b44a2fff00eb5c80f0d12ea4e4ecedb5bb2ed26931bf5cbcebd0",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/etharp.h": {
+      "sha256": "c51191f03bc0229e1450a2d8c5f4f5faca27e55b5b1bea5bfa844f0af7e729b7",
+      "original_sha256": "ddf8cfac26baf31f7bbc491535aab1275ea13ef53423606c062221e5c2ebf1d4",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/ethip6.h": {
+      "sha256": "7a7e744ae373a720261be3651adaa0f35ff00ebb1bcf38e5330e371ddfd162b7",
+      "original_sha256": "ea2e21da73252211440b23108b4a6657d4c897fee244a504527c2836b81fa8e3",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/icmp.h": {
+      "sha256": "84f63c9fbc6f6d66ef437f834279c25c20bfa78834eb0ee347c70377f7f8d8c8",
+      "original_sha256": "ce0f09739d7e82f7701366da29a3a2936744627898ab70193acc1df2cfe6feca",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/icmp6.h": {
+      "sha256": "f790cd444ecbe2e605b2f1a1deab3e6e9662ba6e87fd47b401912c5a118ee836",
+      "original_sha256": "585e8dfc16a5add1bcad6eae60dd13d60a09dfc26d40b3e7ceb32190b0970716",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/if_api.h": {
+      "sha256": "6f6945cccbf0721180ddc7ff589d9f7b47f825ce62ae8b3cf6c186f5d2750822",
+      "original_sha256": "78aaa6edb9204e495f5feb2406d055429b3f893b6c863c5b222e9d6841011717",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/igmp.h": {
+      "sha256": "de409719975a9e81349d90ed6e09a8d832f12c216d6b9e42de580be9ff546daa",
+      "original_sha256": "d7582478118969b52622ebc2b74204fd0ae0fedcd003e9e11e98af1414e98268",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/inet.h": {
+      "sha256": "8504b019db37c6767f443b3e13006792129b8ac6dcce93658d439c8155369a6c",
+      "original_sha256": "9a32b1108e6fde8fca3b592c450126ca84595aaf48cb69d36649bdddc3bba52b",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/inet_chksum.h": {
+      "sha256": "4f99b8325be79c66937a496576ee3ede1f67a44132be35b33582bf15dbb91207",
+      "original_sha256": "3281a4248c18c67452d7112bb830f4fd61fc7c6df9414b409ae87757d7ac64d3",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/init.h": {
+      "sha256": "1a3e9f9d6b0e6558715570fbc66c225e992835c132bad935aa428062468542d6",
+      "original_sha256": "7178800147e1a8690054a42353fbd1d1e7a61a599edc0674ff16737dbdb25886",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/init.h.cmake.in": {
+      "sha256": "38df819f1ae753f240e9adb27398c14d6cf3e2e9065547a8ceb7694a9d132216",
+      "original_sha256": "054a4865ed9d7773e1255b4239fb05f76fbf35db109a092c80cc02aebd8df7f4",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/ip.h": {
+      "sha256": "9589862a8cd3d22ad06ac291231d4b0335cb15e2d0e5bcbd1f870808d9f85828",
+      "original_sha256": "21ff9263372419f3da299de100b376b5bacd58ecaba334b9452498ed4191cd69",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/ip4.h": {
+      "sha256": "d15ed11a5551d6968d536f5bba63d53c95214668002b12342e6bcf3b840e612e",
+      "original_sha256": "b80b79f64f0a9b61fc807e6dbe391e8a629774e84b2b43b49b9625766b4316af",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/ip4_addr.h": {
+      "sha256": "373faa87a644cedd25874acfbaeea0349b34448fc2dafa5d0853d945e46a6fe8",
+      "original_sha256": "b5609b056d9e5e6614e05d743d2cbf518e80dc9ac6d73a807d45d7bfdf129ca3",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/ip4_frag.h": {
+      "sha256": "8b0bb67655cba6da8cddc360e655c711553ad35e6306dbae618637e80be9911c",
+      "original_sha256": "9abd0c56d1e5d1a076458d10ec1455670a2f9f5ef0f4b25516ef3225536644a2",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/ip6.h": {
+      "sha256": "7681c2948f700aa565c387ca20654f7322991ca15de7fd4e8f342a8ce44abe57",
+      "original_sha256": "fca378457957de286555704405cab9eabca3d74f85e863717dbd0ab6ca3f807d",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/ip6_addr.h": {
+      "sha256": "1dbc5e8ddd4c379303d4a3416f628063f0814814d365cc20dad5d89e0baa4070",
+      "original_sha256": "c9d55772cdfdefa78336dee2bf904d58d17d5c23bff667d4d83f891beca94b23",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/ip6_frag.h": {
+      "sha256": "3ab1bdb9220a3c87c8187fb26b1150cd03c4401b0a0c6db2ea4a22674141dd3b",
+      "original_sha256": "0dcea4a7600b856877e7fb4943b20690aa9e2b69414b4b2273c7e9e0a25f74a3",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/ip6_zone.h": {
+      "sha256": "951a5aeae08562dfc4a3bcc72de9952ac0045126a1cef9eedf9c6881ecb91a03",
+      "original_sha256": "0d28352ef7408d7370c804246921ec9602b14cea59e2eaceadaf3c2cc118e35b",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/ip_addr.h": {
+      "sha256": "177f57b3b62f6d4fa6ec1f487c89d3eefee03f6ad4da7b1528d45e52e4192d97",
+      "original_sha256": "8bfbf2641caf5803170bfe9a26a0b62a28a74c4c121de74fc7a28ab461f05a5a",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/mem.h": {
+      "sha256": "416f961f338a0cba460494ebfe2527b7cc1fc5c18f489711e66af7dd76b7a223",
+      "original_sha256": "8316ef0f864b4770827dcf2c3045592e4845adcb27da1874a7800db88b0ce638",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/memp.h": {
+      "sha256": "79dfd019219330cf08deb1360483eb7d1da7a1a7a304034ef65ad52feefba1ef",
+      "original_sha256": "b38e28c11735115189a7939a3d2f4544cb78df5787b19609cee5daa4e4c3e044",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/mld6.h": {
+      "sha256": "00c0404c74f162df93ceadc13a49897bc6124f4ae6a9fe251969b45df7f8fe23",
+      "original_sha256": "7b5cbd2562377fd3eea896bff01df0ad57abd02a25a271250f018d16b971102b",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/nd6.h": {
+      "sha256": "79fa57b4bded6763d38f5e4fa56aa2fac8117bf76ffc69869e05357af88951d6",
+      "original_sha256": "a861eb61999a3ddfb1004dc80f99b3bbe623e3e5791a68e2bee238cbe122fe7a",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/netbuf.h": {
+      "sha256": "1aa92014d8919c5073b5123c92881e00b0c507ca485667ccdebbf31afa214ff3",
+      "original_sha256": "aea791762b4a1031f62789bbd05115198424088c20cabcffb001fae76c027ffa",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/netdb.h": {
+      "sha256": "582518497fefd57cd1d227947965c71b1dc16846add471af0fddfbb461c7aca0",
+      "original_sha256": "1df1d70b2a7dd1b340da3b261586eefcfcccecb459a853285fa11dab1dfd2a9d",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/netif.h": {
+      "sha256": "444db5de171ed3de2e4fce0f5794a17a56c93f799ea2d6eaf569564e9809870b",
+      "original_sha256": "78f1ecf6f0c46fd7687b1557fc3702c92be9fc259ebc18a9ba7b08d30f830c7b",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/netifapi.h": {
+      "sha256": "2c087eac81246ac74e3ba2c3922de0612890587f0cca7c1360f379a57ab45518",
+      "original_sha256": "8a1480df68a69277e1700acd5ab0f01f34698e70dd303cee79c4e708ad335109",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/opt.h": {
+      "sha256": "b558de58fcb044315f7119154f1f29b411ea5a55aecfbc052410e3eb7f6b5916",
+      "original_sha256": "b11607c9ce7f92f18ea1c29fee19a44a17aacbac5f0c44cfc377ebc381a0b631",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/pbuf.h": {
+      "sha256": "c2397739f8ce7619cdb655b789c49b5be537b78787666508daabfd50bcb28475",
+      "original_sha256": "0a2ae048ce533e7cdb37ba27b0733efdea7912be2d7fb969bbd43caf9aec35f6",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/raw.h": {
+      "sha256": "4485e6dddc930401193e380852ea7af121339fcc340114ba11b18b1e51c3440b",
+      "original_sha256": "2b42dd60d116f2abf6f97042a940245f6143e41a2dce9c4390df0a65e4c48d4e",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/sio.h": {
+      "sha256": "b6555ae90164d0b66e2772ec3444ebba0133927e4f47b512b570819b66912ce3",
+      "original_sha256": "802ab34c337276de4ec357efefb3b348b6b1f5625a7ab35e942aec30f52bbf70",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/snmp.h": {
+      "sha256": "1f90da65829c29545e9562ce5355d1799ea36cd901ed8ea9faa8e1ef3d7c2ece",
+      "original_sha256": "aec1728717799e41da99e6a9c59c3e3e79a97b6c3f2bbf8e133ea9f544172d67",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/sockets.h": {
+      "sha256": "9f797297950f1d475a5a12b468621aac5894fb1e27439d1aeda4d5e810396ce8",
+      "original_sha256": "2543fbdd3c9ced1467087d1e2026f3caa572cb67ff0ecef30ee6cbade0c04897",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/stats.h": {
+      "sha256": "295e3f2f9be188c05a90c2bb7e57a250a07e5ca7c54bdd31a50309da82cc5874",
+      "original_sha256": "c28d413f0f14569704d3543913a6bcfc2f2b4533b82c2610fa608db904641122",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/sys.h": {
+      "sha256": "0c76dd816d1f256f3ee1e2f9d48ae22e62dba3de178e2f8ba73df7efce2b4302",
+      "original_sha256": "f655e0c06171e369a0d477d0c13d26272ca87f3d8d70cf6004b74e68572f030d",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/tcp.h": {
+      "sha256": "30fe24a5176042850cd083c53b11021838c86d47bb26d550866aa3424c263d47",
+      "original_sha256": "cf30dd72f5711113cf060549bbcbc3e2994fd52d3d3edadfc93f5cb8a7b752b0",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/tcpbase.h": {
+      "sha256": "cc99fcf9a85b548157dc0631922edf5ebac82c431d463683d10bfc584971a42e",
+      "original_sha256": "fab4d27771d36aff230401d9b15ef1385208f205daae9b481cf8018dd6412bc4",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/tcpip.h": {
+      "sha256": "0106c89a8ba1f1cb56019e395d5681bf5a37121885a1b3218e3bf547a1266aa4",
+      "original_sha256": "ecbec4a9f2d1a0c103137bd6674317221f8a3235b827f5ed58ff5cfdfc98f9a8",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/timeouts.h": {
+      "sha256": "a383b43e3ba021d06ff3791d223db46cb3385e8dcdfcec0221ef2a006243c022",
+      "original_sha256": "7bcd208f7250e10539cdb62c599d48444bc6787b5f4bea46bf571a3483aab0eb",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/udp.h": {
+      "sha256": "843a5f8a6c1831396400f71d34089f3a85e8d9791a7fb7b52ac63f070f465c82",
+      "original_sha256": "ba5c540a465b1f60e7772aed0683d5153e5252db3e4ef59e5f8d720c43e75a15",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/netif/bridgeif.h": {
+      "sha256": "39d409d880187e2a7b372ddae2b1cfc004b88a0dd786dbe9070945420b8e42c8",
+      "original_sha256": "117fd9fc361fffb0a9eb35b2f4114c90039e09c90366fa2399428184e7211ea1",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/netif/bridgeif_opts.h": {
+      "sha256": "bc6e5f0677c621a5a8adb315e1cdb06210e1391efea6d308684103fd38edfe66",
+      "original_sha256": "ed95dc1ff51c74b57267ac619351df8bebf534f4cbb24bc5c416ccd924523491",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/netif/etharp.h": {
+      "sha256": "2e1ab81eced65420cdee5940d2e547cae7b0fa70088f452692363676ecfc66dc",
+      "original_sha256": "598f51cc6d1009880bd27d80d5c41ac0a64685b60bd5faff4677515317a8b015",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/netif/ethernet.h": {
+      "sha256": "1dd88263e583593e47f7c891680d67838287160551b8c06562c9feca1ddee443",
+      "original_sha256": "6c45b4855110f01cfb8a449ce195caaffa58652db918689d914e79246cbcae69",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/netif/ieee802154.h": {
+      "sha256": "02f21d8b3e143fa77d8fa3f0d3db9ac1683507436ab441a61d5012ddb6037699",
+      "original_sha256": "e90c1cc2b269a265c2f2320d8e1f062cb2fd1a0da072fb915b52e960e2056b5d",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/netif/lowpan6.h": {
+      "sha256": "538ac2429cedf9193b6538998f3ba5bdd003fbf0840fd03b46d4ad5bcfaa4c20",
+      "original_sha256": "ed5b3401c22e18fd6e23e246b949568c62d8c28d00464e7a4e1f97ff97147f62",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/netif/lowpan6_ble.h": {
+      "sha256": "fdc9f64632ec32ee2a577048d1ae5f64b1ffcb705e8ee505aefdb9232d8af4c9",
+      "original_sha256": "9e2a7bbce1df7f0bae1639be59d6fe9ddd356603d9f6b2660f4289debea6e76a",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/netif/lowpan6_common.h": {
+      "sha256": "eed0a8f45ea6e62ba4238d6bc139a1bef5fe625ec7527b52856fbf885c12f8ba",
+      "original_sha256": "e3d550248cbbc87e330f59c41ec6b612320242e6a4329820caf931accca6f80d",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/netif/lowpan6_opts.h": {
+      "sha256": "8dc0426b3e382cc2d64cd7cb325c77180b9dd5c90508894674a4c6cb25614198",
+      "original_sha256": "a8cd5130120be7367f07faf9ea57681a34e49e01695fb5da73e232f705dcce0a",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/netif/slipif.h": {
+      "sha256": "abd68f98455683a96feeb1d7b2f83aa62acbba23b63d7974bef26382342909e3",
+      "original_sha256": "f9ec40aaca9ab54c04c8e70e8e50d689f22f762cbd57e4e09e5ec1f9fccaed6d",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/netif/zepif.h": {
+      "sha256": "7b3a4c9094483c14eb3c4da651874aca325e3927fde02eb28e226040deef4714",
+      "original_sha256": "2f77f06432565dc13598c3717936d54dd7ebfd8cf66f52920d351dbe7544f4a7",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/compat/posix/netdb.h": {
+      "sha256": "ec3cb99596ef6bf11b39870541bf6607a7cff6011cfef99bf5d53f2abed05948",
+      "original_sha256": "b37dde949b00fd552be550760b62c577c1ba929e349385fdbd4ba010d60d20eb",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/compat/stdc/errno.h": {
+      "sha256": "9fdac7c52c9fe0cfdf50f96eae29c5f341a9afde5a56166d21500c656a8a0728",
+      "original_sha256": "28b90f3f1e14bde8217090f448724b104deea29fc40ab4ed381c677502b36cca",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/compat/posix/arpa/inet.h": {
+      "sha256": "8b3edc25121de40cd1c3338d5d68be93091f0713ee8a23eba9789f14d41e0f6d",
+      "original_sha256": "e92abfec8db381dc33039725a4af8e4525788d85e7db01b8a4b320ecb447c288",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/compat/posix/net/if.h": {
+      "sha256": "959824b6148b88cd19334b2e9a55b0ce3a5e27633e4ef23014d576ece1afbe82",
+      "original_sha256": "b0bef1f9d7e22c359c5d75a107f1af2db0ee5031519c3a32141e458fc9431ccc",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/compat/posix/sys/socket.h": {
+      "sha256": "8b3edc25121de40cd1c3338d5d68be93091f0713ee8a23eba9789f14d41e0f6d",
+      "original_sha256": "e92abfec8db381dc33039725a4af8e4525788d85e7db01b8a4b320ecb447c288",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/apps/altcp_proxyconnect.h": {
+      "sha256": "c4b47d012ce46a6aa25d4038ecfe0844b0f3cdfe40e6234d622de298aa48ab13",
+      "original_sha256": "952a0862cdb42b559708de54020fbaeead92c1223a4fa40c525132a1b8b67447",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/apps/altcp_tls_mbedtls_opts.h": {
+      "sha256": "13e6bb261635895c2c6b300fead1313bda9c84c9328d2df00050d99f3b458713",
+      "original_sha256": "b8946160d0b59c86acff343f42c6209f3666ccf5c1ec5c8de6302cc0512647d4",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/apps/FILES": {
+      "sha256": "1baacff539b72c79be4fb5491be4963f0103557286405b3b4b4dd3396bdb0196",
+      "original_sha256": "44f2aae35c494db094654524395cdda5131fea3eb746ca1f0543b73f16c5b59e",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/apps/fs.h": {
+      "sha256": "78affa57845b484a28a6a42b1165e1ed2d6a0aac6a2ddfcc61aa8b3fdea2a9fd",
+      "original_sha256": "886c3302b306c09051dccb4c3d2929a968943a145929cab421bcbdc8c34a7a14",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/apps/httpd.h": {
+      "sha256": "4a5c1213fe0fd2082a8aed3084f4d282b8c51c3c464d140306cdce0f21c30b9e",
+      "original_sha256": "fcc5f486781dfa18c208d87b311a33927a0ab0a950ef160cab0616b31c3c9571",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/apps/httpd_opts.h": {
+      "sha256": "d48790f7ea3e034f3726ba88d1b0729c195b7f3de98876426c7a7f9d099946b1",
+      "original_sha256": "6272968d5d85310a6c09dfd3e9b30d7f9f544a8a0aea3a2e355fc444c526b5a7",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/apps/http_client.h": {
+      "sha256": "5e8ed15fbb99f6924cffcc82784bcdeb15a7bea19cdd436f588f59be9ed57570",
+      "original_sha256": "cda5c0dc8cb4ad2c8d0f5137000061b0c743922a2088385449dea852e60256ec",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/apps/lwiperf.h": {
+      "sha256": "ac35572131e102c96feffba4bf2788b841f0d162cde1af3d9b7914e11540b9b9",
+      "original_sha256": "11f53b93c6e1c499038e6ee93fbcd81f5af032828c68eab3858e22d3e72c6fa1",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/apps/mdns.h": {
+      "sha256": "b6da4c7c19cb41c992cef008fcb18172013e3c48cc9626d1935f30ce4c3670e6",
+      "original_sha256": "b9508cf6fa2c5d9fb53bfdd33ca526d6e42b68a293e8a4602dedbfafe20f7d0c",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/apps/mdns_opts.h": {
+      "sha256": "fce75c794c78180f5569140a177c450b685662d8e9c8486e6f1cdda9faaeac20",
+      "original_sha256": "dba1c8a7f603941f8496a02ec4f3be161de3d4f362e2ef74bdd47b58fd11d74e",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/apps/mdns_priv.h": {
+      "sha256": "57f3e8cbca3d403e47121621d74f6933ad8e9778d9df7d0a9ea1ee95bddf67fb",
+      "original_sha256": "b88a9caf85e522300c6082f350e4c17abb7507a298a40d38039b83b56b28d1d3",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/apps/mqtt.h": {
+      "sha256": "b8082ebcd0583c7744772f088a8c676d70802da603c436c6e77d032cf5cee9e5",
+      "original_sha256": "edc8c63f6b6f1d9e25ca4dfe2494bd92efed28edc9a8ea64d83a8704e383b13e",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/apps/mqtt_opts.h": {
+      "sha256": "b8bb920a04472488f3fa1371cbb9c934bfead7cc8ba7f06316da4bdb2e354feb",
+      "original_sha256": "0edca5faad96ad17ea6eb4fd54f8c1afd996b006dbc0b80aee92cbe0e8829db5",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/apps/mqtt_priv.h": {
+      "sha256": "e4903b34c12c941650045977e2629d41b1ca8407e48dc28d9ba36382825bb2d9",
+      "original_sha256": "1fa194809a5d265012f9763f1677330e883b16650b0a07837c4d39e88291717d",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/apps/netbiosns.h": {
+      "sha256": "438a8e5cb80794959e0ebb0989a8d0615dc8d2d737fa97c231b10d4040e8f715",
+      "original_sha256": "31977f1265e4711f6e47769e0ae124be2b53aabfb83322186e16e9b3a53070f0",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/apps/netbiosns_opts.h": {
+      "sha256": "c4dcff3906dc65cbe88d4fd6488f24a4eb1659d11fc7ec8cf7eef7eb3599b82c",
+      "original_sha256": "0507f868ef05c02a8641a33c3cd7c64962d13089904898bc087f92a04ca3ab37",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/apps/smtp.h": {
+      "sha256": "61d670c0c914cc4d39f6c9e4661a1ac5e2b3cdfc45bb972b35cbf7ad3ea3d569",
+      "original_sha256": "5e5c3d5819b0b7ec7532a137d9d382ab97ffa3225542c4780cf7769cc49e42b6",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/apps/smtp_opts.h": {
+      "sha256": "fea7b6a8acfbd22add46be89bbad1e42ea4c41b255b21c576c7e519642b02275",
+      "original_sha256": "69c19a1baabb574e362d2811b4b84aed1ea4ad33cc1c554cd7082d0510c77ae2",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/apps/snmp.h": {
+      "sha256": "dfe74dba15aee1f70c9268e981b901ba9985b56104c4d4af778771d7bfaae8c5",
+      "original_sha256": "ad9b66204a5c5077dc4f0d345beb03bad9479d9fd8b2151c3fc399b36c933610",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/apps/snmpv3.h": {
+      "sha256": "7d1be4c7469ae8108d3657433f965c8884e66475178fee2a474fbbf01aee3fe0",
+      "original_sha256": "401436fce49633574fc4f0eb6a497ee61ada25d5737fe2bc6e45a8250c33cc19",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/apps/snmp_core.h": {
+      "sha256": "5f2f6c31d324406c2e3cc69a5d8262cb578065e70320f6dbb4046a9c34dcd8e7",
+      "original_sha256": "19a2df40ee2d97d1e2a48c0e05687e3c0b479c1825f0bff0e7b80509fc445885",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/apps/snmp_mib2.h": {
+      "sha256": "dbc21ede7c6c4ac282b845aaf40961993a94b3ddb80a85e8aea66c9f6c5cae03",
+      "original_sha256": "ce658d05bc3bcc087293474c5e346a91ffa1343dc13a4b5ee0a38f719c22c27b",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/apps/snmp_opts.h": {
+      "sha256": "fcd7d37a9418f6b25fc367ad1252c193a62915099b5bbc9f6693f0526d915bd4",
+      "original_sha256": "d251e809614acabf45753a249748a6c2ec489c06047ad9d288da985bad1a6fdd",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/apps/snmp_scalar.h": {
+      "sha256": "f88ed96f2010bb383af723c50f8e0b93a9a5d566599ef0f35c11102124805c09",
+      "original_sha256": "ad2ed188f5f8c051ddc8de7fbc83ba07f0de270657034c689935ab39f1ba135f",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/apps/snmp_snmpv2_framework.h": {
+      "sha256": "8397074e6d74aceb6430e077537eff4330f6c712d00647a13f2832093a7f9eeb",
+      "original_sha256": "a2bdb4c6f9b9149feca2f8db58969c4749db559e46c80b355c0d7a9194f86b22",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/apps/snmp_snmpv2_usm.h": {
+      "sha256": "ddd777bac19a3f0c6823854f121e52e1c16a9f788540e1f172920b45a01713bc",
+      "original_sha256": "928d28d87406894693a5ef48ead632a5c173d1914c3b681706079326044f9bd2",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/apps/snmp_table.h": {
+      "sha256": "1d0ef0508b2a00f55e6a90c27d484e526a2db5cde41c13b2aafcc6f2c8d7e25b",
+      "original_sha256": "cf1d6d7e260d966910c021b6ce627056c4db971459c463c9ace5d9f2792282bf",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/apps/snmp_threadsync.h": {
+      "sha256": "cca3712f8a796bc481ca8be54c61407f5be5661acc10c95234ba4c31ef6a4996",
+      "original_sha256": "1ae3f3d802b6952ab4dd9a3182bdd2579cc620dcd6195e573f64662f849630d8",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/apps/sntp.h": {
+      "sha256": "6061cc0bc00e976d55d5bde9b098105ff2984e1fa3355cc622f807e5e6e1e1ea",
+      "original_sha256": "60dddc2b39d2d69a16939d7701a88b783c81a95800c35c0383f5e6c9aae0055c",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/apps/sntp_opts.h": {
+      "sha256": "e19e34bbe7f97d3f626b5975d1182771683cec15957b3415d4d674ef9489ada8",
+      "original_sha256": "e52716249fb9104b9e86c59306519ec54c9e6f673e916ca5870b3f90e9dd56c4",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/apps/tftp_opts.h": {
+      "sha256": "bc24f308f5d9b28afdfdcf1bc0e5d3f35a43029adf10325e866f6465b3bcfd10",
+      "original_sha256": "23ff3e76acaa0127fd72ae6165a1e0eae5ae4a7dfaa6a713887ed1ab32e6a3c0",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/apps/tftp_server.h": {
+      "sha256": "9c3a52627aa8ef6980d244017c41d3a2d81ffafbba3cd3c71dfe649ccd953d31",
+      "original_sha256": "4c5492a7f6cec3522d1c14f84d44796eb0655e210159df760dc372c5c6878b68",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/priv/altcp_priv.h": {
+      "sha256": "6ce0af146e7e6777f6cac44c7a90f84a5d8d3b864e1189f6fcffa03302b059e1",
+      "original_sha256": "087fc921f80458348f1b37c6798c0cffb0da5f1fe02f5e416c7c80be774278ff",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/priv/api_msg.h": {
+      "sha256": "e2458063868f0813bc26f41709bbf78d994760e72667b646b88f15e16e235f48",
+      "original_sha256": "9fadb1f2ace864f21042b12cdc2fa92b34800ab35c51e34b0ad9b313d43d5b93",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/priv/memp_priv.h": {
+      "sha256": "37aff2894bbe25f1888e43b96be80f4c1a43a24867c0fc9aceb4093328682937",
+      "original_sha256": "7487d08cc95fd221901c1d9f0b0a8b4d1e5936c0e07c00dd29e51de34464dcb8",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/priv/memp_std.h": {
+      "sha256": "86cdf1d80f2716a07011dc763e5fa614cd2b555382cb7d6750176116def67a0f",
+      "original_sha256": "c8aff2d2323c228353b654d925228bb4a165f4f644c4edea571e5b09a13fa94e",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/priv/mem_priv.h": {
+      "sha256": "c90c9b64c8ea95c05d5b8b10d706acb53b6cc124166e8dd85b397698679f7920",
+      "original_sha256": "3a519997f84a67f35d901dd8f46cb5697cc185d648cc96372e8818878ffd1899",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/priv/nd6_priv.h": {
+      "sha256": "0cd4756c17109d6d01c07ef35cbc527954a1cd926065432a715578590b8dfddb",
+      "original_sha256": "38d7011cf447a3c17a01e8cc3cf33570942134758b5ea174cfeb960733a9bf87",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/priv/raw_priv.h": {
+      "sha256": "0b2b019a55fab8eed89d668f13402778835117fe472464046472cd04b93c2bb2",
+      "original_sha256": "6708f3a65434fda97df55285200200e663e738c5e6d8801e7c3d2c7176234825",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/priv/sockets_priv.h": {
+      "sha256": "bd45590358b1a07481b7ddae7845e0d1c59bcf482ea48d9093638e0d11aafcc3",
+      "original_sha256": "615d33f9194f4f5ccc466235a7a1f22601037b4cde00908fa8ed217399337597",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/priv/tcpip_priv.h": {
+      "sha256": "aeb6e4ed4cb0833ca8007ef35c2dbfa75969bfbb6042df50ad698a7a56b12a16",
+      "original_sha256": "004c30caf653022a252cc03ab20ce3f4dd9456aca14f5619e536f9e279e8e4b5",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/priv/tcp_priv.h": {
+      "sha256": "547929dbf334d846444094ecb363680bf90320b198ac1e49027fda4049c07233",
+      "original_sha256": "d9640fc6a52d1bac014a14787a970c1a58a15afc54656d96c030cdf2e379c86b",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/prot/autoip.h": {
+      "sha256": "9b88bc52c97db0f6c57864b65f423010aaff8d433a4b5d4dc45fb1177a085d03",
+      "original_sha256": "de682c2bfb2586f6cb47859b69a0961347e9a19b0e3f7dce8293a6f9a92be994",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/prot/dhcp.h": {
+      "sha256": "bc74edb6abff7b5182e04e2e588292401ecba3875bb6673156b026a5c391dbc4",
+      "original_sha256": "4601e60d159d4b53a7a41114ce850ca1c2552d5cc4561cdfa2c92049c453e087",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/prot/dhcp6.h": {
+      "sha256": "72c645a6153694229ca535f044af2d1520ebc7860baa98121747218a08c2b74b",
+      "original_sha256": "9e73a416f803125fa3849b0b5c2767a66c4fc7df39abd3ac36df401f673a21f8",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/prot/dns.h": {
+      "sha256": "34049c0f7f489aaec12d0589dc51ecfb24408dba422f605d8deb207c44d02b8f",
+      "original_sha256": "d599862e07d662ffe55d75360afad80043376c35f10dd570060f18d37b095be4",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/prot/etharp.h": {
+      "sha256": "55164c0d047f1279982fef9681491c8811f8482976aff7fab9b63a9a589ded76",
+      "original_sha256": "40b5b4d8c632d89a29e441dbb4798587c7d29b0f129d140738f457a091ea66c7",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/prot/ethernet.h": {
+      "sha256": "42fbc05a563d3ad242663b7d82601bbae6c6d9c16a6da5b35b51a02799206303",
+      "original_sha256": "0f3f302b05ddb9722d3cd7fb3b534c63e3b38637dbc1026e04ea9f6783bd260a",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/prot/iana.h": {
+      "sha256": "745c2d70a5d4839e3df5a34f7e37b83bcc7fe58f39eba1d2f5e238242d74c878",
+      "original_sha256": "32a63eda2e1a9bc5bde36be2fbf26c27bae9541aa86f9da272f9e41badde2194",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/prot/icmp.h": {
+      "sha256": "931d46a3e775efcd6076263e23eb564b612913b7c11f7b5d009e94fefeb20f28",
+      "original_sha256": "57b48109641cd55f5fdec09a05d1378cbe27d276022845bcab0c72c51fa5d24a",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/prot/icmp6.h": {
+      "sha256": "a3fdc254460b9e2c45cbfb1ad2402c055b34b907a09fb5337a0f26e068302074",
+      "original_sha256": "115b21b102c426107dc4561f013db2d2540c93c68aad135ca191f91b367c3b78",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/prot/ieee.h": {
+      "sha256": "3cabc795b2c2e02b4ff44e130497f19b372348598f9ac6d5127ab1888370e187",
+      "original_sha256": "2cc2ea77816f74b5d5c3c0bcbf3d6e87412f97ac4de1b2d13b57205644942e0f",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/prot/igmp.h": {
+      "sha256": "9adb3a0b03feff302b057020aa860fd958f6ef4528225014c104bd4175ebdff7",
+      "original_sha256": "122e5759d7129c79a718188e2730e97926fa3207f1e39f0db7c971fb192464d5",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/prot/ip.h": {
+      "sha256": "eb5371e5ac58467253d813bc58726e317f91abadb10336497de0d64645ec01cd",
+      "original_sha256": "b610c5bb14ec82c6506616a68650d8433d4656c46d87b21b692c704f218852b6",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/prot/ip4.h": {
+      "sha256": "033570c0b7657f5475959f7b74d9e23c6f8e81498495d5b23d8c2eeb0640d7a7",
+      "original_sha256": "cc06f3758b0a62b4081234b78e2d56374b7fe630c56357cee3004582aee1e8c7",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/prot/ip6.h": {
+      "sha256": "c0514e97f153f2e5cf514e6f1f4350fd2cbcb7073ebc05495b436c638bd32109",
+      "original_sha256": "74f7de2571eae0669935929ab922466c6634ccbc7c48874e3618f6ea71a19d1f",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/prot/mld6.h": {
+      "sha256": "9601cee67b48c4b7cadb75caf3d83c05f5409d367341af70af7e7e4f46f173f8",
+      "original_sha256": "adf2f34759e238cc8965235c274d9281c9b082258ef90c4be0b5a0249fc92970",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/prot/nd6.h": {
+      "sha256": "50cff239fdb433defe12f7e35c4f2964e42ad7bfeab15d3b274a59142c4d558e",
+      "original_sha256": "01412a28ce66dc5308745a5db3a25cfdefe752bda0a4af4620b4802278ad8550",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/prot/tcp.h": {
+      "sha256": "db67bb5ea0517a8cd9e30ebf655743f69ce05e77ca6e4a113e8c60e69bd7c48a",
+      "original_sha256": "7d143dd53c5f5f2138f0d5f5464651b2e2b02aa46411757a1825f862be1677c8",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/lwip/prot/udp.h": {
+      "sha256": "b56daa8ff1e8e52cdd4f720297f07af2a96feea254db86768e20e157d7ce2784",
+      "original_sha256": "edeae0cbac3a2f0d0c54b4abaa9d31876ea135b0d7689edb2ef9df58be0bce46",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/netif/ppp/ccp.h": {
+      "sha256": "b6e681ffe6855a6772c6d0a9077f144676c30db0c9ec0ea461e816f7647d6d43",
+      "original_sha256": "9629b99d93e3c7260c88675cc7351441178d5f336e5ba5b971d9d10243a20372",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/netif/ppp/chap-md5.h": {
+      "sha256": "f67cd93664262575ded862c17bac7c1003e2eb690224b89ba2b0cdd221c2f725",
+      "original_sha256": "8bdeecfa0224223dabab2b8e6a5c04651eed5e6c80b979cc7b47f0e44ec2f99f",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/netif/ppp/chap-new.h": {
+      "sha256": "f7bfb4e194fedcd1e6d499320826ecca7f14add5170c8fb7d4832b8e831bc2ac",
+      "original_sha256": "f40a75b954e8479fd2696d187107b3a71ee9e6d2756fc73e979049da7b28d200",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/netif/ppp/chap_ms.h": {
+      "sha256": "77316bd6366248a0d0715e19e231667c1564f3ef081dc3ba839cd673a5d4984e",
+      "original_sha256": "cb2eb95fe76e739049b3a2f3dcd041f1e9f348477d2388724959cf2885de728a",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/netif/ppp/eap.h": {
+      "sha256": "42589e98b4ff8470c0e9a1cecc45fa30e79e2c1c3452fc46e2a88b6ac617dfe8",
+      "original_sha256": "f37bad779511372f8b398df2e459b081e13b761332e33f66bd09b7ee0c42f305",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/netif/ppp/ecp.h": {
+      "sha256": "4936fccc29a900ced5b67906f97f192ea634642b6a003605dc1cb40d65d011f6",
+      "original_sha256": "64f48a5301b09437df9d9270d59c1140cf32166b274e582f510aeff405d2222b",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/netif/ppp/eui64.h": {
+      "sha256": "fc79081c31fd7333b0e2b3cf61c870727a3b066d82482c894b02c81cdbf464c7",
+      "original_sha256": "a7715aa16680379dfc62703112da1ca345e3bd219c1079ed2c0956f570c92070",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/netif/ppp/fsm.h": {
+      "sha256": "8751104f5cdeb3ace720744016431ee2d704983e8a94de7add0830e63dfdef0e",
+      "original_sha256": "3ee20821e270bee0ec4c807a03dc7fc0c395110122142310426d229a6735277a",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/netif/ppp/ipcp.h": {
+      "sha256": "60bb47d15951954c865393be49b64f6daecc966f7146aeee187530a111d9008a",
+      "original_sha256": "9100fe618f34fc2b9c31f462a36bdab00bdee3ab9bc0b1caba0a6f544b7eaa0e",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/netif/ppp/ipv6cp.h": {
+      "sha256": "69de1cc233f9ec05312a6cd4d5b558d91d04e39626ad6f9e0fbc4ee61a5709d0",
+      "original_sha256": "90a2b6e529467b24fb8b5c41cea5d20af5568ff535a6d40e6febd0a0918fee3d",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/netif/ppp/lcp.h": {
+      "sha256": "0278457347c50aeaa4636124d0265fb8064511f461de2b3ff7fa51e3dacb0345",
+      "original_sha256": "bea16cac731fb7f0199269e30bbce0c896b2b680c966cef77b0ef6a27112d14f",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/netif/ppp/magic.h": {
+      "sha256": "b19a254f135449982830685df31b948e0d5c7e44ac5875efc8d1a3ef20a3aff7",
+      "original_sha256": "beb0d8c439f39d60af91429b6dd57b385860204b16910c653edd91df43986565",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/netif/ppp/mppe.h": {
+      "sha256": "8dd28c994f67ca45b11586ecc195fabedd5d51efa0bd99872336d82886477c9f",
+      "original_sha256": "0dec116fbded31193275e5abc99d767278fe4dab35a25e2d77d71c9d9d035a0b",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/netif/ppp/ppp.h": {
+      "sha256": "58175d5f9fda4d88bdaab4f1da12da692dd9e732ee0c51d94319b3461edd01c2",
+      "original_sha256": "3cea7154b66723c50abe749bda12821e0a95113dc23da08a13a95b603d1cc309",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/netif/ppp/pppapi.h": {
+      "sha256": "f1520293792605ad0f0c78c93a5907d478affbebea8d6be1b0f8a8bdc9c4b427",
+      "original_sha256": "63e8e37916f98c91fc8dd20460728fb571525e2310410c323810929f408746c8",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/netif/ppp/pppcrypt.h": {
+      "sha256": "954943c6c1286c707c0f1182428eb514dc8cf87a704a4e8f26a926553f260d58",
+      "original_sha256": "30b8d0e40bd366992a27800cb5139f5e116d7f346ae003cf945aac842d0a19db",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/netif/ppp/pppdebug.h": {
+      "sha256": "fab025981023c13721fac50978c5416ce2c9a0f40db200ef78ce4cd36d3b9b63",
+      "original_sha256": "8e1a9f01928b9c44ae283a2ae673fb80274c87edd471f8ec250bab8143722764",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/netif/ppp/pppoe.h": {
+      "sha256": "fb57591c5679950f4af58b17427271aa3554b9f8e49cc59d913f79de0bf07363",
+      "original_sha256": "8b79cedaaf8d9138d0850cf18ec089db401b55c110eb628e4671505257b530e8",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/netif/ppp/pppol2tp.h": {
+      "sha256": "ae9a819aaf816ae4ff25c35bddaf7c10654a54b95451b247fd5d2824229d3cf7",
+      "original_sha256": "e589e31b31bb3c8948e52f3a271ea72db8f56e5c24fb1a6ea1ca7e1c98c7c885",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/netif/ppp/pppos.h": {
+      "sha256": "c225fffa8f85bc170992cef05d8d7350c86d2b3ae3d55951d71e35c9fcc2390d",
+      "original_sha256": "49e4472c077ae8f8b95a74d650f24567ad06a90e747b30c0ce0b4d9943764d4b",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/netif/ppp/ppp_impl.h": {
+      "sha256": "9a216f46049edfb333551cb4e7213ad537b0570c3211f0029b32bcd0c39cf62e",
+      "original_sha256": "c80ed8b4954bf86fd010253422086abe352ce35e52c556dfdd1056ef32e2271a",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/netif/ppp/ppp_opts.h": {
+      "sha256": "ea99faa10a07d3e414696465ca06ba420c585cb9a683e20e8f3f24f80e03fe5c",
+      "original_sha256": "6fd8d181d2df7385508d0027f7167f379b8219348ff2cce635602fd75efb7594",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/netif/ppp/upap.h": {
+      "sha256": "7cf555545ed20e7d7897ed935c6333e77d629b1862e4e2136df87ebebfcb3907",
+      "original_sha256": "52957fc1be26b98088b0cab3435772af73de1277b3b94f5099cbd529ae4a151b",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/netif/ppp/vj.h": {
+      "sha256": "d6c9da89224974d8486dfa0082ecca0d487715df65a37088db55e7e51c745a14",
+      "original_sha256": "c9fbf250bf8ddc996a23f9d5c4556ba6e94dda9d228d1c691f50424095ef19a2",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/netif/ppp/polarssl/arc4.h": {
+      "sha256": "970bc9075bf7aef36f4a225ba8a3dcb89c16a1948016f3521ca4a7609b7ba284",
+      "original_sha256": "0404bdb5bfa7b1ec28ccd1d62f2bce38b980c49659abca75f10779cbdd6ebd9a",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/netif/ppp/polarssl/des.h": {
+      "sha256": "f0a3ea812ead16f7d8fba08115429b5bd7deed1d9ffc6dddf66ec44b1d95ef0a",
+      "original_sha256": "deb872305c3e0e097ac508706b6d158d8409c5075f0520620577e442b1f9db56",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/netif/ppp/polarssl/md4.h": {
+      "sha256": "d1982ff627c1176d03c60fa8ae307af09626a2655e08525a146019276edb9058",
+      "original_sha256": "5c1fc263e83327de7bcc897287efde528f0f4bb786dafe31ae2ec5b454d0aac4",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/netif/ppp/polarssl/md5.h": {
+      "sha256": "1962ff0d88f8a7efbb6c8592eb13154129cfc7012c8cc22be7981df35e3c8ba4",
+      "original_sha256": "c8eca46bcdcb4745d5dcfdb6d73bf4efe9f74bd567abee46bf0217297133995b",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/include/netif/ppp/polarssl/sha1.h": {
+      "sha256": "2951ad6ae5b5797112ae1899cd814536c445334bf59cbd91bf5414db0613980d",
+      "original_sha256": "2800e8b2bdb15cfaaf3c2afeef947cec10b2ba78b7fced3fc5371b7b8c2311a8",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/netif/ppp/auth.c": {
+      "sha256": "fe2afed36bdba441463e4e5211395614e9d7685eb1760d5d84137baf58a42dc7",
+      "original_sha256": "251edfe9046711edcde7d0e68defba29dba0a496a9c773a79410c85d26518fe1",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/netif/ppp/ccp.c": {
+      "sha256": "88165e63b1a7b6c56f4e952544a2375c6033ac4c2e0ec4779d145322d951ee94",
+      "original_sha256": "b02e17d2330ddcc83ab072e3c077af9d3efdf33c4c1c2aa4fb486fb1affe8a52",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/netif/ppp/chap-md5.c": {
+      "sha256": "9f099cddf6fa7931b962fda6dc1d1df5eecf8c94881eda29a63d1abafe317ec2",
+      "original_sha256": "9de2c2f1576ac901dd0727974af4e7156770aaaa59fc71f0f28c2ee2521ed3b9",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/netif/ppp/chap-new.c": {
+      "sha256": "658070df33b3242b150efce6059a9998c15f5f9192ae06b4cd5e7cffa55384a8",
+      "original_sha256": "0ae944cc06f25a749200d924fced14ee1c20e3cfab5e6a6c3f2384fcabd16a93",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/netif/ppp/chap_ms.c": {
+      "sha256": "d3940e2add91c8a721b32f1e04bbc88add012d7146dda03744608f31ba6666ec",
+      "original_sha256": "fcb97f4cc4141b2eb6bced3f5de318a52a3728af8ed3240dae3124a8c745e585",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/netif/ppp/demand.c": {
+      "sha256": "b07dc6e971fffe70cd73f4ff6733655989e34dbee3fc6c2dfa164fadb6578975",
+      "original_sha256": "f9f75a1bf2a6f597e9b9c8d4f29b290f1080116da2f90db09e13df08890be8b7",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/netif/ppp/eap.c": {
+      "sha256": "74d26511e05f8b39b4b5fa04722da2bb620e661ec630a5c8d7cc433b5bef702a",
+      "original_sha256": "953667320baa64d10dbaf22a17ecdd63be84547b9080d27eb7153511125981d5",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/netif/ppp/ecp.c": {
+      "sha256": "b6736696754a289ea5464f7386d05790365b873c0ed0123692bebc4ebb18e6eb",
+      "original_sha256": "c7fa5c71a4f10998c99ca285e8e4bc5dd7d2fbf447459d2f8b089b0b5ad41c20",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/netif/ppp/eui64.c": {
+      "sha256": "531be9bfa9c33e0abc4452b976ca4ab60f8f0ecc92d9af91121551250810cd4b",
+      "original_sha256": "0e8e53a1e5e01d52f158cb950fee4c5d4ac74235eedb599b964cd0d7d4d29ac7",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/netif/ppp/fsm.c": {
+      "sha256": "fe71b4b142a07c13ef69ff3e344ee3508b44c0471a62c47ec6ec585f250fc940",
+      "original_sha256": "b1cd85297fbb2067d0806c3421a897883871a496e3ca726d580991f38e2f25c5",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/netif/ppp/ipcp.c": {
+      "sha256": "9ea7ec074416030a39589392d62adc451ab2c78c61c506cec7674436f085fa90",
+      "original_sha256": "4f04f3c0fb17c098807bae592e9d0040e968125aa70d8aecfacf49f7efbcda73",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/netif/ppp/ipv6cp.c": {
+      "sha256": "707b3687113f9e8fdf4230a1a750be60aa05deb081e0ece81317cd49b718831f",
+      "original_sha256": "0c4181ec5229044b126c7e75b7ec87ed193ddeedd98e04fcd11901b48fde6300",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/netif/ppp/lcp.c": {
+      "sha256": "dc39acf562d7df70fb1eac8d7f8218dfb9d592498638325e9fcd4d206f97eb06",
+      "original_sha256": "572deafdc4f57ecd641bd8716a89f3301effe426eb59bca275d97239c9b32b6c",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/netif/ppp/magic.c": {
+      "sha256": "aad196f6945d3b80b158b5011d4eb216a3e1766b73abcd9c19728bb8b8e3e3bb",
+      "original_sha256": "cc742ad7e0ab90fb1acb4e949d7eb0052b58f08ba85bf734000114f85e8139e4",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/netif/ppp/mppe.c": {
+      "sha256": "f209f08e59f0e9ed5d4b736a7534e6c0df726b2d14cac07dee311017fa2a0a41",
+      "original_sha256": "4573055968e2755babf0c5727390762a1795e4305cbb59a6eb3c1a28905fc23a",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/netif/ppp/multilink.c": {
+      "sha256": "78920d813d0b638e287e5f15527886cfd53d5ea9a61cb6b325b6f8b3841e4bc5",
+      "original_sha256": "43ad9ec9809cc2adc2c2500ef0b7eb8231c97f9f02d06aa2943aeb7f27afd3d8",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/netif/ppp/ppp.c": {
+      "sha256": "b2aeb0085cbe3cfb8b35ce9d357122701abae651c103a655ac77005d0db1244f",
+      "original_sha256": "60e82befd93d7c1496bf159fe118562647c30b26b40f96fed4ffda24a1fe9067",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/netif/ppp/pppapi.c": {
+      "sha256": "269bade48fe467119d59b3c33f8f42423c1b162d9e4cdb4c4da36bd87bcbd246",
+      "original_sha256": "2e860b832e1f2a1d590b4e867c8ebd756c36bd5d7002325799c74d61fc5a9c85",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/netif/ppp/pppcrypt.c": {
+      "sha256": "02b12e7626078be9591237fe84ae000514a2cfd6f0653c890b7b75ce20cada8b",
+      "original_sha256": "e572da7dd70c6070cc2811e0422d0de3fcfad399e34884cc7bd0ac3e35dbfd3d",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/netif/ppp/PPPD_FOLLOWUP": {
+      "sha256": "d4e0485a2936de3201dca8dc10068534fff399f8eadbd31684f36babc4b094b7",
+      "original_sha256": "3f03a85f5627a9d918970d7ad33ee96cecfbc7066f59e60f2ed925af06dd24c4",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/netif/ppp/pppoe.c": {
+      "sha256": "7d658e3a24ed904c9ad9d393eb890f31326ae1fe8411ad7a036a0550e635fdbe",
+      "original_sha256": "9244e3b5ae3e03c488fbf409cb13647bf3218180be9c789b9c388fba66389bdb",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/netif/ppp/pppol2tp.c": {
+      "sha256": "18e83285eedf633c840db6a55077ce2cc902f19ab143c323c659c85ad25b8695",
+      "original_sha256": "91614c5e7f17503239bee588af23de95b850a3fc3c200aa16fb600e0b13f47f0",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/netif/ppp/pppos.c": {
+      "sha256": "aff653829d77edb3e2ee197f1e4b3ff5e392e2f8e81a09a366576ab77a627e0d",
+      "original_sha256": "77fbac39b1f48d3ce9087dea3b1b2749c504f4a7931b73967289e00e5178b8e0",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/netif/ppp/upap.c": {
+      "sha256": "6944042740a916f6375d57437803e65839efbc901ebbb6cddc42c0a22c1eb33e",
+      "original_sha256": "0cef0b678506c199f529dac1a027c8a06bcd63bb3495f69e123cfff39d0bd0da",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/netif/ppp/utils.c": {
+      "sha256": "fbc12cf311073c72d872ad5b382133c69144100b720c222e5331031ab30b6cec",
+      "original_sha256": "daf8f85ca0d3da1826e2bfbca39e7dbc6fff50a0cfe62c3a165c8c31cea68a3b",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/netif/ppp/vj.c": {
+      "sha256": "f70c1ac07ddaacf59f6b7ad28b1b657d645c5357ad8c4a7c449157d186fabefa",
+      "original_sha256": "9782866aa605ebec4b41a0817922a43bbf511c38bf785f4f276030ad15f12fd8",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/netif/ppp/polarssl/arc4.c": {
+      "sha256": "7d844ec4f6e88a788e17419d4525a07611851fe793e0bb52c7e24a1db5d2d6df",
+      "original_sha256": "5c44af9dedba0d2b710841bf19d39074d9a2c80c3dab3e771107eb37559a1c2f",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/netif/ppp/polarssl/des.c": {
+      "sha256": "4b2c48659036ad89adb2d08a2b54dc30fba73759a6a5ce810e9c794f7b4aacf4",
+      "original_sha256": "1acf2cef48c441a79158da33688c32ea63a19bce303c60309e694ab29ff3b842",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/netif/ppp/polarssl/md4.c": {
+      "sha256": "9110b56e9b926edf560933b76d1bb1ca7e9532134773ddcb04bbd57db646e209",
+      "original_sha256": "7df9017870b595e65bc8633f6eb46189d3c974d33b5c81017f3ad3d6dac8d612",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/netif/ppp/polarssl/md5.c": {
+      "sha256": "9bd07f764f9104538474c69838de131538f0a500952b8b24f32b758e23d91b4d",
+      "original_sha256": "0186e89d32c5e9a98db5322b884055991414b766c9e83a5a0fa33a19e8213d4d",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/netif/ppp/polarssl/README": {
+      "sha256": "242dd0f7c45dd7fafc37e2caa4b1e0609e1cd9a61512d7772d58c41f7a7e7c95",
+      "original_sha256": "83641d9f3a8fdd4f12502c3359ef5996dfb2551df45394f838eb71b6d49f478f",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/netif/ppp/polarssl/sha1.c": {
+      "sha256": "844114b4c45f689aaef64df2bf8b445e6dcea9c52bb4cb485c18d0fb68e04d5b",
+      "original_sha256": "70f66c0770bb141317e1bf7aa4e90660a32afe368c1a677215f05ceef2eb01cd",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/user/arch/cc.h": {
+      "sha256": "ca361796a4e85f9bb4217a4014ccb06fc2c4496e0992910eb16ce2804ddf0f2e",
+      "original_sha256": "94f92a0541df79a9f091bf169b8165d2f5328d989ba59bd5e14e3777f9e8f4c9",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/user/arch/ethernetif.c": {
+      "sha256": "b04ccd3ec1965de10dab65c8a7faeb1008ea72bf78e7527a9c88120fda174ea4",
+      "original_sha256": "d1913048f8f22b25aa4e71186801c9d71fc885a28922dc8eba0544de9beffe57",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/user/arch/ethernetif.h": {
+      "sha256": "2425417a1973dd9af8b15caff0718f6fe6b4e721de83b6e6023318a6bb089b0c",
+      "original_sha256": "6bf2c8b2287435f81d28fe5cd3159c7841fbf136adc49a104ccdd8309a4790d7",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/app/lwip/user/arch/lwipopts.h": {
+      "sha256": "579d6e8023c490d405d36235dd38f31bf44b0ecf030e28cb5824ac30ba501104",
+      "original_sha256": "4c894046c03cdf2f1d89f28eb2a329e2ba171a8728698072f1497d3858da1be5",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/software/standalone/common/bsp.mk": {
+      "sha256": "148fda2661a3f91ac9601b28b321619b6b11cd89e6a0db6ea270ffa11588d78e",
+      "original_sha256": "54d47bdc6372f5e2e022af87dae90e3410fc68940ed0d3d8874870725833d707",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/software/standalone/common/riscv64-unknown-elf.mk": {
+      "sha256": "7a8fb3902f4b532374370a1225c9ac33afa0484fe3b966dcc0bd8d97c6436159",
+      "original_sha256": "776435752f4203dd575d5e09eaf8190cbbfdc9126f24b33e78543b09292d0521",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/software/standalone/common/smpFunc.S": {
+      "sha256": "8599a524a2827a1f3f2ae7a8af83036f0dc9520082b5910215efa7a7142df0fc",
+      "original_sha256": "39bdef6368c2438bfec53e2e208f53ba56fe1b56e99a01822a67941a716cee80",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/software/standalone/common/smpInit.S": {
+      "sha256": "c92426b3d3a19756a726966a23a517ba799b2ce55f015bd208c5944c9a59f856",
+      "original_sha256": "99e57a3c0d235fe430da4bc93b75228d94658a3b42af248bf40553448dbbced1",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/software/standalone/common/standalone.mk": {
+      "sha256": "eef4377b462f2e596cbe6b76a1c46855350c977b5eafb85437434989ac05500e",
+      "original_sha256": "05600b2cbe0fb0b9f2877123edeb237956536b144f9f49df21e5139f74c9747b",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/software/standalone/common/start.S": {
+      "sha256": "4e3f410df3f18ce659f770c2450134187f5fc7407171039947ce10b4a633fa4a",
+      "original_sha256": "1f766009dfadd1b2b7808433054e211cd78ff14ec1054af85a8a61b6b413b462",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/software/standalone/common/start_int.S": {
+      "sha256": "bb90f9a63d54f984dde56499cba4824ec5e40302f064799f81db1da22792b58c",
+      "original_sha256": "44a8891bcec0a8f4a6f3e6230fe1812c094817c13db9c4607cef6a980dcf48f4",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/software/standalone/common/tinyml_lib.a": {
+      "sha256": "3aa3093e0efee3a18a6c82e341da6baaa52ae8e88c2a1dfc01d762220a50fb1e",
+      "original_sha256": "3aa3093e0efee3a18a6c82e341da6baaa52ae8e88c2a1dfc01d762220a50fb1e",
+      "normalization": "raw"
+    },
+    "fusion/demo_multimodal/software/standalone/common/tinyml_standalone.mk": {
+      "sha256": "c9621373c0d22cfb333b50164a1783d08d25a93c8e8846adb901ed570146a6e9",
+      "original_sha256": "c9621373c0d22cfb333b50164a1783d08d25a93c8e8846adb901ed570146a6e9",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/software/standalone/common/trap.S": {
+      "sha256": "abf6fb770fe885348b86564a06ab7ea7ddef1519109f39ef99447bc7eda085e9",
+      "original_sha256": "20affa68e66b099aa688884b13c182a49fd7f5be7df9b9ed80799c2a95d5f8e9",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/software/standalone/driver/apb3_cl.h": {
+      "sha256": "e587b1ae0d9e89de3dbc9321d70c24c5b6b05bf339ec98a695ca4bb5554479f3",
+      "original_sha256": "8ded59fed15d56b5b90fac52efbbabffead86ba4d220b3c553e8183f560eb7e6",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/software/standalone/driver/clint.h": {
+      "sha256": "f71b4df0a8bccd920e866f35348a3672241f77b88ad09414e8f53c0553657dca",
+      "original_sha256": "06f30d6e325b5517b7fa15c8f773e50875a64247dc7642eca558d27098893778",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/software/standalone/driver/dmasg.h": {
+      "sha256": "4b41634ccb1c23aec5ff76aac6066e2a636ffa9378fb5ab0c0ae0b5f0a903d3f",
+      "original_sha256": "a3ee4aae0457fd2148239ed73b4d4ecfb981ce181d4d9d303ab6c4ea015554e1",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/software/standalone/driver/efx_mmc_driver.h": {
+      "sha256": "2dfa3b679e85d6913fc138a269210e1c0a2239309330d9e0115f72a9c0cc2ad8",
+      "original_sha256": "9a1c1bfda176a40b6d6907b0f86faa61873821e6704b500c9cc09f4a6c7bf1a6",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/software/standalone/driver/efx_tse_mac.h": {
+      "sha256": "2f2937b49980536f6f0d15ee40befb175faf3a638f7b06cd0ce64e33143dab1f",
+      "original_sha256": "5c73f70012dd98738b7c1326c87474fca6cd021f4c1ce96f63424d137e685764",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/software/standalone/driver/efx_tse_phy.h": {
+      "sha256": "81cd546692bd2b99277a55c2482c7a8377e3ae7f1509bf6fbb6753a54df08b95",
+      "original_sha256": "b558b33d4783acc0fbfa4e8722641775c7c705f70221e4e366f4ef266c09187d",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/software/standalone/driver/gpio.h": {
+      "sha256": "b917970e0602a82cfcca02ce2b0c114a5045adcb89e741ec3a7394bb28ef2e1a",
+      "original_sha256": "1e65d1734b2a599a42d6b598f199e08931a61257b10e67ee9c727eb42a747966",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/software/standalone/driver/i2c.h": {
+      "sha256": "d3487e12083f2eb27bb3a5486caeb821bef605e9c4f50c5ee5c00ff8726ffc04",
+      "original_sha256": "2ca39066d49a0bd10f7f494af42fc23b3d945e02b9e82f70c91b83bd4a7fdb1a",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/software/standalone/driver/io.h": {
+      "sha256": "94510cd3cac3b1718352f0c4f46e64092e97e9e6ed252a521193621e57d40b2e",
+      "original_sha256": "bd98eab95892eae1c08636c678041c3bbc814cc6b33bbf2944c20ab91f311ffa",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/software/standalone/driver/mmc.h": {
+      "sha256": "cbff95dfed4215e17d74d7a2259e7370aec10231b52fe9a2c489cbd8d67111e7",
+      "original_sha256": "b2c357819448e66ed6bba7d1e2ce7f01b750d9e9724916f4c37920aa6b9823d5",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/software/standalone/driver/plic.h": {
+      "sha256": "e65d41a4d568a28910cc13e419856bb0897fcd1a05620c01ed0ed8cecf307c8f",
+      "original_sha256": "633d178f738d624a0805f914d115d4bedaf575abd06d3566115622c2e3e51929",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/software/standalone/driver/prescaler.h": {
+      "sha256": "f2c02e900de29c6569dad7d02a217dcb2936dde3935fcb76adb1de7a8311ec17",
+      "original_sha256": "01292631801959e4655aa9bd444ec15c22f6b9d95fed3cef0c025dcf3847cdd4",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/software/standalone/driver/riscv.h": {
+      "sha256": "502b36aca37604e9668f5ceb27e2bb325d29a35f97d94c12be3c98f6443690d7",
+      "original_sha256": "1a61e6299e3fbdf6ac45f902734e0d2dff33e282439a7ef21763adf4629b3ba6",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/software/standalone/driver/spi.h": {
+      "sha256": "19675957ff603ce2fdfc06803a4ca4d9735b299070efbaf10bacfcaf45422071",
+      "original_sha256": "492284ce4550d56b15f98239d2f4059655742805cf24e640068e91b26d074145",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/software/standalone/driver/spiFlash.h": {
+      "sha256": "f4e76f9c944f8396d3a0d9d1ccadf1c8fbe0ca026ded6e124a7b1cc61b6c8ca6",
+      "original_sha256": "5eb26a7c6f8c65cb15ce46f74d466b0209e3bdbca7eb3c10bac16b91cba08c95",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/software/standalone/driver/start.h": {
+      "sha256": "1bd048c474b99d561a910666ca82f443d34b92adfcd39e47d17b43cdc9ce1321",
+      "original_sha256": "16ac55c6b56b86d9bbed092e4f8423e61b8f7b208501ab9204647ba91dd713ea",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/software/standalone/driver/timer.h": {
+      "sha256": "41310cefabab0c80bc31240d938a57645e8ba14c06e1e4c10af89c8a9406ef36",
+      "original_sha256": "797dd07eb06e32f8b205ae6e4273399623fbb6f88daecb69045fc0dd690e2cb0",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/software/standalone/driver/type.h": {
+      "sha256": "1b2f5e9b063066cacd181e0feaf734d9869d93b1690423b57c5c7e21c7cbf8b4",
+      "original_sha256": "a36b9e0c9cf99f1470832102e16aae53e44ebb0f4bd4279c68d329ffbe3a87bb",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/software/standalone/driver/uart.h": {
+      "sha256": "0193813a660fd5b009eac13a4092afc5aaabae101d6960d352ac0296d50bf5ad",
+      "original_sha256": "f33226e95f2fc4f4ad746f2a4d5d6466cd37a8481d70d0d3bb2a3ead6286a564",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/software/standalone/driver/vexriscv.h": {
+      "sha256": "37c5cfc441357d58b62f38c29b2e5c000224ae3aba00df68b6598663bf822b7a",
+      "original_sha256": "e2cfa34325a44f3fc84dc208d94beafe5693f0ad8eb2e5fc1a2abbbee6fa95fa",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/software/standalone/tinyml_pdti8/src/baremetal_cxx_abi.cc": {
+      "sha256": "d9b0cf3562004720adcf342f59a76dbe23366a1a95712b22f70d65012594b166",
+      "original_sha256": "d9b0cf3562004720adcf342f59a76dbe23366a1a95712b22f70d65012594b166",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/software/standalone/tinyml_pdti8/src/camera_auto.h": {
+      "sha256": "7bf9eea79cf937404479292640906fc6d0a1ce0d4ef55bf9c54a622d994ee19e",
+      "original_sha256": "7bf9eea79cf937404479292640906fc6d0a1ce0d4ef55bf9c54a622d994ee19e",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/software/standalone/tinyml_pdti8/src/camera_control.h": {
+      "sha256": "299da454135d8a2a7cad95922ec580eb30b8f9f2abd67d16371657c266baf504",
+      "original_sha256": "299da454135d8a2a7cad95922ec580eb30b8f9f2abd67d16371657c266baf504",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/software/standalone/tinyml_pdti8/src/main.cc": {
+      "sha256": "d97c36a7408490b824f647be8a4423f649ba878b9f5389a7cc575f959c130cfe",
+      "original_sha256": "ef2460761f965520275a995d286f5d484d50c10d5fb744cc093f2ed8df66109a",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/software/standalone/tinyml_pdti8/src/MLX90640_API.cpp": {
+      "sha256": "7e67425429f30ba0062a8a0db9659832df540cd0bc5cd4c6ef6de76e3e612efb",
+      "original_sha256": "c77162024123c5b637cb86487698b8e6f3833c39b72151e4695114a1045805ee",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/software/standalone/tinyml_pdti8/src/MLX90640_API.h": {
+      "sha256": "9b7486e46c1fdccffdd09d168821123fe2b5c7c5ca739fc706786a2f604bfaba",
+      "original_sha256": "0958bb0f44dd19e5db90d96b3d2d06a9afd659b37e6bd87e0208815b673bb6f6",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/software/standalone/tinyml_pdti8/src/MLX90640_I2C_Driver.h": {
+      "sha256": "b6487bb33a7c26cac7b9897cd9f233a3796f27b031277896d5f99d53331752f8",
+      "original_sha256": "9def89b1b656850a11fc24f8e1b93b33e0237ec969e44870b30d41bad19d79d3",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/software/standalone/tinyml_pdti8/src/thermal_display.h": {
+      "sha256": "dc228367b4b37477c808dc161d11cefa269e6779ad1fee060605b21a913effe8",
+      "original_sha256": "dc228367b4b37477c808dc161d11cefa269e6779ad1fee060605b21a913effe8",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/software/standalone/tinyml_pdti8/src/platform/interrupt/intc.c": {
+      "sha256": "206ad2aa544d396daae80f5ed1e332e14a9b10df94bbee7ac41fc590a241a4cb",
+      "original_sha256": "206ad2aa544d396daae80f5ed1e332e14a9b10df94bbee7ac41fc590a241a4cb",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/software/standalone/tinyml_pdti8/src/platform/interrupt/intc.h": {
+      "sha256": "20bbf90665100a7fbb03c1e89feada8eb737287a97eb2751982a7b16585e23ba",
+      "original_sha256": "20bbf90665100a7fbb03c1e89feada8eb737287a97eb2751982a7b16585e23ba",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/software/standalone/tinyml_pdti8/src/platform/tinyml/profiler.h": {
+      "sha256": "a3ed1c29d2380e87f18c001c6c60df86a650b7449ff869da4a23f9a5cbd98d5f",
+      "original_sha256": "7752979c6a1c06cac2779a20830d6aeb7e7497965c61d494fe86260d47b78504",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/software/standalone/tinyml_pdti8/src/platform/tinyml/tinyml.h": {
+      "sha256": "8aab731afc4cecc7dbf8dea001a18657fefbe52f126611fbfbf1d325dbc7e02b",
+      "original_sha256": "8aab731afc4cecc7dbf8dea001a18657fefbe52f126611fbfbf1d325dbc7e02b",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/software/standalone/tinyml_pdti8/src/platform/tinyml/ops/add.h": {
+      "sha256": "9e99bb6c4ac828f3e2a5531cbbf18941f7e40293d77f71e6e1c7edba8ba759c5",
+      "original_sha256": "9e99bb6c4ac828f3e2a5531cbbf18941f7e40293d77f71e6e1c7edba8ba759c5",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/software/standalone/tinyml_pdti8/src/platform/tinyml/ops/conv.h": {
+      "sha256": "b1de1b3de0fda84f1b6a55b731901120b9152c2d844ef195afe6229439de72f2",
+      "original_sha256": "b1de1b3de0fda84f1b6a55b731901120b9152c2d844ef195afe6229439de72f2",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/software/standalone/tinyml_pdti8/src/platform/tinyml/ops/depthwise.h": {
+      "sha256": "226804b54807d419abb88d7cf462893eaf037cdd54614eb04c492277bb3763bb",
+      "original_sha256": "226804b54807d419abb88d7cf462893eaf037cdd54614eb04c492277bb3763bb",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/software/standalone/tinyml_pdti8/src/platform/tinyml/ops/fully_connected.h": {
+      "sha256": "55b3f42b9a9e715b5cf06809719f74984d2142222592b0e6b847ec8aecda227c",
+      "original_sha256": "55b3f42b9a9e715b5cf06809719f74984d2142222592b0e6b847ec8aecda227c",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/software/standalone/tinyml_pdti8/src/platform/tinyml/ops/lr.h": {
+      "sha256": "ab7b644bbb2a66a1052daf00a106825c494dacc60b8998c97108eb7566241e15",
+      "original_sha256": "ac4648b3455d6def535cdce0b1e8137a0a5007c176f1e943898fc233be61aa40",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/software/standalone/tinyml_pdti8/src/platform/tinyml/ops/maxmin.h": {
+      "sha256": "1ee94a8f7b78cddb6c62f329d76b2ed08a81262ff718258af8e46e77874e5291",
+      "original_sha256": "1ee94a8f7b78cddb6c62f329d76b2ed08a81262ff718258af8e46e77874e5291",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/software/standalone/tinyml_pdti8/src/platform/tinyml/ops/mul.h": {
+      "sha256": "70552442b83db0625360225fd728a69940f80ebd65f444fabdabcae5866a0447",
+      "original_sha256": "70552442b83db0625360225fd728a69940f80ebd65f444fabdabcae5866a0447",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/software/standalone/tinyml_pdti8/src/platform/tinyml/ops/ops_api.h": {
+      "sha256": "a9c77df7269a573fa650b0da59ad8d8551d03a1c3813b17b05052608a4a751e2",
+      "original_sha256": "a9c77df7269a573fa650b0da59ad8d8551d03a1c3813b17b05052608a4a751e2",
+      "normalization": "lf"
+    },
+    "fusion/demo_multimodal/software/standalone/tinyml_pdti8/Makefile": {
+      "sha256": "b7978a4bfd48d25bcece4098b374a3a33a4184a3fcd0e3e1cbf52fbfb4e745f2",
+      "original_sha256": "9b6b61bf51aa3d3123a4dc7e838e3fafa7edb3a80ffa1a4215cf6f238b9d6636",
+      "normalization": "lf"
+    }
+  },
+  "omitted_ignored_files": [
+    "fusion/demo_multimodal/bsp/efinix/EfxSapphireSoc/linker/.default.ld.un~",
+    "fusion/ti60_multimodal/ip/csi_rx_controller/Testbench/TI60_MIPI_csi_rx_modelsim (1).do",
+    "fusion/ti60_multimodal/ip/csi_rx_controller/Testbench/TI60_MIPI_csi_rx_modelsim.do",
+    "fusion/ti60_multimodal/ip/csi_rx_controller/Testbench/TI60_MIPI_csi_tb (1).sv",
+    "fusion/ti60_multimodal/ip/csi_rx_controller/Testbench/TI60_MIPI_csi_tb.sv",
+    "fusion/ti60_multimodal/ip/csi_rx_controller/Testbench/csi_rx_controller_define (1).vh",
+    "fusion/ti60_multimodal/ip/csi_rx_controller/Testbench/csi_rx_controller_define.vh",
+    "fusion/ti60_multimodal/ip/csi_rx_controller/Testbench/data_unpack (1).v",
+    "fusion/ti60_multimodal/ip/csi_rx_controller/Testbench/data_unpack.v",
+    "fusion/ti60_multimodal/ip/csi_rx_controller/Testbench/datatype_gen (1).v",
+    "fusion/ti60_multimodal/ip/csi_rx_controller/Testbench/datatype_gen.v",
+    "fusion/ti60_multimodal/ip/csi_rx_controller/Testbench/dual_clock_fifo (1).v",
+    "fusion/ti60_multimodal/ip/csi_rx_controller/Testbench/dual_clock_fifo.v",
+    "fusion/ti60_multimodal/ip/csi_rx_controller/Testbench/efx_csi2_tx_modelsim (1).sv",
+    "fusion/ti60_multimodal/ip/csi_rx_controller/Testbench/efx_csi2_tx_modelsim.sv",
+    "fusion/ti60_multimodal/ip/csi_rx_controller/Testbench/lfsr (1).v",
+    "fusion/ti60_multimodal/ip/csi_rx_controller/Testbench/lfsr.v",
+    "fusion/ti60_multimodal/ip/csi_rx_controller/Testbench/modelsim/csi_rx_controller (1).sv",
+    "fusion/ti60_multimodal/ip/csi_rx_controller/Testbench/modelsim/csi_rx_controller.sv",
+    "fusion/ti60_multimodal/ip/csi_rx_controller/Testbench/ncsim/csi_rx_controller (1).sv",
+    "fusion/ti60_multimodal/ip/csi_rx_controller/Testbench/ncsim/csi_rx_controller.sv",
+    "fusion/ti60_multimodal/ip/csi_rx_controller/Testbench/pattern_gen (1).v",
+    "fusion/ti60_multimodal/ip/csi_rx_controller/Testbench/pattern_gen.v",
+    "fusion/ti60_multimodal/ip/csi_rx_controller/Testbench/pattern_gen2 (1).v",
+    "fusion/ti60_multimodal/ip/csi_rx_controller/Testbench/pattern_gen2.v",
+    "fusion/ti60_multimodal/ip/csi_rx_controller/Testbench/reset (1).v",
+    "fusion/ti60_multimodal/ip/csi_rx_controller/Testbench/reset.v",
+    "fusion/ti60_multimodal/ip/csi_rx_controller/Testbench/rx_filelist (1).f",
+    "fusion/ti60_multimodal/ip/csi_rx_controller/Testbench/rx_filelist.f",
+    "fusion/ti60_multimodal/ip/csi_rx_controller/Testbench/shift_reg.v",
+    "fusion/ti60_multimodal/ip/csi_rx_controller/Testbench/simple_dual_port_ram.v",
+    "fusion/ti60_multimodal/ip/csi_rx_controller/Testbench/synopsys/csi_rx_controller.sv",
+    "fusion/ti60_multimodal/ip/csi_rx_controller/Testbench/top.sv",
+    "fusion/ti60_multimodal/ip/csi_rx_controller/Testbench/vga_gen.v",
+    "fusion/ti60_multimodal/ip/csi_rx_controller/Ti60F225_devkit/csi_rx_controller.sv",
+    "fusion/ti60_multimodal/ip/csi_rx_controller/Ti60F225_devkit/csi_rx_controller_define.vh",
+    "fusion/ti60_multimodal/ip/csi_rx_controller/Ti60F225_devkit/data_unpack.v",
+    "fusion/ti60_multimodal/ip/csi_rx_controller/Ti60F225_devkit/datatype_gen.v",
+    "fusion/ti60_multimodal/ip/csi_rx_controller/Ti60F225_devkit/dual_clock_fifo.v",
+    "fusion/ti60_multimodal/ip/csi_rx_controller/Ti60F225_devkit/efx_csi2_tx.sv",
+    "fusion/ti60_multimodal/ip/csi_rx_controller/Ti60F225_devkit/lfsr.v",
+    "fusion/ti60_multimodal/ip/csi_rx_controller/Ti60F225_devkit/mipi.sdc",
+    "fusion/ti60_multimodal/ip/csi_rx_controller/Ti60F225_devkit/pattern_gen.v",
+    "fusion/ti60_multimodal/ip/csi_rx_controller/Ti60F225_devkit/pattern_gen2.v",
+    "fusion/ti60_multimodal/ip/csi_rx_controller/Ti60F225_devkit/reset.v",
+    "fusion/ti60_multimodal/ip/csi_rx_controller/Ti60F225_devkit/shift_reg.v",
+    "fusion/ti60_multimodal/ip/csi_rx_controller/Ti60F225_devkit/simple_dual_port_ram.v",
+    "fusion/ti60_multimodal/ip/csi_rx_controller/Ti60F225_devkit/top.peri.xml",
+    "fusion/ti60_multimodal/ip/csi_rx_controller/Ti60F225_devkit/top.sv",
+    "fusion/ti60_multimodal/ip/csi_rx_controller/Ti60F225_devkit/top.xml",
+    "fusion/ti60_multimodal/ip/csi_rx_controller/Ti60F225_devkit/vga_gen.v",
+    "fusion/ti60_multimodal/ip/csi_rx_controller/ipm/component.pickle",
+    "fusion/ti60_multimodal/ip/csi_rx_controller/ipm/graph.pickle",
+    "fusion/ti60_multimodal/ip/sapphire_soc/T120F324_devkit/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol0.bin",
+    "fusion/ti60_multimodal/ip/sapphire_soc/T120F324_devkit/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol1.bin",
+    "fusion/ti60_multimodal/ip/sapphire_soc/T120F324_devkit/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol2.bin",
+    "fusion/ti60_multimodal/ip/sapphire_soc/T120F324_devkit/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol3.bin",
+    "fusion/ti60_multimodal/ip/sapphire_soc/T120F324_devkit/constraints.sdc",
+    "fusion/ti60_multimodal/ip/sapphire_soc/T120F324_devkit/ddr_reset_sequencer.v",
+    "fusion/ti60_multimodal/ip/sapphire_soc/T120F324_devkit/design_modules.v",
+    "fusion/ti60_multimodal/ip/sapphire_soc/T120F324_devkit/sapphire_soc.v",
+    "fusion/ti60_multimodal/ip/sapphire_soc/T120F324_devkit/sapphire_soc_define.vh",
+    "fusion/ti60_multimodal/ip/sapphire_soc/T120F324_devkit/soc.hex",
+    "fusion/ti60_multimodal/ip/sapphire_soc/T120F324_devkit/soc.peri.xml",
+    "fusion/ti60_multimodal/ip/sapphire_soc/T120F324_devkit/soc.xml",
+    "fusion/ti60_multimodal/ip/sapphire_soc/T120F324_devkit/top_soc.v",
+    "fusion/ti60_multimodal/ip/sapphire_soc/Testbench/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol0.bin",
+    "fusion/ti60_multimodal/ip/sapphire_soc/Testbench/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol1.bin",
+    "fusion/ti60_multimodal/ip/sapphire_soc/Testbench/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol2.bin",
+    "fusion/ti60_multimodal/ip/sapphire_soc/Testbench/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol3.bin",
+    "fusion/ti60_multimodal/ip/sapphire_soc/Testbench/MEM.TXT",
+    "fusion/ti60_multimodal/ip/sapphire_soc/Testbench/MEM_IM.TXT",
+    "fusion/ti60_multimodal/ip/sapphire_soc/Testbench/README",
+    "fusion/ti60_multimodal/ip/sapphire_soc/Testbench/SECSI.TXT",
+    "fusion/ti60_multimodal/ip/sapphire_soc/Testbench/SFDP.TXT",
+    "fusion/ti60_multimodal/ip/sapphire_soc/Testbench/SREG.TXT",
+    "fusion/ti60_multimodal/ip/sapphire_soc/Testbench/W25Q32JVxxIM.v",
+    "fusion/ti60_multimodal/ip/sapphire_soc/Testbench/aldec.do",
+    "fusion/ti60_multimodal/ip/sapphire_soc/Testbench/design_modules.v",
+    "fusion/ti60_multimodal/ip/sapphire_soc/Testbench/modelsim.do",
+    "fusion/ti60_multimodal/ip/sapphire_soc/Testbench/modelsim/sapphire_soc.v",
+    "fusion/ti60_multimodal/ip/sapphire_soc/Testbench/run.py",
+    "fusion/ti60_multimodal/ip/sapphire_soc/Testbench/sapphire_soc.v",
+    "fusion/ti60_multimodal/ip/sapphire_soc/Testbench/sapphire_soc_define.vh",
+    "fusion/ti60_multimodal/ip/sapphire_soc/Testbench/sim_modules.v",
+    "fusion/ti60_multimodal/ip/sapphire_soc/Testbench/tb_soc.do",
+    "fusion/ti60_multimodal/ip/sapphire_soc/Testbench/tb_soc.v",
+    "fusion/ti60_multimodal/ip/sapphire_soc/Testbench/top_soc.v",
+    "fusion/ti60_multimodal/ip/sapphire_soc/Testbench/wave.do",
+    "fusion/ti60_multimodal/ip/sapphire_soc/Ti60F225_devkit/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol0.bin",
+    "fusion/ti60_multimodal/ip/sapphire_soc/Ti60F225_devkit/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol1.bin",
+    "fusion/ti60_multimodal/ip/sapphire_soc/Ti60F225_devkit/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol2.bin",
+    "fusion/ti60_multimodal/ip/sapphire_soc/Ti60F225_devkit/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol3.bin",
+    "fusion/ti60_multimodal/ip/sapphire_soc/Ti60F225_devkit/constraints.sdc",
+    "fusion/ti60_multimodal/ip/sapphire_soc/Ti60F225_devkit/design_modules.v",
+    "fusion/ti60_multimodal/ip/sapphire_soc/Ti60F225_devkit/hbram_top.encrypted.v",
+    "fusion/ti60_multimodal/ip/sapphire_soc/Ti60F225_devkit/hbram_top.v",
+    "fusion/ti60_multimodal/ip/sapphire_soc/Ti60F225_devkit/hbram_top.vh",
+    "fusion/ti60_multimodal/ip/sapphire_soc/Ti60F225_devkit/hbram_top_define.vh",
+    "fusion/ti60_multimodal/ip/sapphire_soc/Ti60F225_devkit/sapphire_soc.v",
+    "fusion/ti60_multimodal/ip/sapphire_soc/Ti60F225_devkit/sapphire_soc_define.vh",
+    "fusion/ti60_multimodal/ip/sapphire_soc/Ti60F225_devkit/soc.hex",
+    "fusion/ti60_multimodal/ip/sapphire_soc/Ti60F225_devkit/soc.peri.xml",
+    "fusion/ti60_multimodal/ip/sapphire_soc/Ti60F225_devkit/soc.xml",
+    "fusion/ti60_multimodal/ip/sapphire_soc/Ti60F225_devkit/top_soc.v",
+    "fusion/ti60_multimodal/ip/sapphire_soc/ipm/component.pickle",
+    "fusion/ti60_multimodal/ip/sapphire_soc/ipm/graph.pickle",
+    "fusion/ti60_multimodal/src/tinyml_soc_top.v.stage2.bak"
+  ]
+}

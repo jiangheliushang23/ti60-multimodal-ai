@@ -7,6 +7,7 @@ module camera_line_bridge #(parameter WIDTH=1920,HEIGHT=1080)(
  output reg sof,output reg [15:0] sequence_out,
  output wire end_valid,output wire [16:0] end_data,
  output reg [31:0] good_frames,bad_frames,period_ticks,overflow_lines,
+ input wire stats_request,output wire stats_ack,output wire [156:0] stats_held,
  output reg [31:0] last_pixels,last_format,last_de_runs,last_packing);
  localparam GROUPS=WIDTH/4,PAIRS=WIDTH/2;
  reg [31:0] memory[0:2047];reg [26:0] desc[0:3];
@@ -25,6 +26,11 @@ module camera_line_bridge #(parameter WIDTH=1920,HEIGHT=1080)(
   .Reset(reset),.WrClk(cam_clk),.WrEn(end_we),.WrData(end_word),.WrDNum(),.WrFull(end_full),
   .RdClk(clk),.RdEn(end_valid),.RdDNum(),.RdEmpty(end_empty),.DataVal(),.RdData(end_data));
  function [7:0] black;input [7:0] n;begin black=n>16?n-8'd16:8'd0;end endfunction
+ wire good_end=vs_d&&!vs&&armed&&!bad&&y==HEIGHT&&x==0&&frame_pixels==WIDTH*HEIGHT&&!de&&!end_full;
+ camera_auto_stats auto_stats(.clk(cam_clk),.reset(reset),.first(vs&&!vs_d),
+  .pixel(pixel),.format_ok(format_ok),.good_end(good_end),.group_x(x),.row_y(y),
+  .frame_seq(seq),.pixels({black(raw[15:8]),black(raw[7:0])}),
+  .request(stats_request),.acknowledge(stats_ack),.held(stats_held));
  always @(posedge cam_clk or posedge reset) begin
   if(reset)begin
    wp<=0;wgray<=0;rg1<=0;rg2<=0;vs_d<=0;de_d<=0;armed<=0;bad<=0;
