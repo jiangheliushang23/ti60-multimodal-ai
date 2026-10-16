@@ -1,0 +1,29 @@
+{
+  "recorded_at": "2026-10-15T21:13:06.225687+08:00",
+  "capture_complete": true,
+  "seconds": 300.1399999999994,
+  "camera_records": 299,
+  "ir_records": 1168,
+  "auto_records": 294,
+  "camera_timestamp_span_seconds": 298.748,
+  "max_camera_log_gap_ms": 1006,
+  "every_video_record_progressed": true,
+  "max_video_error_counters": {
+    "bad": 0,
+    "overflow": 0,
+    "werr": 0,
+    "rerr": 0,
+    "underflow": 0
+  },
+  "ir_sequence_continuous": true,
+  "max_ir_publish_gap_ms": 272,
+  "ir_retries": 0,
+  "ir_status_errors": [],
+  "auto_faults": [],
+  "fatal_seen": false,
+  "camera_frame_rate": 30.0000660001452,
+  "raw_sha256": "78d67cd4efc79c2c641ba217f7c49d9d295ac2b15968ed7528ef1338ee0e710c",
+  "temperature_measured": false,
+  "scope": "five-minute runtime telemetry; not thermal qualification or long-duration signoff",
+  "hardware_access": false
+}

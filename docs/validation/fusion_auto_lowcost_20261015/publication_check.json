@@ -1,0 +1,20 @@
+{
+  "recorded_at": "2026-10-16T23:20:09.228338+08:00",
+  "hardware_access": false,
+  "rtl_cases": 28,
+  "rtl_all_passed": true,
+  "cpu_reference_cases": 615,
+  "cpu_scheduler_passed": true,
+  "subsystem_ports_checked": 150,
+  "firmware_build_exit_code": 0,
+  "firmware_bytes": 59010,
+  "firmware_sha256": "73a2c0106062c7e6661b001b97a62e2151e3364e004484ea4ba0440f2460b5e9",
+  "matches_validated_firmware": true,
+  "staged_source_manifest_inputs": 484,
+  "staged_source_manifest_passed": true,
+  "xml_file_references_checked": 57,
+  "notes": [
+    "Source publication checks only; no new synthesis, place-and-route or board run.",
+    "RAM expression width and bare-metal newlib/RWX warnings are inherited and remain unresolved."
+  ]
+}

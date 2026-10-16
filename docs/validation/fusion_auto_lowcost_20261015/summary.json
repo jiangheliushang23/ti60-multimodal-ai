@@ -1,0 +1,24 @@
+{
+  "xlr": 59829,
+  "added_xlr": 267,
+  "ram": 233,
+  "dsp": 51,
+  "setup_slack_ns": 0.156,
+  "hold_slack_ns": 0.026,
+  "interface_sha256": "f6bc91ffc8536fa28de87ef0bf2c0ec7e75e2daea667dec632faea03d667f2d1",
+  "pinout_unchanged": true,
+  "rtl_cases": 28,
+  "cpu_reference_cases": 615,
+  "hardware_access": false,
+  "network_integrated": false,
+  "validation_date": "2026-10-15",
+  "publication_date": "2026-10-16",
+  "bitstream_sha256": "c40afb2b4d015d56e2d0f0689612d7319fe119b043df7f998c82cab4be029fdd",
+  "firmware_sha256": "73a2c0106062c7e6661b001b97a62e2151e3364e004484ea4ba0440f2460b5e9",
+  "source_verified_json_sha256": "7767b28a9c4c2fb37f9e92a2c2c7f1df74c75539742c82749eec567a4f7018f0",
+  "flash_written": false,
+  "notes": [
+    "Historical validation of the matched frozen build; not a new board run.",
+    "Raw binaries and complete logs remain in the maintainer workspace."
+  ]
+}

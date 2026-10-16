@@ -1,6 +1,10 @@
 // Only the verified CSI receiver and ISP; no second DDR, CPU, HDMI or UART.
 module fusion_camera(
  input wire clk,cam_clk,reset,
+ input wire cpu_clk,auto_psel,auto_penable,auto_pwrite,
+ input wire [7:0] auto_paddr,input wire [31:0] auto_pwdata,
+ output wire [31:0] auto_prdata,output wire auto_error,
+
  output wire sof,output wire [15:0] frame_seq,
  output wire packed_valid,output wire [127:0] packed_data,output wire packed_complete,packed_bad,
  output wire end_valid,output wire [16:0] end_data,
@@ -63,6 +67,14 @@ input	 wire		io_cam_sda_IN,
  wire [1:0] csi_vc;wire [5:0] csi_dt;wire [15:0] csi_wc;wire [3:0] csi_ppc;wire csi_irq;
  assign {cam_d0_RST,cam_d1_RST,cam_d2_RST,cam_d3_RST}={4{reset}};
  assign io_cam_scl_OUT=0;assign io_cam_sda_OUT=0;
+ wire stats_request,stats_ack;wire [156:0] stats_held;
+ wire rt_start,rt_read,rt_busy,rt_done;wire [15:0] rt_address;wire [7:0] rt_data,rt_read_data;wire [2:0] rt_result;
+ wire [9:0] gain_r,gain_b;
+ camera_auto_apb auto_apb(.reset(reset),.cpu_clk(cpu_clk),.isp_clk(clk),.sof(sof),
+  .psel(auto_psel),.penable(auto_penable),.pwrite(auto_pwrite),.paddr(auto_paddr),.pwdata(auto_pwdata),
+  .prdata(auto_prdata),.pslverror(auto_error),.stats_request(stats_request),.stats_ack(stats_ack),.stats_held(stats_held),
+  .rt_start(rt_start),.rt_read(rt_read),.rt_address(rt_address),.rt_data(rt_data),.rt_busy(rt_busy),.rt_done(rt_done),
+  .rt_result(rt_result),.rt_read_data(rt_read_data),.gain_r(gain_r),.gain_b(gain_b));
  wire cam_enable,id_ok,config_ok,stream_set,finished,diagnostic_valid;
  // J4 module reset is active HIGH (same inversion as the verified camera top).
  assign o_cam_rst_p=~cam_enable;
@@ -71,7 +83,9 @@ input	 wire		io_cam_sda_IN,
   .clk(clk),.reset(reset),.scl_in(io_cam_scl_IN),.sda_in(io_cam_sda_IN),
   .scl_low(io_cam_scl_OE),.sda_low(io_cam_sda_OE),.cam_enable(cam_enable),
   .id_ok(id_ok),.config_ok(config_ok),.stream_set(stream_set),.finished(finished),
-  .error_code(error_code),.command_index(command_index),.diagnostic_words(diagnostic_words),.diagnostic_valid(diagnostic_valid));
+  .error_code(error_code),.command_index(command_index),.diagnostic_words(diagnostic_words),.diagnostic_valid(diagnostic_valid),
+  .rt_start(rt_start),.rt_read(rt_read),.rt_address(rt_address),.rt_data(rt_data),
+  .rt_busy(rt_busy),.rt_done(rt_done),.rt_result(rt_result),.rt_read_data(rt_read_data));
  assign setup_status={16'd0,command_index,error_code,finished,stream_set,config_ok,id_ok,cam_enable};
 		csi_rx_controller inst_efx_csi2_rx
 		(
@@ -151,11 +165,12 @@ input	 wire		io_cam_sda_IN,
   .raw_vs(raw_vs),.raw_de(raw_de),.raw_pair(raw_pair),.sof(sof),.sequence_out(frame_seq),
   .end_valid(end_valid),.end_data(end_data),.good_frames(capture_stats[31:0]),.bad_frames(capture_stats[63:32]),
   .period_ticks(capture_stats[95:64]),.overflow_lines(capture_stats[127:96]),
+  .stats_request(stats_request),.stats_ack(stats_ack),.stats_held(stats_held),
   .last_pixels(capture_stats[159:128]),.last_format(capture_stats[191:160]),
   .last_de_runs(capture_stats[223:192]),.last_packing(capture_stats[255:224]));
  wire rgb_vs,rgb_de;wire [47:0] rgb_pair,gamma_pair;wire gamma_vs,gamma_de;
  debayer_top_2to1 isp(.in_pclk(clk),.in_rstn(!reset),.raw_vs_i(raw_vs),.raw_hs_i(1'b0),
-  .raw_de_i(raw_de),.raw_valid_i(raw_de),.raw_datax4_i(raw_pair),.r_gain(16'd255),.g_gain(16'd255),.b_gain(16'd255),
+  .raw_de_i(raw_de),.raw_valid_i(raw_de),.raw_datax4_i(raw_pair),.r_gain({6'd0,gain_r}),.g_gain(16'd256),.b_gain({6'd0,gain_b}),
   .rgb_vs_o(rgb_vs),.rgb_hs_o(),.rgb_de_o(rgb_de),.rgb_valid_o(),.rgb_bout(),.rgb_gout(),.rgb_rout(),.rgb_datax2_o(rgb_pair));
  genvar p;generate for(p=0;p<2;p=p+1)begin:g
   wire gv,gd;

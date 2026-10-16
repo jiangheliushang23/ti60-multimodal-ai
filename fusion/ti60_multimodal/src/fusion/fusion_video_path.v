@@ -11,10 +11,10 @@ module fusion_video_path(
  input wire end_valid,input wire [16:0] end_data,
  // Read side, pixel clock domain.
  input wire pixel_clk,
- input wire frame_request,output wire video_take,output wire [2:0] pixel_index,
+ input wire frame_request,video_take,input wire [2:0] pixel_index,
  output wire [23:0] video_rgb,output wire video_valid,
  // Statistics, all clk domain.
- output wire [31:0] published,output wire [16:0] published_seq,output wire [31:0] dropped,
+ output wire [31:0] published,output wire [15:0] published_seq,output wire [31:0] dropped,
  output wire [31:0] write_errors,output wire [31:0] read_errors,output wire [31:0] underflows,
  // Interconnect S1 AXI master.
  output wire [31:0] awaddr,output wire [7:0] awlen,output wire awvalid,input wire awready,

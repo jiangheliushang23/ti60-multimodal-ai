@@ -5,6 +5,7 @@
 #include "intc.h"
 #include "MLX90640_API.h"
 #include "thermal_display.h"
+#include "camera_auto.h"
 
 // All floating-point operations execute on the FPGA's RV32IM core using libgcc/libm.
 // Adaptive display scale, independent of calibration. Emissivity/reflection assumptions
@@ -30,6 +31,20 @@ static uint32_t read_cycles=0,last_publish=0;
 static bool published=false;
 
 static uint32_t ticks(){return IO[5];}
+static CameraAuto camera_auto((volatile uint32_t*)0xF8105100,CAMERA);
+static __attribute__((noinline)) void camera_service(){
+ uint32_t now=ticks();camera_auto.step(now);
+ static uint32_t last=0;
+ if(!camera_auto.ready&&!camera_auto.fault)return;
+ if(now-last<1000&&!camera_auto.fault)return;
+ if(!camera_auto.fresh)return;
+ last=now;camera_auto.fresh=false;
+ const CameraStats &s=camera_auto.stats;const CameraDecision &d=camera_auto.next;
+ bsp_printf("CAM_AUTO ms=%d frame=%d state=%d mean=%d rgb=%d,%d,%d clip=%d samples=%d exposure=%d gain=%x wb=%d,%d updates=%d fault=%x\r\n",
+  now,s.sequence,(unsigned)camera_auto.state,d.mean,d.r_mean,d.g_mean,d.b_mean,s.clipped,s.samples,
+  camera_auto.exposure,camera_gain_code(camera_auto.gain_index),camera_auto.r,camera_auto.b,camera_auto.updates,camera_auto.fault);
+}
+
 static void log_camera(){
  static uint32_t last=0;static bool registers_logged=false;uint32_t now=ticks();
  if((uint32_t)(now-last)<1000)return;last=now;
@@ -270,7 +285,7 @@ extern "C" void trap(){
 }
 extern "C" int main(){
  csr_write(mtvec,trap_entry);
- bsp_printf("FUSION_BOOT stage=2 camera_and_sensors version=00010000 ir_service=1\r\n");
+ bsp_printf("FUSION_BOOT stage=2 camera_and_sensors version=00010000 ir_service=1 camera_auto=cpu_ae_awb_v1\r\n");
  uint32_t id=SYSTEM[0],version=SYSTEM[1],display_id=DISPLAY[0];
  if(id!=0x4d4d4631||version!=0x00010000||display_id!=0x46555331){
   bsp_printf("FATAL register_id_mismatch system=%x version=%x display=%x\r\n",id,version,display_id);
@@ -279,6 +294,7 @@ extern "C" int main(){
  bsp_printf("FUSION_READY system=%x display=%x ms=%d\r\n",id,display_id,ticks());
  uint32_t last_report=ticks(),steps=0,max_step=0,max_slice=0,max_init=0;
  for(;;){
+  camera_service();
   log_sht(); // Also services camera diagnostics during bus waits and calculation slices.
   uint32_t start=ticks();IrState previous=state;ir_step();uint32_t elapsed=ticks()-start;
   steps++;
