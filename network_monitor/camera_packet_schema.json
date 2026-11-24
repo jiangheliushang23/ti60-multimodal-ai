@@ -1,0 +1,85 @@
+{
+  "protocol": "TCAM6401",
+  "version": 3,
+  "width": 640,
+  "height": 360,
+  "format": "RGB565 little-endian pixels",
+  "sample_positions": "source x=3*x+1, source y=3*y+1, x=0..639, y=0..359",
+  "frame_bytes": 460800,
+  "chunks_per_frame": 320,
+  "pixel_bytes_per_chunk": 1440,
+  "header_bytes": 32,
+  "udp_payload_bytes": 1472,
+  "udp_length": 1480,
+  "byte_order": "big endian",
+  "header_fields": [
+    [
+      0,
+      8,
+      "magic ASCII TCAM6401"
+    ],
+    [
+      8,
+      4,
+      "independent image id uint32 (bit31 set; not the YOLO DDR source_count)"
+    ],
+    [
+      12,
+      4,
+      "video APB time capture_ms uint32"
+    ],
+    [
+      16,
+      2,
+      "width uint16 = 640"
+    ],
+    [
+      18,
+      2,
+      "height uint16 = 360"
+    ],
+    [
+      20,
+      2,
+      "chunk_index uint16 = 0..319"
+    ],
+    [
+      22,
+      2,
+      "chunk_count uint16 = 320"
+    ],
+    [
+      24,
+      4,
+      "pixel_offset uint32 = chunk_index * 1440"
+    ],
+    [
+      28,
+      2,
+      "pixel_length uint16 = 1440"
+    ],
+    [
+      30,
+      1,
+      "format uint8 = 2 RGB565 little-endian"
+    ],
+    [
+      31,
+      1,
+      "reserved zero"
+    ],
+    [
+      32,
+      1440,
+      "row-major RGB565 little-endian pixel bytes"
+    ]
+  ],
+  "timing": "Native camera cadence: normal 30 FPS target, LOW 5 FPS; hardware capture FIFO, hardware CRC32/IPv4/UDP packet generation, CPU telemetry priority at packet boundaries.",
+  "incomplete_frame_policy": "Never publish partial images. Incorrect source geometry/queue overflow omits final chunk; host discards incomplete assembly after 3 s.",
+  "ai_events_connected": true,
+  "telemetry_protocol": "BMON0001, 128 bytes, two identities, boxes, alarms, sensors, power and timing",
+  "matching_rule": "Autonomous image IDs are distinct from YOLO DDR source_count. Do not falsely claim exact AI-frame boxes/thumbnails; existing exact timestamp+identity matching still applies to old protocols.",
+  "color_source": "Read-only post-gamma 1920x1080 sensor tap; same ISP/AE/AWB as HDMI, sampled 3:1 in hardware; no CPU pixel copies or DDR reader",
+  "legacy_compatible": "Host also accepts TCAM1601 gray8 and TCAM5651 160x90 RGB565 with their distinct strict layouts",
+  "browser_transport": "PC memory MJPEG; compatibility PNG and CSV snapshots saved at most once per second"
+}

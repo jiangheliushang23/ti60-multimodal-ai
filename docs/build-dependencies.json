@@ -1,0 +1,761 @@
+{
+  "version": "yolo_auto_v24_transfer_opt",
+  "files": [
+    {
+      "path": "fusion/demo_multimodal/software/standalone/tinyml_yolo_static/lib/tinyml_lib.a",
+      "sha256": "3aa3093e0efee3a18a6c82e341da6baaa52ae8e88c2a1dfc01d762220a50fb1e",
+      "bytes": 2842336,
+      "source": "TinyML 工具或原始固件依赖，按厂商与团队的许可取得"
+    },
+    {
+      "path": "fusion/demo_multimodal/software/standalone/tinyml_yolo_static/optimized/raw96x192/generated/expected.bin",
+      "sha256": "08670ae7621f4a24b7f4bb50b2c82c656d8db22d2fa6ce17f2fc272ecac24a4d",
+      "bytes": 6804,
+      "source": "适配模型或其回归输入，向团队取得获准分发的 v24 原件"
+    },
+    {
+      "path": "fusion/demo_multimodal/software/standalone/tinyml_yolo_static/optimized/raw96x192/generated/input.bin",
+      "sha256": "3f5000390003cc9c55bb8aa8f5f09192bb9be207f00034bc9a9ffad3714df977",
+      "bytes": 55296,
+      "source": "适配模型或其回归输入，向团队取得获准分发的 v24 原件"
+    },
+    {
+      "path": "fusion/demo_multimodal/software/standalone/tinyml_yolo_static/optimized/raw96x192/model.tflite",
+      "sha256": "b26bc5431e480340b3f5edb299ac23cee81766c627bee71d9629a255224b65f4",
+      "bytes": 1923048,
+      "source": "适配模型或其回归输入，向团队取得获准分发的 v24 原件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol0.bin",
+      "sha256": "ccb798c235648abcb737f367124e43bee548462a77e5b56130966bbab1c309cf",
+      "bytes": 9216,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol1.bin",
+      "sha256": "27b918b1b0a96e2364d95144b2a02b9308ec8e42d1e9f536c9cec426c64f5752",
+      "bytes": 9216,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol2.bin",
+      "sha256": "9a97796e49bb8614cf04336194766a79f5a0fdc800f8338d0d0a95d00da87f9c",
+      "bytes": 9216,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol3.bin",
+      "sha256": "fae1132a00c5ef4e50af277408272e2634b7d7d36ef132bc7817cee3160039a6",
+      "bytes": 9216,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/debug_top.v",
+      "sha256": "9e46c35b561b07a675302be235d98bd3c23bbc7ef89506025c633b0a2cf51c3a",
+      "bytes": 433835,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/TI60_MIPI_csi_tb (1).sv",
+      "sha256": "b5061b0731630c36a64f989d5efdb06889e76c0480d7ca00c7ed2231b7e482ec",
+      "bytes": 5545,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/TI60_MIPI_csi_tb.sv",
+      "sha256": "b5061b0731630c36a64f989d5efdb06889e76c0480d7ca00c7ed2231b7e482ec",
+      "bytes": 5545,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/csi_rx_controller_define (1).vh",
+      "sha256": "249c2779e85e6f7b325af838e712df7d2fbeed26b93d08acb462204fff9f1e6f",
+      "bytes": 3535,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/csi_rx_controller_define.vh",
+      "sha256": "249c2779e85e6f7b325af838e712df7d2fbeed26b93d08acb462204fff9f1e6f",
+      "bytes": 3535,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/data_unpack (1).v",
+      "sha256": "f8eb8ce634b17a6aa9ecfdbe4a1cb5c24abe0db657c18c969c4a3bd504599691",
+      "bytes": 8178,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/data_unpack.v",
+      "sha256": "f8eb8ce634b17a6aa9ecfdbe4a1cb5c24abe0db657c18c969c4a3bd504599691",
+      "bytes": 8178,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/datatype_gen (1).v",
+      "sha256": "a13c0afde1850954adad741e97b7587ec76459a05c9e6de9f720ed633761843e",
+      "bytes": 10778,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/datatype_gen.v",
+      "sha256": "a13c0afde1850954adad741e97b7587ec76459a05c9e6de9f720ed633761843e",
+      "bytes": 10778,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/dual_clock_fifo (1).v",
+      "sha256": "fb30dfadb945f051ecbbbc09f05f841cc24be494696c2c4a31d0de10b8028d13",
+      "bytes": 12396,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/dual_clock_fifo.v",
+      "sha256": "fb30dfadb945f051ecbbbc09f05f841cc24be494696c2c4a31d0de10b8028d13",
+      "bytes": 12396,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/efx_csi2_tx_modelsim (1).sv",
+      "sha256": "acffe79690bcd994ef6d7f8439910f3f89178b5931bb9774def28239d118586f",
+      "bytes": 107091,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/efx_csi2_tx_modelsim.sv",
+      "sha256": "acffe79690bcd994ef6d7f8439910f3f89178b5931bb9774def28239d118586f",
+      "bytes": 107091,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/lfsr (1).v",
+      "sha256": "3b35847d8bb0f1c2065aec7658c43697f695b99b4a59fe97bb9cf35a90636aa5",
+      "bytes": 8247,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/lfsr.v",
+      "sha256": "3b35847d8bb0f1c2065aec7658c43697f695b99b4a59fe97bb9cf35a90636aa5",
+      "bytes": 8247,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/modelsim/csi_rx_controller (1).sv",
+      "sha256": "dd651199571ba7ce1b083addeddc20583a8becf91caef64dbd6abc1ba08eb02c",
+      "bytes": 145214,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/modelsim/csi_rx_controller.sv",
+      "sha256": "dd651199571ba7ce1b083addeddc20583a8becf91caef64dbd6abc1ba08eb02c",
+      "bytes": 145214,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/ncsim/csi_rx_controller (1).sv",
+      "sha256": "aac60d86a3b4a6ba7647a265d9fa51a0d1c4e0dc781c925ac8dcaf5d533ab8d0",
+      "bytes": 442722,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/ncsim/csi_rx_controller.sv",
+      "sha256": "aac60d86a3b4a6ba7647a265d9fa51a0d1c4e0dc781c925ac8dcaf5d533ab8d0",
+      "bytes": 442722,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/pattern_gen (1).v",
+      "sha256": "e560c4be47f2fdcf465662bd8dded967372b997df8c7f3f0ad271c5d5e67bcaf",
+      "bytes": 1922,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/pattern_gen.v",
+      "sha256": "e560c4be47f2fdcf465662bd8dded967372b997df8c7f3f0ad271c5d5e67bcaf",
+      "bytes": 1922,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/pattern_gen2 (1).v",
+      "sha256": "540efb098ca5160ffe68df9f1b39c508230647c80f62b772406bc7dd5917acc0",
+      "bytes": 1796,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/pattern_gen2.v",
+      "sha256": "540efb098ca5160ffe68df9f1b39c508230647c80f62b772406bc7dd5917acc0",
+      "bytes": 1796,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/reset (1).v",
+      "sha256": "7e647cc7114161ee1795cf0f1302b1213a0b2c8dce9fe59164163c34f552a809",
+      "bytes": 1992,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/reset.v",
+      "sha256": "7e647cc7114161ee1795cf0f1302b1213a0b2c8dce9fe59164163c34f552a809",
+      "bytes": 1992,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/rx_filelist (1).f",
+      "sha256": "87de8204de2e86793431589f0ca24101a62cb371b58d81f4a41770eca9074d55",
+      "bytes": 182,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/rx_filelist.f",
+      "sha256": "87de8204de2e86793431589f0ca24101a62cb371b58d81f4a41770eca9074d55",
+      "bytes": 182,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/shift_reg.v",
+      "sha256": "7e9fb98346fc86c4ebd2a1ba07bd62520d7845fe8559cf3d4173e5fc9e56df09",
+      "bytes": 627,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/simple_dual_port_ram.v",
+      "sha256": "f7d49355710dba37e0d8905715d9c29feff0d5297de0ad2f0720a6c8f5cbba82",
+      "bytes": 1340,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/synopsys/csi_rx_controller.sv",
+      "sha256": "2aa620f748c18f889d10daa3bb69c9fdb3f5d1e7c3d544ba825e582c01b54bf2",
+      "bytes": 422868,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/top.sv",
+      "sha256": "a09bdb6d21098708ee8b8fdb3bdc23fb72b878b4e21e296cec1896fa00c70bd0",
+      "bytes": 20777,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/vga_gen.v",
+      "sha256": "2cb8cf7b15a69268120a6032408f692bf50d4f294b7af93b1d5dd959c2b2e50c",
+      "bytes": 4399,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/csi_rx_controller/Ti60F225_devkit/csi_rx_controller.sv",
+      "sha256": "94b99b1f9a1ed38d7881c1961990cdd1908acd8fffa4df324ce7d28255d0ed9e",
+      "bytes": 441272,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/csi_rx_controller/Ti60F225_devkit/csi_rx_controller_define.vh",
+      "sha256": "249c2779e85e6f7b325af838e712df7d2fbeed26b93d08acb462204fff9f1e6f",
+      "bytes": 3535,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/csi_rx_controller/Ti60F225_devkit/data_unpack.v",
+      "sha256": "f8eb8ce634b17a6aa9ecfdbe4a1cb5c24abe0db657c18c969c4a3bd504599691",
+      "bytes": 8178,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/csi_rx_controller/Ti60F225_devkit/datatype_gen.v",
+      "sha256": "a13c0afde1850954adad741e97b7587ec76459a05c9e6de9f720ed633761843e",
+      "bytes": 10778,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/csi_rx_controller/Ti60F225_devkit/dual_clock_fifo.v",
+      "sha256": "fb30dfadb945f051ecbbbc09f05f841cc24be494696c2c4a31d0de10b8028d13",
+      "bytes": 12396,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/csi_rx_controller/Ti60F225_devkit/efx_csi2_tx.sv",
+      "sha256": "d7f501a1608bff7593e4dd1d72c9959ebec918afac293340d272c231963e7829",
+      "bytes": 513210,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/csi_rx_controller/Ti60F225_devkit/lfsr.v",
+      "sha256": "3b35847d8bb0f1c2065aec7658c43697f695b99b4a59fe97bb9cf35a90636aa5",
+      "bytes": 8247,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/csi_rx_controller/Ti60F225_devkit/pattern_gen.v",
+      "sha256": "e560c4be47f2fdcf465662bd8dded967372b997df8c7f3f0ad271c5d5e67bcaf",
+      "bytes": 1922,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/csi_rx_controller/Ti60F225_devkit/pattern_gen2.v",
+      "sha256": "540efb098ca5160ffe68df9f1b39c508230647c80f62b772406bc7dd5917acc0",
+      "bytes": 1796,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/csi_rx_controller/Ti60F225_devkit/reset.v",
+      "sha256": "7e647cc7114161ee1795cf0f1302b1213a0b2c8dce9fe59164163c34f552a809",
+      "bytes": 1992,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/csi_rx_controller/Ti60F225_devkit/shift_reg.v",
+      "sha256": "7e9fb98346fc86c4ebd2a1ba07bd62520d7845fe8559cf3d4173e5fc9e56df09",
+      "bytes": 627,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/csi_rx_controller/Ti60F225_devkit/simple_dual_port_ram.v",
+      "sha256": "f7d49355710dba37e0d8905715d9c29feff0d5297de0ad2f0720a6c8f5cbba82",
+      "bytes": 1340,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/csi_rx_controller/Ti60F225_devkit/top.sv",
+      "sha256": "506a3d5f1019b79a9250230ddd8e19ab93ba5c67e0a86ff51891093029a0bc1a",
+      "bytes": 20557,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/csi_rx_controller/Ti60F225_devkit/vga_gen.v",
+      "sha256": "2cb8cf7b15a69268120a6032408f692bf50d4f294b7af93b1d5dd959c2b2e50c",
+      "bytes": 4399,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/csi_rx_controller/csi_rx_controller.sv",
+      "sha256": "b0af4eb319131b54c2562a948f9fd31ed8553891dde704b2d240a38085ef453b",
+      "bytes": 508058,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/csi_rx_controller/csi_rx_controller_define.vh",
+      "sha256": "149c14940be1b2bb5f21f7475358e57481bf8bbb4d35929de1f01e9b8b304fc1",
+      "bytes": 3535,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/csi_rx_controller/csi_rx_controller_tmpl.sv",
+      "sha256": "2106f9fa7c034c46a77cbb42e8cda43c63e7a168d72c577057e2a441c2a1837e",
+      "bytes": 5803,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/csi_rx_controller/csi_rx_controller_tmpl.v",
+      "sha256": "3f04b23a6e20705198b0b3949e68e0cf0e2472f5cd87b4fe3d7a95b6682e1482",
+      "bytes": 5218,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/dma/dma.v",
+      "sha256": "2e42c52ae319648580c25fd060f68258f51c06162974f0871ee5436b2eef02f9",
+      "bytes": 719016,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/hw_accel_dma_in_fifo/hw_accel_dma_in_fifo.v",
+      "sha256": "6c0f298577c0d51d090d686110269ac6d01b88e97c81f764ff171fbcbb5d0b2c",
+      "bytes": 57053,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/hw_accel_dma_out_fifo/hw_accel_dma_out_fifo.v",
+      "sha256": "58646cd0c1d62c453675c12bca6b7cc0d0f1d9fb16e0710bdd991f593f84e149",
+      "bytes": 57050,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/sapphire_soc/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol0.bin",
+      "sha256": "ccb798c235648abcb737f367124e43bee548462a77e5b56130966bbab1c309cf",
+      "bytes": 9216,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/sapphire_soc/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol1.bin",
+      "sha256": "27b918b1b0a96e2364d95144b2a02b9308ec8e42d1e9f536c9cec426c64f5752",
+      "bytes": 9216,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/sapphire_soc/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol2.bin",
+      "sha256": "9a97796e49bb8614cf04336194766a79f5a0fdc800f8338d0d0a95d00da87f9c",
+      "bytes": 9216,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/sapphire_soc/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol3.bin",
+      "sha256": "fae1132a00c5ef4e50af277408272e2634b7d7d36ef132bc7817cee3160039a6",
+      "bytes": 9216,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/sapphire_soc/T120F324_devkit/ddr_reset_sequencer.v",
+      "sha256": "949be5f40fb4392672334c3e9482f92bca339a91272d2fc9f63c2ffa2b071f72",
+      "bytes": 5592,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/sapphire_soc/T120F324_devkit/design_modules.v",
+      "sha256": "154ce0d41875ea49bb479a36cf971dc9ef071abf6c38efa71474ed3f2ef30a9b",
+      "bytes": 52427,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/sapphire_soc/T120F324_devkit/sapphire_soc.v",
+      "sha256": "87c00873d2efc6b5bbb5336c1a1046eb0a21cf89c9d971f6c7cf703e0d2e6733",
+      "bytes": 1222682,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/sapphire_soc/T120F324_devkit/sapphire_soc_define.vh",
+      "sha256": "dd147cd69a8263e84c6c42c0caf38bcfd3cb689843136cdd1a1f28358013d7d2",
+      "bytes": 2967,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/sapphire_soc/T120F324_devkit/soc.hex",
+      "sha256": "95e61b6fe713abafca1615c720780d12213809ff7ccea04c207561ac7caa350c",
+      "bytes": 14201428,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/sapphire_soc/T120F324_devkit/top_soc.v",
+      "sha256": "992c0eee8bde1509e6e29d028837fed9c21c8c097fd1968b5c78859f78b1e36a",
+      "bytes": 13747,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/sapphire_soc/Testbench/W25Q32JVxxIM.v",
+      "sha256": "202bbb526c5413b2cf5029ef59db1c6ec4cbfde689159006be33f3889b2d168a",
+      "bytes": 91172,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/sapphire_soc/Testbench/design_modules.v",
+      "sha256": "f0e3a46446f34d2a7ab6187af9224265e8b9680d328ba21f19d28fb73cd88525",
+      "bytes": 39557,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/sapphire_soc/Testbench/modelsim/sapphire_soc.v",
+      "sha256": "aadf95cb2ac21f39e26147ee3b502b41187e511774f8784499d4d525a17a0777",
+      "bytes": 1217434,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/sapphire_soc/Testbench/sapphire_soc.v",
+      "sha256": "87c00873d2efc6b5bbb5336c1a1046eb0a21cf89c9d971f6c7cf703e0d2e6733",
+      "bytes": 1222682,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/sapphire_soc/Testbench/sapphire_soc_define.vh",
+      "sha256": "dd147cd69a8263e84c6c42c0caf38bcfd3cb689843136cdd1a1f28358013d7d2",
+      "bytes": 2967,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/sapphire_soc/Testbench/sim_modules.v",
+      "sha256": "867e4a7e8a7718a597a59a932e4eed6e48071237c0b1a0d7fded50f00c678eae",
+      "bytes": 10980,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/sapphire_soc/Testbench/tb_soc.v",
+      "sha256": "d90f3c0406757044f529d5fc27d33c486354de9235923062b2164542ec6e29dc",
+      "bytes": 17281,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/sapphire_soc/Testbench/top_soc.v",
+      "sha256": "2c57fda8d3d2311e1e3d7788feee19fe4180ca1896f592e4bf8ff5950b4678ad",
+      "bytes": 12470,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/sapphire_soc/Ti60F225_devkit/design_modules.v",
+      "sha256": "154ce0d41875ea49bb479a36cf971dc9ef071abf6c38efa71474ed3f2ef30a9b",
+      "bytes": 52427,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/sapphire_soc/Ti60F225_devkit/hbram_top.encrypted.v",
+      "sha256": "9215c271a813e62165c0810471a36672266a1a39db785c5f3b702afd33e4f1b7",
+      "bytes": 215507,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/sapphire_soc/Ti60F225_devkit/hbram_top.v",
+      "sha256": "3cc2848a6ea8e61c0b71124fb6bebc2b38dc4be508ff85ae7ce026d46604a78b",
+      "bytes": 253636,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/sapphire_soc/Ti60F225_devkit/hbram_top.vh",
+      "sha256": "b430ca5028ef2c17052bbaa75c9a79b711e5979bca1d39756455439fe4b53281",
+      "bytes": 3665,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/sapphire_soc/Ti60F225_devkit/hbram_top_define.vh",
+      "sha256": "6616488e9953c8e734f8609e7259a2258ca31164a26f7f37fc3886694acc7a03",
+      "bytes": 3742,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/sapphire_soc/Ti60F225_devkit/sapphire_soc.v",
+      "sha256": "87c00873d2efc6b5bbb5336c1a1046eb0a21cf89c9d971f6c7cf703e0d2e6733",
+      "bytes": 1222682,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/sapphire_soc/Ti60F225_devkit/sapphire_soc_define.vh",
+      "sha256": "dd147cd69a8263e84c6c42c0caf38bcfd3cb689843136cdd1a1f28358013d7d2",
+      "bytes": 2967,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/sapphire_soc/Ti60F225_devkit/soc.hex",
+      "sha256": "1dadd7d760708cf59517edcd33aeb57b294f893ce409ae976bc36cafa1de7b5b",
+      "bytes": 3105644,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/sapphire_soc/Ti60F225_devkit/top_soc.v",
+      "sha256": "b180722f709039ff8fa704e0cc54471f3471bb37ed4120a101fdf585d91bdc3c",
+      "bytes": 16511,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/sapphire_soc/sapphire_soc.v",
+      "sha256": "87c00873d2efc6b5bbb5336c1a1046eb0a21cf89c9d971f6c7cf703e0d2e6733",
+      "bytes": 1222682,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/sapphire_soc/sapphire_soc_define.vh",
+      "sha256": "dd147cd69a8263e84c6c42c0caf38bcfd3cb689843136cdd1a1f28358013d7d2",
+      "bytes": 2967,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/sapphire_soc/sapphire_soc_tmpl.v",
+      "sha256": "6a7f0320eed33c9f0d5b6bf3907c23eeeec5873c74dec3c7efd98cafd88259c1",
+      "bytes": 7950,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/sapphire_soc/source/hardware/netlist/EfxSapphireSoc.v",
+      "sha256": "c62032c6bef723f7119783bb75c65df391b40b7216f27e9469f15f95da8f481b",
+      "bytes": 1206070,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/sapphire_soc/source/hardware/netlist/source_aldec/EfxSapphireSoc.v",
+      "sha256": "0251c1bfe4820fafed352759ea80bfcb8fba30912e39425468dca3f0301c80f7",
+      "bytes": 1206066,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/sapphire_soc/source/hardware/netlist/source_efinity/EfxSapphireSoc.v",
+      "sha256": "c62032c6bef723f7119783bb75c65df391b40b7216f27e9469f15f95da8f481b",
+      "bytes": 1206070,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/sapphire_soc/source/hardware/netlist/source_modelsim/EfxSapphireSoc.v",
+      "sha256": "e5de5a2c85fe4b983003240520bbee29496055af0f7957c75519e084312ab613",
+      "bytes": 1200822,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/sapphire_soc/source/hardware/netlist/source_ncsim/EfxSapphireSoc.v",
+      "sha256": "dbf87c3350af59c0daa14ef1e9eb09d4111a9e1cb7acd4552ca82133847d2914",
+      "bytes": 1206600,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/ip/sapphire_soc/source/hardware/netlist/source_synopsys/EfxSapphireSoc.v",
+      "sha256": "5eea1ee82291119e59da34d41c93ba9b73c8558075a50f942eb8aa0538deceb4",
+      "bytes": 1204230,
+      "source": "Efinity IP 生成输出或器件配套文件"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/src/axi/axi_interconnect_beta/arbiter.v",
+      "sha256": "c9675a28cf7f640e8c94c82ca2982b8a95b1c7dc3cf5074f7aff24da0dfa96dd",
+      "bytes": 5962,
+      "source": "Efinity 或开发板示例源码，需按对应版本和许可取得"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/src/axi/axi_interconnect_beta/axi_interconnect_beta.sv",
+      "sha256": "f0dd43346ff0f937621f56450abafc4e79e0bf893b4be041993b3c7a8d81bd88",
+      "bytes": 33984,
+      "source": "Efinity 或开发板示例源码，需按对应版本和许可取得"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/src/axi/axi_interconnect_beta/axi_rdata_sfifo.v",
+      "sha256": "10297d6d63b520ae7d354bf37233d456c89c4ee40b01508fa4f4a5b0e81044d2",
+      "bytes": 12722,
+      "source": "Efinity 或开发板示例源码，需按对应版本和许可取得"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/src/axi/axi_interconnect_beta/axi_wdata_sfifo.v",
+      "sha256": "4f811bcd05e68c1572a22f7072586f254d2d2e0d308d67c0f9818893f073f91c",
+      "bytes": 15322,
+      "source": "Efinity 或开发板示例源码，需按对应版本和许可取得"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/src/axi/axi_interconnect_beta/crossbar.v",
+      "sha256": "63101c98a335ee5d5771f815f4fcab8cef2b7da76b3eebec4b5e6e7045afa1f5",
+      "bytes": 24717,
+      "source": "Efinity 或开发板示例源码，需按对应版本和许可取得"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/src/axi/axi_interconnect_beta/fixed_priority_arbiter.v",
+      "sha256": "67d29383ddcf48612af659acc5388c1d939bc50deb2270d067c66f2993009a1e",
+      "bytes": 5057,
+      "source": "Efinity 或开发板示例源码，需按对应版本和许可取得"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/src/axi/axi_interconnect_beta/lb_to_axi.v",
+      "sha256": "1355d186ad153573e2319b53760f90ba001cf5cda5fb3118d91ab2387a8e9a9a",
+      "bytes": 8163,
+      "source": "Efinity 或开发板示例源码，需按对应版本和许可取得"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/src/axi/axi_interconnect_beta/master_coupler.v",
+      "sha256": "912b04fe64a891f1b77ab9d90fe0f57051854181562c440a2c2d752e724f8814",
+      "bytes": 53027,
+      "source": "Efinity 或开发板示例源码，需按对应版本和许可取得"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/src/axi/axi_interconnect_beta/round_robin_priority_arbiter.v",
+      "sha256": "d001311049250eb9037167e61b6029f4463e2c2b4bcba4fc220c525b5e2fb416",
+      "bytes": 6030,
+      "source": "Efinity 或开发板示例源码，需按对应版本和许可取得"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/src/axi/axi_interconnect_beta/slave_coupler.v",
+      "sha256": "391be140f77546d3347b99098f8a6db2a6c4e63f3faf0c4361f787dc5f6a1b6d",
+      "bytes": 50066,
+      "source": "Efinity 或开发板示例源码，需按对应版本和许可取得"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/src/axi/axi_interconnect_beta/slave_coupler_wrapper.v",
+      "sha256": "0c130f2627534e46d6f33c10464a0955c7bb8c085b26bd9ce65a086c3ec3e90a",
+      "bytes": 32503,
+      "source": "Efinity 或开发板示例源码，需按对应版本和许可取得"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/src/camera/debayer/camera_line_ram.v",
+      "sha256": "78a4a0e76584f9e0411f204c75e8114aecb24f82eceaecb7c0afcee42c1ee7a7",
+      "bytes": 1435,
+      "source": "Efinity 或开发板示例源码，需按对应版本和许可取得"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/src/camera/debayer/true_dual_port_ram.v",
+      "sha256": "b0e1be82204d5526f5c718d7483b755d6b257cff253bdeddc6bc52480fdb4e3a",
+      "bytes": 2821,
+      "source": "Efinity 或开发板示例源码，需按对应版本和许可取得"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/src/common/common_efx_fifo_wrapper.v",
+      "sha256": "3774307c34b786070102e54ba2f704379930cd79e4844baa067383e1f8771215",
+      "bytes": 55453,
+      "source": "Efinity 或开发板示例源码，需按对应版本和许可取得"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/src/ddr3_controller/axi4_bus_ctl/axi4_bus_ctl.v",
+      "sha256": "adc4180c51d6bc4b8932bae4b079573a8b442d3ddee614c8ec387b769264f76e",
+      "bytes": 187598,
+      "source": "Efinity 或开发板示例源码，需按对应版本和许可取得"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/src/ddr3_controller/common/efx_fifo_v2.3/efx_fifo_wrapper.v",
+      "sha256": "1415901a8f83cefaaf8cd7c86a23fcfed85ff8335ce390a8d4ba2d54e5cf32d4",
+      "bytes": 55401,
+      "source": "Efinity 或开发板示例源码，需按对应版本和许可取得"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/src/ddr3_controller/ddr3_parameter.vh",
+      "sha256": "2c4c19966ecb897a477dcd7374dacc543c8cf54c9b128faf1a69685cb34f1d75",
+      "bytes": 994,
+      "source": "Efinity 或开发板示例源码，需按对应版本和许可取得"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/src/ddr3_controller/ddr3_top.v",
+      "sha256": "71b53e8a0861705fa7e2d8b38e684e0f0a9235db64a63f29046b2371963617e6",
+      "bytes": 58209,
+      "source": "Efinity 或开发板示例源码，需按对应版本和许可取得"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/src/ddr3_controller/lb2_axi_clk.v",
+      "sha256": "f23d157e14f6b3ec8a34f53de5220a203a9cda5e05697e00a5ac2446a31bb513",
+      "bytes": 16295,
+      "source": "Efinity 或开发板示例源码，需按对应版本和许可取得"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/src/ddr3_controller/local_bus_ctl/local_bus_ctl.v",
+      "sha256": "e7a70405fe69373e06c21a974e9f6bd985b08cdebaa776d0f36c28515ab66c81",
+      "bytes": 16841,
+      "source": "Efinity 或开发板示例源码，需按对应版本和许可取得"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/src/ddr3_controller/memory_bus_ctl/memory_bus_ctl.v",
+      "sha256": "9fbcf768f4fbd5d6a21333ecdf9bea55b302a2b124a1da641fb79080bc9b6934",
+      "bytes": 337789,
+      "source": "Efinity 或开发板示例源码，需按对应版本和许可取得"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/src/ddr3_controller/phy_ctl/ddr_calibration_ini.v",
+      "sha256": "0a2fcde0852873ff80e8cdd3feeeec110400066ea51e12d25d49b671fc53f818",
+      "bytes": 97258,
+      "source": "Efinity 或开发板示例源码，需按对应版本和许可取得"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/src/ddr3_controller/phy_ctl/ddr_mpr_rdlvl.v",
+      "sha256": "1211b140c260fdeef037dafbb47be3124335e72203391eb3c71e45086636de69",
+      "bytes": 17792,
+      "source": "Efinity 或开发板示例源码，需按对应版本和许可取得"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/src/ddr3_controller/phy_ctl/ddr_phy_if.v",
+      "sha256": "75a658b6eac8b26bdfb55ea93d3f034f7f5d975c49f04264d46b34f2c87986d4",
+      "bytes": 56248,
+      "source": "Efinity 或开发板示例源码，需按对应版本和许可取得"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/src/ddr3_controller/phy_ctl/ddr_phy_rdlvl_dqs.v",
+      "sha256": "d40b71414c8991c7756621ee3fde9b200997388a3042112595e747d55a0d0c9b",
+      "bytes": 24650,
+      "source": "Efinity 或开发板示例源码，需按对应版本和许可取得"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/src/ddr3_controller/phy_ctl/ddr_phy_wrcal.v",
+      "sha256": "0f513546ac20beebc5403aa12ef4e5d264aa431bef9fe56c8fb04c8ac98b6656",
+      "bytes": 57540,
+      "source": "Efinity 或开发板示例源码，需按对应版本和许可取得"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/src/ddr3_controller/phy_ctl/ddr_phy_wrlvl.v",
+      "sha256": "c5998adb6fa297263d2d9a2c90b0efe0bf020f7a132f17264f6704bb6b4213ef",
+      "bytes": 27304,
+      "source": "Efinity 或开发板示例源码，需按对应版本和许可取得"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/src/ddr3_controller/phy_ctl/phy_ctl.v",
+      "sha256": "0a701d36110253e114f2e93f366efbd38a4c19de9d49a7a0aa646501d7d0c6a2",
+      "bytes": 44157,
+      "source": "Efinity 或开发板示例源码，需按对应版本和许可取得"
+    },
+    {
+      "path": "fusion/ti60_yolo_auto/src/tinyml/tinyml_accelerator.v",
+      "sha256": "fd9119386c5fdca03a010a04c9d38eb8bfc7fa73daf3559441530bdef5016ba1",
+      "bytes": 952915,
+      "source": "Efinity 或开发板示例源码，需按对应版本和许可取得"
+    }
+  ]
+}
