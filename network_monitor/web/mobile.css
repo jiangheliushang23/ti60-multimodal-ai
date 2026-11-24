@@ -1,0 +1,52 @@
+:root{font-family:system-ui,-apple-system,"Microsoft YaHei",sans-serif;color:#183d4c;background:#edf4f6;font-size:15px}*{box-sizing:border-box}body{margin:0;padding-bottom:80px}button,input,select{font:inherit}button,a{-webkit-tap-highlight-color:transparent}button{cursor:pointer}button:disabled{opacity:.5}.mobile-head{padding:24px 18px 20px;background:#0e3544;color:#fff;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px}.eyebrow{font-size:12px;letter-spacing:.1em;opacity:.8}.mobile-head h1{font-size:25px;margin:6px 0}.mobile-head time{width:100%;font-size:13px;color:#bcdbdf;font-variant-numeric:tabular-nums}main{max-width:900px;margin:auto;padding:14px}.panel{background:#fff;border:1px solid #d7e6eb;border-radius:15px;padding:16px;margin-bottom:14px;box-shadow:0 3px 14px #123a4b05}h2{font-size:18px;margin:5px 0 12px}.sub,small{font-size:12px;color:#577680;line-height:1.65}.pill{border-radius:20px;background:#ffffff20;padding:7px 10px;font-size:12px}.pill.ok{background:#175f55;color:#b9f7df}.pill.off{background:#773e30;color:#ffdccd}.mobile-title{display:flex;align-items:center;gap:8px;margin-bottom:12px}.mobile-title strong{flex:1}.mobile-title span{font-size:12px;color:#577680}.btn,select{border-radius:8px;border:1px solid #bfd6dc;padding:8px 12px;color:#235566;background:#f5fafb;text-decoration:none}.small{font-size:12px;padding:5px 9px}.video-stage{position:relative;aspect-ratio:16/9;background:#0b1f2c;overflow:hidden;border-radius:10px}.video-stage img,.video-stage svg{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}.video-stage svg{pointer-events:none}.mobile-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.mobile-cards .panel{margin:0 0 2px}.mobile-cards article>span,.mobile-cards small{display:block}.mobile-cards article>span{font-size:13px;color:#577680}.mobile-cards strong{font-size:30px;display:block;margin:8px 0;color:#126b71;font-variant-numeric:tabular-nums}.mobile-alarm{margin-top:14px}.mobile-alarm.alert{border-color:#ee8e90;background:#fff1f1}.mobile-alarm.alert h2{color:#ad2535}.mobile-nav{position:fixed;bottom:0;left:0;right:0;background:#fff;border-top:1px solid #d7e6eb;padding:9px 5px calc(9px + env(safe-area-inset-bottom));display:flex;justify-content:center;gap:3px;z-index:10}.mobile-nav button{min-height:44px;border:0;background:transparent;color:#607a83;flex:1;max-width:200px;font-size:13px;border-radius:10px}.mobile-nav button.selected{background:#e2f3f0;color:#076655;font-weight:700}.actions{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}.panel-head{display:flex;align-items:center;justify-content:space-between;gap:12px}.panel-head h2{margin:0}.smart-panel time{font-size:12px}.smart-grid{grid-template-columns:1fr!important}.smart-panel input[type=time]{max-width:105px}.mobile-event{border-bottom:1px solid #e4eef0;padding:12px 0}.mobile-event p{margin:5px 0}.mobile-event strong{font-size:14px}.mobile-event time{display:block;color:#698089;font-size:12px}.mobile-zoomed{position:fixed;inset:0;margin:0;background:#fff;z-index:20;border-radius:0;display:flex;flex-direction:column;justify-content:center}.mobile-zoomed .video-stage{flex:none}.fall-grid{grid-template-columns:1fr!important}.fall-stage{max-height:none!important}.fall-stage .empty-img{position:absolute;inset:0;display:grid;place-content:center;padding:20px;color:#c1d8de;text-align:center}.fall-grid>div{min-width:0}.fall-grid select{max-width:100%}#fall-clips{width:100%}[hidden]{display:none!important}@media(min-width:700px){.mobile-cards{grid-template-columns:repeat(4,minmax(0,1fr))}}
+
+/* Mobile video containment: preserve 16:9 without a minimum height forcing
+   a wider intrinsic size inside the replay grid. Keep all overrides scoped
+   here so the desktop monitor retains its existing layout. */
+:root { --line: #d7e6eb; --blue: #087f96; --red: #be4050; }
+body { padding-bottom: calc(88px + env(safe-area-inset-bottom)); }
+main { width: 100%; margin-inline: auto; }
+main > section, .panel { min-width: 0; width: 100%; }
+.video-stage { width: 100%; max-width: 100%; min-width: 0; min-height: 0; margin-inline: auto; }
+.video-stage img, .video-stage svg { max-width: 100%; }
+.mobile-title { flex-wrap: wrap; }
+.mobile-title strong { white-space: nowrap; }
+.mobile-nav button { min-width: 0; padding: 8px 3px; }
+.smart-grid { grid-template-columns: minmax(0, 1fr) !important; }
+.mobile-event p { overflow-wrap: anywhere; }
+.mobile-zoomed { overflow-y: auto; }
+#fall-replay .panel-head { flex-wrap: wrap; align-items: flex-start; gap: 10px; }
+#fall-replay .panel-head > div { min-width: 0; flex: 1 1 210px; }
+#fall-replay .panel-head .sub { margin-top: 7px; }
+#fall-storage { flex: 0 0 auto; background: #edf6f5; color: #366660; white-space: nowrap; }
+#fall-replay .fall-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) !important;
+  width: 100%; min-width: 0; gap: 16px; padding: 0; margin-top: 18px;
+}
+#fall-replay .fall-grid > div { width: 100%; min-width: 0; max-width: 100%; margin-inline: auto; }
+#fall-replay .fall-stage { min-height: 0; max-height: none; }
+#fall-replay .fall-stage .empty-img {
+  place-items: center; padding: 18px; font-size: 13px; line-height: 1.7;
+  text-align: center; overflow-wrap: anywhere;
+}
+#fall-replay .fall-grid select { width: 100%; min-width: 0; max-width: 100%; }
+#fall-replay .fall-grid > div:first-child > .sub:last-child { margin-bottom: 0; }
+#fall-replay .fall-grid > div:last-child > .actions {
+  display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); align-items: center; gap: 8px;
+}
+#fall-replay .actions > .btn { min-width: 0; min-height: 38px; }
+#fall-replay .actions > select { grid-column: span 2; min-height: 38px; }
+#fall-position { grid-column: span 2; min-width: 0; overflow-wrap: anywhere; }
+#fall-replay .fall-timeline input { display: block; min-width: 0; max-width: 100%; }
+#fall-detail { margin-bottom: 0; overflow-wrap: anywhere; }
+button:focus-visible, input:focus-visible, select:focus-visible, a:focus-visible { outline: 3px solid #8ad4d1; outline-offset: 3px; }
+@media (max-width: 360px) {
+  main { padding: 12px; }
+  .panel { padding: 14px; }
+  .mobile-head { padding-inline: 14px; }
+  .mobile-head h1 { font-size: 23px; }
+  .mobile-nav button { font-size: 12px; }
+  #fall-replay .fall-grid > div:last-child > .actions { gap: 6px; }
+  #fall-replay .actions > .btn { padding-inline: 3px; }
+}

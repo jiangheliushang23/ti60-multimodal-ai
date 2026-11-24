@@ -13,3 +13,12 @@
 *.a binary
 *.bit binary
 *.pdf binary
+
+# Preserve v24 source bytes in checkouts.
+/delivery/** -text
+/fusion/ti60_yolo_auto/** -text
+/fusion/demo_multimodal/software/standalone/tinyml_yolo_static/** -text
+/fusion/tests/yolo_auto/** -text
+/mobile_app/** -text
+/network_monitor/** -text
+/scripts/** -text

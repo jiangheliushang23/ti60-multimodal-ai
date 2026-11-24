@@ -1,0 +1,62 @@
+{
+  "version": "yolo_auto_v24_transfer_opt",
+  "source_archive_sha256": "5008646634e0c2ec511dedacbb16a3d92610d86297807a5e661abfb0d9a61af4",
+  "source_archive_verified_original_inputs": 1727,
+  "fpga_project": "fusion/ti60_yolo_auto/Ti60_Multimodal.xml",
+  "riscv_firmware": "fusion/demo_multimodal/software/standalone/tinyml_yolo_static",
+  "board_validation": "PENDING_V24_NO_HARDWARE",
+  "resources": {
+    "xlr": [
+      60667,
+      60800
+    ],
+    "ram": [
+      256,
+      256
+    ],
+    "dsp": [
+      95,
+      160
+    ]
+  },
+  "recorded_build_timing_ns": {
+    "setup": 0.244,
+    "hold": 0.026
+  },
+  "original_fpga_firmware_artifact_hashes": {
+    "bit": {
+      "path": "fusion/ti60_yolo_auto/outflow/Ti60_Multimodal.bit",
+      "bytes": 2979954,
+      "sha256": "c88d5c9368a82fc91d1f1b80cc12b34a45dd5ada9c2dc910fa46a690153e718b"
+    },
+    "bin": {
+      "path": "fusion/demo_multimodal/software/standalone/tinyml_yolo_static/build_multimodal_live/tinyml_yolo_compat.bin",
+      "bytes": 2426812,
+      "sha256": "d99946a301869643b36a8a06b12a13f27d0d3348d78045c9bed0e75143a013d8"
+    }
+  },
+  "public_release_assets": {
+    "suining-demo.mp4": {
+      "sha256": "38b262d649859501f80d5b7a630741a7aea76c4447e95db530005c3dac53dc74",
+      "bytes": 216351517
+    },
+    "Ti60-Fall-Monitor.apk": {
+      "sha256": "1fc1545ecc824156d65e1635ba2eb4daf1773504400305db207c62e0dea90332",
+      "bytes": 21101
+    }
+  },
+  "portability_edits": [
+    "delivery/build_uart_loader.py",
+    "delivery/build_yolo_auto_hardware.py",
+    "fusion/demo_multimodal/software/standalone/tinyml_yolo_static/build.py",
+    "fusion/demo_multimodal/software/standalone/tinyml_yolo_static/optimized/raw96x192/generated/assets.S",
+    "fusion/ti60_yolo_auto/ip/csi_rx_controller/settings.json",
+    "fusion/ti60_yolo_auto/ip/dma/settings.json",
+    "fusion/ti60_yolo_auto/ip/hw_accel_dma_in_fifo/settings.json",
+    "fusion/ti60_yolo_auto/ip/hw_accel_dma_out_fifo/settings.json",
+    "fusion/ti60_yolo_auto/ip/sapphire_soc/settings.json",
+    "fusion/tests/yolo_auto/verify_visual_video.py",
+    "fusion/tests/yolo_auto/verify_lying_video.py",
+    "fusion/demo_multimodal/software/standalone/tinyml_yolo_static/optimized/raw96x192/metadata.json"
+  ]
+}

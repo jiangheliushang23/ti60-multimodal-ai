@@ -1,0 +1,116 @@
+{
+  "size": "96x192",
+  "height": 96,
+  "width": 192,
+  "source_sha256": "3093f0da7cf4c1657ec5739e61f267eef595bd5b2a19b73a080e72c1c5019fb6",
+  "sha256": "b26bc5431e480340b3f5edb299ac23cee81766c627bee71d9629a255224b65f4",
+  "bytes": 1923048,
+  "nodes": 94,
+  "anchors": [
+    [
+      [
+        117.4367904663086,
+        91.01351261138916
+      ],
+      [
+        155.6037473678589,
+        196.7066240310669
+      ],
+      [
+        372.8618097305298,
+        325.88709354400635
+      ]
+    ],
+    [
+      [
+        29.973302841186523,
+        60.883271396160126
+      ],
+      [
+        61.819937109947205,
+        44.959954261779785
+      ],
+      [
+        59.00993996858597,
+        118.95654565095901
+      ]
+    ],
+    [
+      [
+        9.870655477046967,
+        12.987704575061798
+      ],
+      [
+        16.10475367307663,
+        29.871720522642136
+      ],
+      [
+        32.98876962065697,
+        23.11811414361
+      ]
+    ]
+  ],
+  "strides": [
+    32,
+    16,
+    8
+  ],
+  "changes": [
+    "remove embedded decoder; export raw heads",
+    "change spatial resolution; preserve learned weights"
+  ],
+  "weights_retrained": false,
+  "board_tested": true,
+  "input_quantization": [
+    0.003921568859368563,
+    -128
+  ],
+  "outputs": [
+    {
+      "shape": [
+        1,
+        3,
+        6,
+        18
+      ],
+      "quantization": [
+        0.31181883811950684,
+        -44
+      ]
+    },
+    {
+      "shape": [
+        1,
+        6,
+        12,
+        18
+      ],
+      "quantization": [
+        0.2354828417301178,
+        -59
+      ]
+    },
+    {
+      "shape": [
+        1,
+        12,
+        24,
+        18
+      ],
+      "quantization": [
+        0.24997501075267792,
+        -56
+      ]
+    }
+  ],
+  "board_validation": {
+    "bit_sha256": "cc3e0986b5636e982fe9f8b00643da7bc75dba22f8e79565a670e9af727e1f6a",
+    "binary_sha256": "b38a26ef48f330981f3d0e49b4b0a3bb79d894bcea967e3fac28e34d6e12c288",
+    "frames_tested": 131,
+    "outputs_match_reference": true,
+    "postprocess_matches_reference": true,
+    "inference_median_ms": 181.0,
+    "live_camera_output_fps": 5.209139121983205,
+    "ground_truth_boxes_available": false
+  }
+}

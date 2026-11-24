@@ -87,3 +87,162 @@
 # Editor backups
 *~
 *.orig
+
+# v24 source roots
+!/delivery/
+!/mobile_app/
+!/network_monitor/
+!/scripts/
+
+# Local tool outputs and deployment data
+__pycache__/
+.venv/
+*.log
+*.exe
+*.apk
+*.mp4
+*.bit
+*.elf
+*.map
+*.jks
+*.p12
+*.pem
+*.key
+.env*
+**/work_syn/
+**/work_pnr/
+**/outflow/
+**/build/
+**/build_multimodal_live/
+**/signing/
+**/recordings/
+**/records/
+**/logs/
+
+# Upstream dependencies acquired under separate permissions
+/fusion/demo_multimodal/software/standalone/tinyml_yolo_static/lib/tinyml_lib.a
+/fusion/demo_multimodal/software/standalone/tinyml_yolo_static/optimized/raw96x192/generated/expected.bin
+/fusion/demo_multimodal/software/standalone/tinyml_yolo_static/optimized/raw96x192/generated/input.bin
+/fusion/demo_multimodal/software/standalone/tinyml_yolo_static/optimized/raw96x192/model.tflite
+/fusion/ti60_yolo_auto/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol0.bin
+/fusion/ti60_yolo_auto/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol1.bin
+/fusion/ti60_yolo_auto/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol2.bin
+/fusion/ti60_yolo_auto/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol3.bin
+/fusion/ti60_yolo_auto/debug_top.v
+/fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/TI60_MIPI_csi_tb (1).sv
+/fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/TI60_MIPI_csi_tb.sv
+/fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/csi_rx_controller_define (1).vh
+/fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/csi_rx_controller_define.vh
+/fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/data_unpack (1).v
+/fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/data_unpack.v
+/fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/datatype_gen (1).v
+/fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/datatype_gen.v
+/fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/dual_clock_fifo (1).v
+/fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/dual_clock_fifo.v
+/fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/efx_csi2_tx_modelsim (1).sv
+/fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/efx_csi2_tx_modelsim.sv
+/fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/lfsr (1).v
+/fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/lfsr.v
+/fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/modelsim/csi_rx_controller (1).sv
+/fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/modelsim/csi_rx_controller.sv
+/fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/ncsim/csi_rx_controller (1).sv
+/fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/ncsim/csi_rx_controller.sv
+/fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/pattern_gen (1).v
+/fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/pattern_gen.v
+/fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/pattern_gen2 (1).v
+/fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/pattern_gen2.v
+/fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/reset (1).v
+/fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/reset.v
+/fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/rx_filelist (1).f
+/fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/rx_filelist.f
+/fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/shift_reg.v
+/fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/simple_dual_port_ram.v
+/fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/synopsys/csi_rx_controller.sv
+/fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/top.sv
+/fusion/ti60_yolo_auto/ip/csi_rx_controller/Testbench/vga_gen.v
+/fusion/ti60_yolo_auto/ip/csi_rx_controller/Ti60F225_devkit/csi_rx_controller.sv
+/fusion/ti60_yolo_auto/ip/csi_rx_controller/Ti60F225_devkit/csi_rx_controller_define.vh
+/fusion/ti60_yolo_auto/ip/csi_rx_controller/Ti60F225_devkit/data_unpack.v
+/fusion/ti60_yolo_auto/ip/csi_rx_controller/Ti60F225_devkit/datatype_gen.v
+/fusion/ti60_yolo_auto/ip/csi_rx_controller/Ti60F225_devkit/dual_clock_fifo.v
+/fusion/ti60_yolo_auto/ip/csi_rx_controller/Ti60F225_devkit/efx_csi2_tx.sv
+/fusion/ti60_yolo_auto/ip/csi_rx_controller/Ti60F225_devkit/lfsr.v
+/fusion/ti60_yolo_auto/ip/csi_rx_controller/Ti60F225_devkit/pattern_gen.v
+/fusion/ti60_yolo_auto/ip/csi_rx_controller/Ti60F225_devkit/pattern_gen2.v
+/fusion/ti60_yolo_auto/ip/csi_rx_controller/Ti60F225_devkit/reset.v
+/fusion/ti60_yolo_auto/ip/csi_rx_controller/Ti60F225_devkit/shift_reg.v
+/fusion/ti60_yolo_auto/ip/csi_rx_controller/Ti60F225_devkit/simple_dual_port_ram.v
+/fusion/ti60_yolo_auto/ip/csi_rx_controller/Ti60F225_devkit/top.sv
+/fusion/ti60_yolo_auto/ip/csi_rx_controller/Ti60F225_devkit/vga_gen.v
+/fusion/ti60_yolo_auto/ip/csi_rx_controller/csi_rx_controller.sv
+/fusion/ti60_yolo_auto/ip/csi_rx_controller/csi_rx_controller_define.vh
+/fusion/ti60_yolo_auto/ip/csi_rx_controller/csi_rx_controller_tmpl.sv
+/fusion/ti60_yolo_auto/ip/csi_rx_controller/csi_rx_controller_tmpl.v
+/fusion/ti60_yolo_auto/ip/dma/dma.v
+/fusion/ti60_yolo_auto/ip/hw_accel_dma_in_fifo/hw_accel_dma_in_fifo.v
+/fusion/ti60_yolo_auto/ip/hw_accel_dma_out_fifo/hw_accel_dma_out_fifo.v
+/fusion/ti60_yolo_auto/ip/sapphire_soc/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol0.bin
+/fusion/ti60_yolo_auto/ip/sapphire_soc/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol1.bin
+/fusion/ti60_yolo_auto/ip/sapphire_soc/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol2.bin
+/fusion/ti60_yolo_auto/ip/sapphire_soc/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol3.bin
+/fusion/ti60_yolo_auto/ip/sapphire_soc/T120F324_devkit/ddr_reset_sequencer.v
+/fusion/ti60_yolo_auto/ip/sapphire_soc/T120F324_devkit/design_modules.v
+/fusion/ti60_yolo_auto/ip/sapphire_soc/T120F324_devkit/sapphire_soc.v
+/fusion/ti60_yolo_auto/ip/sapphire_soc/T120F324_devkit/sapphire_soc_define.vh
+/fusion/ti60_yolo_auto/ip/sapphire_soc/T120F324_devkit/soc.hex
+/fusion/ti60_yolo_auto/ip/sapphire_soc/T120F324_devkit/top_soc.v
+/fusion/ti60_yolo_auto/ip/sapphire_soc/Testbench/W25Q32JVxxIM.v
+/fusion/ti60_yolo_auto/ip/sapphire_soc/Testbench/design_modules.v
+/fusion/ti60_yolo_auto/ip/sapphire_soc/Testbench/modelsim/sapphire_soc.v
+/fusion/ti60_yolo_auto/ip/sapphire_soc/Testbench/sapphire_soc.v
+/fusion/ti60_yolo_auto/ip/sapphire_soc/Testbench/sapphire_soc_define.vh
+/fusion/ti60_yolo_auto/ip/sapphire_soc/Testbench/sim_modules.v
+/fusion/ti60_yolo_auto/ip/sapphire_soc/Testbench/tb_soc.v
+/fusion/ti60_yolo_auto/ip/sapphire_soc/Testbench/top_soc.v
+/fusion/ti60_yolo_auto/ip/sapphire_soc/Ti60F225_devkit/design_modules.v
+/fusion/ti60_yolo_auto/ip/sapphire_soc/Ti60F225_devkit/hbram_top.encrypted.v
+/fusion/ti60_yolo_auto/ip/sapphire_soc/Ti60F225_devkit/hbram_top.v
+/fusion/ti60_yolo_auto/ip/sapphire_soc/Ti60F225_devkit/hbram_top.vh
+/fusion/ti60_yolo_auto/ip/sapphire_soc/Ti60F225_devkit/hbram_top_define.vh
+/fusion/ti60_yolo_auto/ip/sapphire_soc/Ti60F225_devkit/sapphire_soc.v
+/fusion/ti60_yolo_auto/ip/sapphire_soc/Ti60F225_devkit/sapphire_soc_define.vh
+/fusion/ti60_yolo_auto/ip/sapphire_soc/Ti60F225_devkit/soc.hex
+/fusion/ti60_yolo_auto/ip/sapphire_soc/Ti60F225_devkit/top_soc.v
+/fusion/ti60_yolo_auto/ip/sapphire_soc/sapphire_soc.v
+/fusion/ti60_yolo_auto/ip/sapphire_soc/sapphire_soc_define.vh
+/fusion/ti60_yolo_auto/ip/sapphire_soc/sapphire_soc_tmpl.v
+/fusion/ti60_yolo_auto/ip/sapphire_soc/source/hardware/netlist/EfxSapphireSoc.v
+/fusion/ti60_yolo_auto/ip/sapphire_soc/source/hardware/netlist/source_aldec/EfxSapphireSoc.v
+/fusion/ti60_yolo_auto/ip/sapphire_soc/source/hardware/netlist/source_efinity/EfxSapphireSoc.v
+/fusion/ti60_yolo_auto/ip/sapphire_soc/source/hardware/netlist/source_modelsim/EfxSapphireSoc.v
+/fusion/ti60_yolo_auto/ip/sapphire_soc/source/hardware/netlist/source_ncsim/EfxSapphireSoc.v
+/fusion/ti60_yolo_auto/ip/sapphire_soc/source/hardware/netlist/source_synopsys/EfxSapphireSoc.v
+/fusion/ti60_yolo_auto/src/axi/axi_interconnect_beta/arbiter.v
+/fusion/ti60_yolo_auto/src/axi/axi_interconnect_beta/axi_interconnect_beta.sv
+/fusion/ti60_yolo_auto/src/axi/axi_interconnect_beta/axi_rdata_sfifo.v
+/fusion/ti60_yolo_auto/src/axi/axi_interconnect_beta/axi_wdata_sfifo.v
+/fusion/ti60_yolo_auto/src/axi/axi_interconnect_beta/crossbar.v
+/fusion/ti60_yolo_auto/src/axi/axi_interconnect_beta/fixed_priority_arbiter.v
+/fusion/ti60_yolo_auto/src/axi/axi_interconnect_beta/lb_to_axi.v
+/fusion/ti60_yolo_auto/src/axi/axi_interconnect_beta/master_coupler.v
+/fusion/ti60_yolo_auto/src/axi/axi_interconnect_beta/round_robin_priority_arbiter.v
+/fusion/ti60_yolo_auto/src/axi/axi_interconnect_beta/slave_coupler.v
+/fusion/ti60_yolo_auto/src/axi/axi_interconnect_beta/slave_coupler_wrapper.v
+/fusion/ti60_yolo_auto/src/camera/debayer/camera_line_ram.v
+/fusion/ti60_yolo_auto/src/camera/debayer/true_dual_port_ram.v
+/fusion/ti60_yolo_auto/src/common/common_efx_fifo_wrapper.v
+/fusion/ti60_yolo_auto/src/ddr3_controller/axi4_bus_ctl/axi4_bus_ctl.v
+/fusion/ti60_yolo_auto/src/ddr3_controller/common/efx_fifo_v2.3/efx_fifo_wrapper.v
+/fusion/ti60_yolo_auto/src/ddr3_controller/ddr3_parameter.vh
+/fusion/ti60_yolo_auto/src/ddr3_controller/ddr3_top.v
+/fusion/ti60_yolo_auto/src/ddr3_controller/lb2_axi_clk.v
+/fusion/ti60_yolo_auto/src/ddr3_controller/local_bus_ctl/local_bus_ctl.v
+/fusion/ti60_yolo_auto/src/ddr3_controller/memory_bus_ctl/memory_bus_ctl.v
+/fusion/ti60_yolo_auto/src/ddr3_controller/phy_ctl/ddr_calibration_ini.v
+/fusion/ti60_yolo_auto/src/ddr3_controller/phy_ctl/ddr_mpr_rdlvl.v
+/fusion/ti60_yolo_auto/src/ddr3_controller/phy_ctl/ddr_phy_if.v
+/fusion/ti60_yolo_auto/src/ddr3_controller/phy_ctl/ddr_phy_rdlvl_dqs.v
+/fusion/ti60_yolo_auto/src/ddr3_controller/phy_ctl/ddr_phy_wrcal.v
+/fusion/ti60_yolo_auto/src/ddr3_controller/phy_ctl/ddr_phy_wrlvl.v
+/fusion/ti60_yolo_auto/src/ddr3_controller/phy_ctl/phy_ctl.v
+/fusion/ti60_yolo_auto/src/tinyml/tinyml_accelerator.v
